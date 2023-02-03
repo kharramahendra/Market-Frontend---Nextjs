@@ -58,7 +58,7 @@ const Navbar = () => {
           <li><a href="/mandi" className="text-sm text-gray-100 hover:text-gray-200 font-bold">Mandi Bhav</a></li>
           {/* <li><Link href={'/codes'}><a class="text-sm text-gray-100 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
           <li><a href="/news" className="text-sm text-gray-100 hover:text-gray-200 font-bold" >News</a></li>
-          <li><a className="text-sm text-gray-100 flex hover:text-gray-200 font-bold">About</a></li>
+          <li><a href="/about" className="text-sm text-gray-100 flex hover:text-gray-200 font-bold">About</a></li>
           {/* <li><Link href={'/privacy.html'}><a class="text-sm text-gray-100 flex hover:text-gray-200 font-bold">Privacy policy</a></Link></li> */}
         </ul>
         <button onClick={() => setHidesearch(!hidesearch)} type="button" className="rounded-full lg:block hidden text-sm focus:outline-none " id="user-menu-button" aria-expanded="false" aria-haspopup="true">
@@ -101,13 +101,13 @@ const Navbar = () => {
               </li>
 
               <li className="mb-1">
-                <a className="block p-2 text-sm font-semibold text-gray-800  rounded" >Mandi Bhav</a>
+                <a href='/mandi' className="block p-2 text-sm font-semibold text-gray-800  rounded" >Mandi Bhav</a>
               </li>
               <li className="mb-1">
                 <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >News</a>
               </li>
               <li className="mb-1 flex">
-                <a className="flex p-2 text-sm font-semibold text-gray-800 rounded" >About</a>
+                <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >About</a>
               </li>
 
 
