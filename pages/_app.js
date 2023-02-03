@@ -24,12 +24,12 @@ function MyApp({ Component, pageProps }) {
 
   return <>
   
-  {/* <LoadingBar
+  <LoadingBar
         color='#e91e63'
         progress={progress}
         waitingTime={400}
         onLoaderFinished={() => setProgress(0)}
-      /> */}
+      />
   
   <Component {...pageProps} /> 
   </>
