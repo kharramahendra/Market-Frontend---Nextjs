@@ -77,27 +77,20 @@ const Post = ({ post }) => {
                 <div class="flex flex-wrap ">
 
                     <div class="w-full">
-                        <div class="flex space-x-2 justify-center">
+                        <div class="flex justify-items-end items-end">
                             <span
                                 class="my-2 inline-block rounded-lg bg-purple-700 py-1 px-3 text-sm font-semibold text-white"
                             >
                                 {post.timestamp}
 
                             </span>
-                            <div className='my-3 justify-items-end items-end'>
+                            <div className=' justify-items-end items-end'>
 
                                 <FacebookShareButton
                                     url={`https://tensorcodes.com/post/${post.slug}`} >
                                     <FacebookIcon size={32} round />
                                 </FacebookShareButton>
-                                <PinterestShareButton
-                                    url={`https://tensorcodes.com/post/${post.slug}`} >
-                                    <PinterestIcon size={32} round />
-                                </PinterestShareButton>
-                                <RedditShareButton
-                                    url={`https://tensorcodes.com/post/${post.slug}`}>
-                                    <RedditIcon size={32} round />
-                                </RedditShareButton>
+                                
                                 <WhatsappShareButton
                                     url={`https://tensorcodes.com/post/${post.slug}`}>
                                     <WhatsappIcon size={32} round />
