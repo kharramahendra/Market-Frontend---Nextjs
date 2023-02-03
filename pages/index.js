@@ -6,7 +6,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 
-const Home = ({ }) => {
+const Home = ({ news,prices }) => {
 
   const router = useRouter();
   const [hidesearch, setHidesearch] = useState(true)
@@ -267,18 +267,14 @@ const Home = ({ }) => {
 
 
 export async function getServerSideProps(context) {
-  // const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/home/`)
-  // const json_res = await res.json()
-  // let posts = JSON.parse(JSON.stringify(json_res))
-  // let blogs = posts.blogs
-  // let projects = posts.projects
-  // let codes = posts.codes
-  // console.log(blogs)
-  // console.log(projects)
-  // console.log(codes)
+  const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/home/`)
+  const json_res = await res.json()
+  let posts = JSON.parse(JSON.stringify(json_res))
+  let news = posts.news
+  let prices = posts.prices
+  console.log(prices)
   return {
-    props: { blogs: "nothing" }
-    // props: { blogs: JSON.parse(JSON.stringify(blogs)), projects: JSON.parse(JSON.stringify(projects)), codes: JSON.parse(JSON.stringify(codes)) }
+    props: { news: JSON.parse(JSON.stringify(news)), prices: JSON.parse(JSON.stringify(prices)) }
   }
 }
 
