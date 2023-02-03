@@ -16,15 +16,14 @@ const News = ({ news }) => {
 
 
       {/* <!-- ====== Blogs Section --> */}
-      <section class="pt-16 pb-10 lg:pt-[100px] lg:pb-20">
-        <div class="containerx">
+      <section class="">
+        <div class="">
           <div class="-mx-4 flex flex-wrap justify-center">
             <div class="w-full px-4">
               <div class="mx-auto max-w-[510px] text-center ">
                 <h3
-                  class="mb-4 text-2xl font-bold text-gray-900 sm:text-3xl"
-                >
-                  <span class=" text-tensor">Kisan Market</span>
+                  class="mb-2 text-lg font-semibold text-gray-900 sm:text-xl"
+                >Kisan Market
                 </h3>
                 <div class="w-24 h-1 bg-tensor rounded mt-2 mb-4 mx-auto"></div>
 
@@ -34,7 +33,7 @@ const News = ({ news }) => {
 
 
           <div class="min-h-screen  flex justify-center flex-wrap items-center my-20">
-            <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0 ">
+            <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 space-y-2 md:space-y-0 ">
 
 
               {news.map((post) => {
@@ -70,15 +69,6 @@ const News = ({ news }) => {
             </div>
           </div>
 
-
-          {/* <div class="-mx-4 flex flex-wrap justify-center">
-              <div class="w-full px-4">
-                <div class="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
-                  <Link href={'/data-science/Blog'}><a class="inline-flex items-center justify-center rounded-md border border-black py-2 px-6 text-center text-base text-white transition hover:bg-gray-800 bg-gray-900 lg:px-4 xl:px-6">View All</a></Link>
-
-                </div>
-              </div>
-            </div> */}
         </div>
       </section>
       {/* --------------------------------------- */}
