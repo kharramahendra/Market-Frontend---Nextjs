@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
         {/* end */}
         <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-          <li><Link href='/' legacyBehavior><a href='/' className="text-sm text-gray-100 hover:text-gray-200 font-bold">Home</a></Link></li>
+          <li><a href='/' className="text-sm text-gray-100 hover:text-gray-200 font-bold">Home</a></li>
           <li><Link href='/sharemarket' legacyBehavior><a href="/sharemarket" className="text-sm text-gray-100 hover:text-gray-200 font-bold" >Share Market</a></Link></li>
           <li><Link href={'/mandi'} legacyBehavior><a href="/mandi" className="text-sm text-gray-100 hover:text-gray-200 font-bold">Mandi Bhav</a></Link></li>
           {/* <li><Link href={'/codes'}><a class="text-sm text-gray-100 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
@@ -93,7 +93,7 @@ const Navbar = () => {
           <div>
             <ul>
               <li className="mb-1">
-                <Link href='/' legacyBehavior><a href='/' className="block p-2 text-sm font-semibold text-gray-800  rounded">Home</a></Link>
+                <a href='/' className="block p-2 text-sm font-semibold text-gray-800  rounded">Home</a>
               </li>
 
               <li className="mb-1">
