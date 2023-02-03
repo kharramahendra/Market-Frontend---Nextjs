@@ -74,7 +74,7 @@ const Mandi =({prices})=> {
 
 
 
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <div>
           <div className="dropdown relative">
             <button onClick={() => { setHidedrop(!hidedropdown) }} className="dropdown-toggle px-6 py-2.5 bg-blue-900 hover:bg-gray-800 text-white font-medium text-sm leading-tight uppercase rounded shadow-md  hover:shadow-lg   transition duration-150 ease-in-out flex items-center " aria-expanded="false"> Commodity
@@ -136,7 +136,7 @@ const Mandi =({prices})=> {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       <section className="text-gray-600 body-font">
@@ -244,6 +244,7 @@ export async function getServerSideProps(context) {
   let posts = JSON.parse(JSON.stringify(json_res))
   let prices = posts.posts
   console.log(prices)
+  console.log("no error here")
   return {
     props: { prices: JSON.parse(JSON.stringify(prices)) }
   }
