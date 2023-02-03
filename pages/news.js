@@ -13,6 +13,7 @@ const News = ({ news }) => {
     <>
 
       <Navbar />
+      <rssapp-ticker id="toqVbAD3l5eo7qIF"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
 
 
       {/* <!-- ====== Blogs Section --> */}
@@ -44,7 +45,7 @@ const News = ({ news }) => {
                       {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
                       {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/codes/temp4.jpg' alt="tech" />}
                     </a>
-                    <div class="flex text-white items-center px-6 py-3 bg-gray-900">
+                    <div class="flex text-white items-center px-6 py-3 bg-gray-800">
                       {/* <svg class="h-6 w-6 text-white fill-current" viewBox="0 0 512 512">
                           <path d="M256 48C150 48 64 136.2 64 245.1v153.3c0 36.3 28.6 65.7 64 65.7h64V288h-85.3v-42.9c0-84.7 66.8-153.3 149.3-153.3s149.3 68.5 149.3 153.3V288H320v176h64c35.4 0 64-29.3 64-65.7V245.1C448 136.2 362 48 256 48z" />
                         </svg> */}
@@ -59,7 +60,7 @@ const News = ({ news }) => {
                       <p class="text-gray-700 text-base mb-4">
                         {post.content.slice(0, 100).toString().replace(/<[^>]*>/g, '')}
                       </p>
-                      <Link href={`/post/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">Learn More</button></Link>
+                      <Link href={`/post/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
                     </div>
                   </div>
                 </div>
@@ -77,7 +78,6 @@ const News = ({ news }) => {
 
 
 
-      <rssapp-ticker id="toqVbAD3l5eo7qIF"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
       <rssapp-wall id="toqVbAD3l5eo7qIF"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
 
 
