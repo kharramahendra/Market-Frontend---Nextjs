@@ -105,6 +105,7 @@ export async function getServerSideProps(context) {
   let posts = JSON.parse(JSON.stringify(json_res))
   let news = posts.posts
   console.log(news)
+  console.log("here are all news")
   return {
     props: { news: JSON.parse(JSON.stringify(news)) }
   }
