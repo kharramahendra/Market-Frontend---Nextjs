@@ -18,7 +18,7 @@ const Navbar = () => {
   const [hidenotifications, setHidenav] = useState(true)
   const [hidedropdown, setHidedrop] = useState(true)
   
-  const [query, setQuery] = useState('data science');
+  const [query, setQuery] = useState('bhav');
   const handlechange = (e) => {
     if (e.target.name == 'query') {
       setQuery(e.target.value)
