@@ -18,7 +18,7 @@ const News = ({ news }) => {
       {/* <!-- ====== Blogs Section --> */}
       <section class="">
         <div class="">
-          <div class="-mx-4 flex flex-wrap justify-center">
+          <div class="flex flex-wrap justify-center">
             <div class="w-full px-4">
               <div class="mx-auto max-w-[510px] text-center ">
                 <h3
