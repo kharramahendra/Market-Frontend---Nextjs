@@ -84,7 +84,7 @@ const Post = ({ post }) => {
                             {post.timestamp}
 
                         </span>
-                        <h2 class="font-sans my-2 lg:my-4 text-3xl font-bold  text-gray-900 sm:text-5xl md:text-[40px]">
+                        <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl md:text-[40px]">
                             {post.title}
                         </h2>
                         <div className='my-3 justify-items-end items-end'>
