@@ -77,39 +77,41 @@ const Post = ({ post }) => {
                 <div class="flex flex-wrap ">
 
                     <div class="w-full">
-                        
-                        <span
-                            class="my-2 inline-block rounded-lg bg-purple-700 py-1 px-3 text-sm font-semibold text-white"
-                        >
-                            {post.timestamp}
+                        <div class="flex space-x-2 justify-center">
+                            <span
+                                class="my-2 inline-block rounded-lg bg-purple-700 py-1 px-3 text-sm font-semibold text-white"
+                            >
+                                {post.timestamp}
 
-                        </span>
+                            </span>
+                            <div className='my-3 justify-items-end items-end'>
+
+                                <FacebookShareButton
+                                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                                    <FacebookIcon size={32} round />
+                                </FacebookShareButton>
+                                <PinterestShareButton
+                                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                                    <PinterestIcon size={32} round />
+                                </PinterestShareButton>
+                                <RedditShareButton
+                                    url={`https://tensorcodes.com/post/${post.slug}`}>
+                                    <RedditIcon size={32} round />
+                                </RedditShareButton>
+                                <WhatsappShareButton
+                                    url={`https://tensorcodes.com/post/${post.slug}`}>
+                                    <WhatsappIcon size={32} round />
+                                </WhatsappShareButton>
+                                <LinkedinShareButton
+                                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                                    <LinkedinIcon size={32} round />
+                                </LinkedinShareButton>
+                            </div>
+                        </div>
                         <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl md:text-[40px]">
                             {post.title}
                         </h2>
-                        <div className='my-3 justify-items-end items-end'>
 
-                            <FacebookShareButton
-                                url={`https://tensorcodes.com/post/${post.slug}`} >
-                                <FacebookIcon size={32} round />
-                            </FacebookShareButton>
-                            <PinterestShareButton
-                                url={`https://tensorcodes.com/post/${post.slug}`} >
-                                <PinterestIcon size={32} round />
-                            </PinterestShareButton>
-                            <RedditShareButton
-                                url={`https://tensorcodes.com/post/${post.slug}`}>
-                                <RedditIcon size={32} round />
-                            </RedditShareButton>
-                            <WhatsappShareButton
-                                url={`https://tensorcodes.com/post/${post.slug}`}>
-                                <WhatsappIcon size={32} round />
-                            </WhatsappShareButton>
-                            <LinkedinShareButton
-                                url={`https://tensorcodes.com/post/${post.slug}`} >
-                                <LinkedinIcon size={32} round />
-                            </LinkedinShareButton>
-                        </div>
                         <span
                             class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"
                         ></span>

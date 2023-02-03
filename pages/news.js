@@ -34,7 +34,7 @@ const News = ({ news }) => {
 
 
           <div class="flex justify-center flex-wrap items-center ">
-            <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 space-y-2 md:space-y-0 ">
+            <div class="md:px-4 px-1 md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 space-y-2 md:space-y-0 ">
 
 
               {news.map((post) => {
