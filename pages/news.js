@@ -22,17 +22,17 @@ const News = ({ news }) => {
             <div class="w-full px-4">
               <div class="mx-auto max-w-[510px] text-center ">
                 <h3
-                  class="mb-2 text-lg font-semibold text-gray-900 sm:text-xl"
+                  class="my-2 text-lg font-semibold text-gray-900 sm:text-xl"
                 >Kisan Market
                 </h3>
-                <div class="w-24 h-1 bg-tensor rounded mt-2 mb-4 mx-auto"></div>
+                
 
               </div>
             </div>
           </div>
 
 
-          <div class="min-h-screen  flex justify-center flex-wrap items-center my-20">
+          <div class="flex justify-center flex-wrap items-center ">
             <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 space-y-2 md:space-y-0 ">
 
 
