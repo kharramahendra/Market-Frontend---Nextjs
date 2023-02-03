@@ -160,7 +160,7 @@ const Mandi = ({ prices }) => {
                     <div class="flex">
                     <span class="text-xs inline-block py-1 px-2.5 mr-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">{price.keywords[0]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">Secondary</span> */}
-                      <span class="text-xs inline-block py-1 px-2.5 mx-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-200 text-white rounded">{price.keywords[1]}</span>
+                      <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-200 text-white rounded">{price.keywords[1]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red-600 text-white rounded">Danger</span> */}
                       <span class="text-xs inline-block py-1 px-2.5 ml-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded">{price.keywords[2]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-400 text-white rounded">Info</span> */}
