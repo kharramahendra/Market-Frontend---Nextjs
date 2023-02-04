@@ -94,13 +94,22 @@ const Post = ({ post }) => {
             </div>
         </div>
 
+
+        {/* <section className="text-gray-600 body-font">
+            <div className="container px-5 py-10 md:py-24 mx-auto">
+                <div className="flex flex-col text-center w-full mb-8">
+                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Mandi Bhav</h1>
+
+                </div></div></section> */}
         {post.category == 'Price' &&
-        <div>
-            <div className='justify-center items-center'>
-                <span class="my-2 inline-block rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">
-                    {post.timestamp}
-                </span>
-            </div>
+
+
+            <div>
+                <div className='justify-center items-center'>
+                    <span class="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">
+                        {post.timestamp}
+                    </span>
+                </div>
             </div>
         }
 
