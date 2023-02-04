@@ -73,26 +73,26 @@ const Post = ({ post }) => {
         <Navbar />
 
 
-        <div className='flex flex-col justify-items-end items-end fixed top-20 right-0'>
-                                <div>
+        <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
+            <div className='rounded-xs'>
 
-                                <FacebookShareButton
-                                    url={`https://tensorcodes.com/post/${post.slug}`} >
-                                    <FacebookIcon size={32}  />
-                                </FacebookShareButton>
-                                </div>
-                                <div>
-                                <WhatsappShareButton
-                                    url={`https://tensorcodes.com/post/${post.slug}`}>
-                                    <WhatsappIcon size={32} round />
-                                </WhatsappShareButton></div>
-                                <div>
-                                <LinkedinShareButton
-                                    url={`https://tensorcodes.com/post/${post.slug}`} >
-                                    <LinkedinIcon size={32} round />
-                                </LinkedinShareButton>
-                                </div>
-                            </div>
+                <FacebookShareButton
+                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                    <FacebookIcon size={48} />
+                </FacebookShareButton>
+            </div>
+            <div className='rounded-sm'>
+                <WhatsappShareButton className="rounded-sm"
+                    url={`https://tensorcodes.com/post/${post.slug}`}>
+                    <WhatsappIcon size={48} />
+                </WhatsappShareButton></div>
+            <div>
+                <LinkedinShareButton
+                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                    <LinkedinIcon size={48} />
+                </LinkedinShareButton>
+            </div>
+        </div>
 
 
         <section class="pt-8 pb-10  lg:pb-20 lg:mx-20 md:mx-10 mx-1 ">
