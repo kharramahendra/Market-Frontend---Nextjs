@@ -36,6 +36,8 @@ import Router from 'next/router'
 
 const Post = ({ post }) => {
     const [render, setRender] = useState(false);
+    const [hidedropdown, setHidedrop] = useState(true)
+
 
     useEffect(() => {
         hljs.initHighlighting();
@@ -165,7 +167,7 @@ const Post = ({ post }) => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl md:text-[40px]">
                             {post.title}
                         </h2>

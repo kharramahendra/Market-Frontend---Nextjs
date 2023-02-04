@@ -16,7 +16,6 @@ const Navbar = () => {
 
   const [hidesearch, setHidesearch] = useState(true)
   const [hidenotifications, setHidenav] = useState(true)
-  const [hidedropdown, setHidedrop] = useState(true)
   
   const [query, setQuery] = useState('bhav');
   const handlechange = (e) => {
