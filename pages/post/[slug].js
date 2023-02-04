@@ -94,11 +94,15 @@ const Post = ({ post }) => {
             </div>
         </div>
 
-        {post.category=='Price' && <div><span class="my-2 inline-block rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">
-            {post.timestamp}
-        </span></div>}
+        {post.category == 'Price' &&
+            <div className='justify-center'>
+                <span class="my-2 inline-block rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">
+                    {post.timestamp}
+                </span>
+            </div>
+        }
 
-        {post.category=='Price' &&  <div className="flex justify-center sticky top-2 left-2 ml-2">
+        {post.category == 'Price' && <div className="flex justify-center sticky top-2 left-2 ml-2">
             <div>
                 <div className="dropdown relative ml-2 my-2">
                     <button onClick={() => { setHidedrop(!hidedropdown) }} className="dropdown-toggle px-6 py-2.5 bg-pink-600 hover:bg-pink-700 text-white font-medium text-sm leading-tight uppercase rounded shadow-md  hover:shadow-lg   transition duration-150 ease-in-out flex items-center " aria-expanded="false"> Commodity
@@ -170,14 +174,14 @@ const Post = ({ post }) => {
 
                     <div class="w-full">
                         <div class="flex justify-items-end items-end">
-                            {post.category=='News' && 
-                            <span
-                                class="my-2 inline-block rounded-lg  py-1 px-3 text-lg font-semibold text-pink-700"
-                            >
-                                {post.timestamp}
+                            {post.category == 'News' &&
+                                <span
+                                    class="my-2 inline-block rounded-lg  py-1 px-3 text-lg font-semibold text-pink-700"
+                                >
+                                    {post.timestamp}
 
-                            </span> 
-                        }
+                                </span>
+                            }
                         </div>
 
 
