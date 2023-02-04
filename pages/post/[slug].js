@@ -78,18 +78,18 @@ const Post = ({ post }) => {
 
                 <FacebookShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <FacebookIcon size={42} className="rounded-l-md drop-shadow-lg" />
+                    <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </FacebookShareButton>
             </div>
             <div className='rounded-sm'>
                 <WhatsappShareButton className="rounded-sm"
                     url={`https://tensorcodes.com/post/${post.slug}`}>
-                    <WhatsappIcon size={42} className="rounded-l-md drop-shadow-lg" />
+                    <WhatsappIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </WhatsappShareButton></div>
             <div>
                 <LinkedinShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <LinkedinIcon size={42} className="rounded-l-md drop-shadow-lg" />
+                    <LinkedinIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </LinkedinShareButton>
             </div>
         </div>
@@ -101,16 +101,7 @@ const Post = ({ post }) => {
                         <h1 className="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">{post.timestamp}</h1>
 
                     </div></div></section>}
-        {post.category == 'Price' &&
-
-            <div>
-                <div className='justify-center items-center'>
-                    <span class="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">
-                        {post.timestamp}
-                    </span>
-                </div>
-            </div>
-        }
+        
 
         {post.category == 'Price' && <div className="flex justify-center sticky top-2 left-2 ml-2">
             <div>
