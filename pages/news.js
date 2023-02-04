@@ -16,7 +16,7 @@ const News = ({ news }) => {
       <rssapp-ticker id="toqVbAD3l5eo7qIF"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
 
 
-      {/* <!-- ====== Blogs Section --> */}
+      {/* <!-- ====== news Section --> */}
       <section class="">
         <div class="">
           <div class="flex flex-wrap justify-center">
