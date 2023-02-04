@@ -16,7 +16,7 @@ export default function Contact() {
 
 
 
-            <div class="container my-24 px-6 mx-auto">
+            {/* <div class="container my-24 px-6 mx-auto">
 
                 <section class="mb-32 text-gray-800">
 
@@ -195,7 +195,7 @@ export default function Contact() {
 
                 </section>
 
-            </div>
+            </div> */}
 
 
 
