@@ -186,7 +186,7 @@ const Post = ({ post }) => {
 
 
 
-                        {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl md:text-[40px]">
+                        {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
                             {post.title}
                         </h2>}
 
