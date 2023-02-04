@@ -95,7 +95,7 @@ const Post = ({ post }) => {
         </div>
 
         {post.category == 'Price' &&
-            <div className='justify-center'>
+            <div className='justify-center items-center'>
                 <span class="my-2 inline-block rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">
                     {post.timestamp}
                 </span>
