@@ -78,7 +78,7 @@ const Post = ({ post }) => {
 
                 <FacebookShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <FacebookIcon size={48} />
+                    <FacebookIcon size={48} className="rounded-sm bg-rose-500"/>
                 </FacebookShareButton>
             </div>
             <div className='rounded-sm'>
@@ -89,7 +89,7 @@ const Post = ({ post }) => {
             <div>
                 <LinkedinShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <LinkedinIcon size={48} className="rounded-sm p-5"/>
+                    <LinkedinIcon size={48} className="rounded-sm"/>
                 </LinkedinShareButton>
             </div>
         </div>
@@ -103,7 +103,7 @@ const Post = ({ post }) => {
                     <div class="w-full">
                         <div class="flex justify-items-end items-end">
                             <span
-                                class="my-2 inline-block rounded-lg bg-purple-700 py-1 px-3 text-sm font-semibold text-white"
+                                class="my-2 inline-block rounded-lg bg-purple-100 py-1 px-3 text-sm font-semibold text-white"
                             >
                                 {post.timestamp}
 
@@ -130,7 +130,7 @@ const Post = ({ post }) => {
                             </div> */}
                         </div>
 
-                        <div className="flex justify-center">
+                        <div className="flex justify-center sticky">
                             <div>
                                 <div className="dropdown relative">
                                     <button onClick={() => { setHidedrop(!hidedropdown) }} className="dropdown-toggle px-6 py-2.5 bg-blue-900 hover:bg-gray-800 text-white font-medium text-sm leading-tight uppercase rounded shadow-md  hover:shadow-lg   transition duration-150 ease-in-out flex items-center " aria-expanded="false"> Commodity
