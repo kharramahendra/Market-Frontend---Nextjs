@@ -78,59 +78,24 @@ const Post = ({ post }) => {
 
                 <FacebookShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <FacebookIcon size={42} className="rounded-sm bg-rose-500"/>
+                    <FacebookIcon size={42} className="rounded-sm bg-rose-500" />
                 </FacebookShareButton>
             </div>
             <div className='rounded-sm'>
                 <WhatsappShareButton className="rounded-sm"
                     url={`https://tensorcodes.com/post/${post.slug}`}>
-                    <WhatsappIcon size={42} className="rounded-sm"/>
+                    <WhatsappIcon size={42} className="rounded-sm" />
                 </WhatsappShareButton></div>
             <div>
                 <LinkedinShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <LinkedinIcon size={42} className="rounded-sm"/>
+                    <LinkedinIcon size={42} className="rounded-sm" />
                 </LinkedinShareButton>
             </div>
         </div>
 
 
-        <section class="pt-8 pb-10  lg:pb-20 lg:mx-20 md:mx-10 mx-1 ">
-            <div class="containery">
-
-                <div class="flex flex-wrap ">
-
-                    <div class="w-full">
-                        <div class="flex justify-items-end items-end">
-                            <span
-                                class="my-2 inline-block rounded-lg bg-purple-100 py-1 px-3 text-sm font-semibold text-white"
-                            >
-                                {post.timestamp}
-
-                            </span>
-                            {/* <div className='flex flex-col justify-items-end items-end'>
-                                <div>
-
-                                <FacebookShareButton
-                                    url={`https://tensorcodes.com/post/${post.slug}`} >
-                                    <FacebookIcon size={32}  />
-                                </FacebookShareButton>
-                                </div>
-                                <div>
-                                <WhatsappShareButton
-                                    url={`https://tensorcodes.com/post/${post.slug}`}>
-                                    <WhatsappIcon size={32} round />
-                                </WhatsappShareButton></div>
-                                <div>
-                                <LinkedinShareButton
-                                    url={`https://tensorcodes.com/post/${post.slug}`} >
-                                    <LinkedinIcon size={32} round />
-                                </LinkedinShareButton>
-                                </div>
-                            </div> */}
-                        </div>
-
-                        <div className="flex justify-center sticky">
+        <div className="flex justify-center sticky top-0">
                             <div>
                                 <div className="dropdown relative">
                                     <button onClick={() => { setHidedrop(!hidedropdown) }} className="dropdown-toggle px-6 py-2.5 bg-blue-900 hover:bg-gray-800 text-white font-medium text-sm leading-tight uppercase rounded shadow-md  hover:shadow-lg   transition duration-150 ease-in-out flex items-center " aria-expanded="false"> Commodity
@@ -193,6 +158,44 @@ const Post = ({ post }) => {
                                 </div>
                             </div>
                         </div>
+
+
+        <section class="pt-8 pb-10  lg:pb-20 lg:mx-20 md:mx-10 mx-1 ">
+            <div class="containery">
+
+                <div class="flex flex-wrap ">
+
+                    <div class="w-full">
+                        <div class="flex justify-items-end items-end">
+                            <span
+                                class="my-2 inline-block rounded-lg bg-purple-100 py-1 px-3 text-sm font-semibold text-white"
+                            >
+                                {post.timestamp}
+
+                            </span>
+                            {/* <div className='flex flex-col justify-items-end items-end'>
+                                <div>
+
+                                <FacebookShareButton
+                                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                                    <FacebookIcon size={32}  />
+                                </FacebookShareButton>
+                                </div>
+                                <div>
+                                <WhatsappShareButton
+                                    url={`https://tensorcodes.com/post/${post.slug}`}>
+                                    <WhatsappIcon size={32} round />
+                                </WhatsappShareButton></div>
+                                <div>
+                                <LinkedinShareButton
+                                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                                    <LinkedinIcon size={32} round />
+                                </LinkedinShareButton>
+                                </div>
+                            </div> */}
+                        </div>
+
+                        
 
                         <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl md:text-[40px]">
                             {post.title}
