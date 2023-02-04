@@ -97,7 +97,7 @@ const Post = ({ post }) => {
         {post.category == 'Price' &&
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-5 mx-auto">
-                    <div className="flex flex-col text-center w-full mb-8">
+                    <div className="flex flex-col text-center w-full">
                         <h1 className="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">{post.timestamp}</h1>
 
                     </div></div></section>}
