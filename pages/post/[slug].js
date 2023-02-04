@@ -78,18 +78,18 @@ const Post = ({ post }) => {
 
                 <FacebookShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <FacebookIcon size={48} className="rounded-sm bg-rose-500"/>
+                    <FacebookIcon size={42} className="rounded-sm bg-rose-500"/>
                 </FacebookShareButton>
             </div>
             <div className='rounded-sm'>
                 <WhatsappShareButton className="rounded-sm"
                     url={`https://tensorcodes.com/post/${post.slug}`}>
-                    <WhatsappIcon size={48} className="rounded-sm"/>
+                    <WhatsappIcon size={42} className="rounded-sm"/>
                 </WhatsappShareButton></div>
             <div>
                 <LinkedinShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <LinkedinIcon size={48} className="rounded-sm"/>
+                    <LinkedinIcon size={42} className="rounded-sm"/>
                 </LinkedinShareButton>
             </div>
         </div>
