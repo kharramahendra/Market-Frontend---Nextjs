@@ -168,7 +168,7 @@ const Post = ({ post }) => {
                     <div class="w-full">
                         <div class="flex justify-items-end items-end">
                             <span
-                                class="my-2 inline-block rounded-lg bg-purple-100 py-1 px-3 text-sm font-semibold text-white"
+                                class="my-2 inline-block rounded-lg  py-1 px-3 text-sm font-semibold text-pink-700"
                             >
                                 {post.timestamp}
 
