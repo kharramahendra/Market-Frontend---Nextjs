@@ -78,27 +78,29 @@ const Post = ({ post }) => {
 
                 <FacebookShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <FacebookIcon size={42} className="rounded-sm bg-rose-500" />
+                    <FacebookIcon size={42} className="rounded-l-md drop-shadow-lg" />
                 </FacebookShareButton>
             </div>
             <div className='rounded-sm'>
                 <WhatsappShareButton className="rounded-sm"
                     url={`https://tensorcodes.com/post/${post.slug}`}>
-                    <WhatsappIcon size={42} className="rounded-sm" />
+                    <WhatsappIcon size={42} className="rounded-l-md drop-shadow-lg" />
                 </WhatsappShareButton></div>
             <div>
                 <LinkedinShareButton
                     url={`https://tensorcodes.com/post/${post.slug}`} >
-                    <LinkedinIcon size={42} className="rounded-sm" />
+                    <LinkedinIcon size={42} className="rounded-l-md drop-shadow-lg" />
                 </LinkedinShareButton>
             </div>
         </div>
 
         {post.category == 'Price' &&
+        <div>
             <div className='justify-center items-center'>
                 <span class="my-2 inline-block rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">
                     {post.timestamp}
                 </span>
+            </div>
             </div>
         }
 
