@@ -197,9 +197,9 @@ const Post = ({ post }) => {
 
                         
 
-                        <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl md:text-[40px]">
+                        {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl md:text-[40px]">
                             {post.title}
-                        </h2>
+                        </h2>}
 
                         <span
                             class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"
