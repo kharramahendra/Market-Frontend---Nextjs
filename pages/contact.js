@@ -24,8 +24,8 @@ export default function Contact() {
                         
                     </div>
                     <div class="container text-gray-800 px-4 md:px-12">
-                        <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
-                            style="margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
+                        <div class="block mt-[100px] bg-gray-300 rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6">
+                            {/* // style="margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);"> */}
                             <div class="flex flex-wrap">
                                 <div class="grow-0 shrink-0 basis-auto w-full xl:w-5/12 px-3 lg:px-6 mb-12 xl:mb-0">
                                     <form>
