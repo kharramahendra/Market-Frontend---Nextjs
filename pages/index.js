@@ -116,7 +116,7 @@ const Home = ({ news, prices }) => {
 
 
       {/* <!-- ====== Hero Section Start --> */}
-      <div className="relative  bg-[url('/p/market/hero.jpg')] bg-opacity-75 bg-hero bg-no-repeat bg-cover bg-center">
+      <div className="relative  bg-[url('/hero.jpg')] bg-opacity-75 bg-hero bg-no-repeat bg-cover bg-center">
         <div className="pt-[100px] pb-[110px] lg:pt-[100px] bg-gray-900  bg-opacity-50">
           <div className="flex flex-wrap">
             <div className="w-full lg:pt-20 px-4 lg:w-1/2 mx-auto">
@@ -158,7 +158,7 @@ const Home = ({ news, prices }) => {
                 <div className="h-full flex items-center bg-gray-200  border p-4 rounded-lg">
                   {price.image != null && <img alt="bhav" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST / price.image} />}
                   {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="tech" />}
-                  {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/codes/temp4.jpg' alt="tech" />}
+                  {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="tech" />}
 
                   {/* <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="" /> */}
                   <div className="flex-grow">
@@ -210,7 +210,7 @@ const Home = ({ news, prices }) => {
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                       {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={process.env.NEXT_PUBLIC_HOST / post.image} alt="tech" />}
                       {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
-                      {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/codes/temp4.jpg' alt="tech" />}
+                      {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/news.jpg' alt="tech" />}
                     </a>
                     <div class="flex text-white items-center px-6 py-3 bg-gray-800">
                       {/* <svg class="h-6 w-6 text-white fill-current" viewBox="0 0 512 512">

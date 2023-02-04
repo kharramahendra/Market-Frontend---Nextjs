@@ -67,7 +67,7 @@ const News = ({ news }) => {
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                       {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={process.env.NEXT_PUBLIC_HOST / post.image} alt="tech" />}
                       {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
-                      {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/codes/temp4.jpg' alt="tech" />}
+                      {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/news.jpg' alt="tech" />}
                     </a>
                     <div class="flex text-white items-center px-6 py-3 bg-gray-800">
                       {/* <svg class="h-6 w-6 text-white fill-current" viewBox="0 0 512 512">
