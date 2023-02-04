@@ -9,14 +9,14 @@ import { MdAccountCircle } from 'react-icons/md'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useRouter } from 'next/dist/client/router';
-import { BiCategoryAlt,BiCodeBlock } from 'react-icons/bi'
+import { BiCategoryAlt, BiCodeBlock } from 'react-icons/bi'
 
 const Navbar = () => {
 
 
   const [hidesearch, setHidesearch] = useState(true)
   const [hidenotifications, setHidenav] = useState(true)
-  
+
   const [query, setQuery] = useState('bhav');
   const handlechange = (e) => {
     if (e.target.name == 'query') {
@@ -58,6 +58,8 @@ const Navbar = () => {
           {/* <li><Link href={'/codes'}><a class="text-sm text-gray-100 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
           <li><a href="/news" className="text-sm text-gray-100 hover:text-gray-200 font-bold" >News</a></li>
           <li><a href="/about" className="text-sm text-gray-100 flex hover:text-gray-200 font-bold">About</a></li>
+          <li><a href="/contact" className="text-sm text-gray-100 flex hover:text-gray-200 font-bold">Contact Us</a></li>
+          <li><a href="/privacy.html" className="text-sm text-gray-100 flex hover:text-gray-200 font-bold">Privacy policy</a></li>
           {/* <li><Link href={'/privacy.html'}><a class="text-sm text-gray-100 flex hover:text-gray-200 font-bold">Privacy policy</a></Link></li> */}
         </ul>
         <button onClick={() => setHidesearch(!hidesearch)} type="button" className="rounded-full lg:block hidden text-sm focus:outline-none " id="user-menu-button" aria-expanded="false" aria-haspopup="true">
@@ -107,6 +109,12 @@ const Navbar = () => {
               </li>
               <li className="mb-1 flex">
                 <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >About</a>
+              </li>
+              <li className="mb-1 flex">
+                <a href='/contact' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >Contact Us </a>
+              </li>
+              <li className="mb-1 flex">
+                <a href='/privacy.html' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >Privacy Policy</a>
               </li>
 
 
