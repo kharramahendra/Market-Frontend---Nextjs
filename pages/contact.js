@@ -16,12 +16,12 @@ export default function Contact() {
 
 
 
-            {/* <div class="container my-24 px-6 mx-auto">
+            <div class="container my-24 px-6 mx-auto">
 
                 <section class="mb-32 text-gray-800">
 
-                    <div class="relative overflow-hidden bg-no-repeat bg-cover"
-                        style="background-position: 50%; background-image: url('https://mdbootstrap.com/img/new/textures/full/284.jpg'); height: 300px;">
+                    <div class="relative h-[300px] overflow-hidden bg-no-repeat bg-hero bg-cover bg-[url('https://mdbootstrap.com/img/new/textures/full/284.jpg')]">
+                        
                     </div>
                     <div class="container text-gray-800 px-4 md:px-12">
                         <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
@@ -195,7 +195,7 @@ export default function Contact() {
 
                 </section>
 
-            </div> */}
+            </div>
 
 
 
