@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react';
 import Navbar from '@/components/navbar';
 let tvScriptLoadingPromise;
+import Head from 'next/head'
 
 export default function TradingViewWidget() {
     const onLoadScriptRef = useRef();

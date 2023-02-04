@@ -1,5 +1,6 @@
 // TradingViewWidget.js
 import Navbar from '../components/navbar'
+import Head from 'next/head'
 import Footer from '../components/footer'
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link'

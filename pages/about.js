@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react';
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
-
+import Head from 'next/head'
 export default function TradingViewWidget() {
 
 

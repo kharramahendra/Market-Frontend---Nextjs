@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import { MdDateRange } from 'react-icons/md'
+import Head from 'next/head'
 
 const News = ({ news }) => {
 
