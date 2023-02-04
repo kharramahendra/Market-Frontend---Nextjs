@@ -11,7 +11,7 @@ const Home = ({ posts }) => {
   
   return (<>
    <Head>
-      <title>Tensorcodes.com - Search Results</title>
+      <title>Kisan market- Search Results</title>
       <meta name="description" content="find a collection of data science and machine learning codes,blogs and real-world projects that are designed to solve business problems." />
       <link rel="icon" href="/favicon2.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>

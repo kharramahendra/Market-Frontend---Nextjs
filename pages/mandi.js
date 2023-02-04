@@ -70,11 +70,34 @@ const Mandi = ({ prices }) => {
   return (
     <>
 
+      <Head>
+        <title>Aaj ke Mandi Bhav</title>
+        <meta name="description" content="Welcome to Tensorcodes! My name is Kalu Ram Kharra and I am the creator and sole operator of this website.
+            I am passionate about using technology to solve real-world problems and help businesses and organizations reach their goals.
+            On my site, you can find a variety of data science and machine learning projects and code examples that I have created. I believe in the
+            power of education and am commited to sharing my knowledge and experience with others.
+            In addition to my educational content, I also offer web development services to help clients build and maintain their own websites.
+            I have a wealth of experience in this field and am ready to take on projects of any size.
+            Thank you for visiting Tensorcodes. I hope you find my site helpful and informative, and I look forward to working with you in the future." />
+        <link rel="icon" href="/favicon2.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta name="keywords" content="tensorcode,tensorcode.io,tensorcode io review,data science ,machine learning,deep learning, neural networks ,react django ,Rest framework ,tailwind css,nextjs django combination," />
+        <meta property="og:title" content="Tensorcodes - Code editor" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
+        <meta charSet="utf-8"></meta>
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+          crossOrigin="anonymous"></script>
+
+      </Head>
+
       <Navbar />
 
 
 
-      
+
 
 
       <section className="text-gray-600 body-font">
@@ -96,7 +119,7 @@ const Mandi = ({ prices }) => {
                   <div className="flex-grow">
                     <h2 className="text-green-900 title-font text-lg font-bold">{price.timestamp}</h2>
                     <div class="flex">
-                    <span class="text-sm inline-block py-1 px-2.5 mr-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">{price.keywords[0]}</span>
+                      <span class="text-sm inline-block py-1 px-2.5 mr-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">{price.keywords[0]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">Secondary</span> */}
                       <span class="text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-200 text-gray-900 rounded">{price.keywords[1]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red-600 text-white rounded">Danger</span> */}

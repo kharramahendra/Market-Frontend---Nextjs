@@ -48,7 +48,7 @@ const Post = ({ post }) => {
     return (<>
         <Head>
 
-            <title>{post.title} - Tensorcodes.com</title>
+            <title>{post.title} - Kisan Market</title>
             <meta name="description" content={`${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
             <link rel="icon" href="/favicon2.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
