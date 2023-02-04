@@ -116,7 +116,7 @@ const Home = ({ news, prices }) => {
 
 
       {/* <!-- ====== Hero Section Start --> */}
-      <div className="relative  bg-[url('/hero.jpg')] bg-opacity-75 bg-hero bg-no-repeat bg-cover bg-center">
+      <div className="relative  bg-[url('../assets/images/hero.jpg')] bg-opacity-75 bg-hero bg-no-repeat bg-cover bg-center">
         <div className="pt-[100px] pb-[110px] lg:pt-[100px] bg-gray-900  bg-opacity-50">
           <div className="flex flex-wrap">
             <div className="w-full lg:pt-20 px-4 lg:w-1/2 mx-auto">
