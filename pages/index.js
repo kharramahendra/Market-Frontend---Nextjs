@@ -190,7 +190,7 @@ const Home = ({ news, prices }) => {
             <div class="w-full px-4">
               <div class="mx-auto max-w-[510px] text-center ">
                 <h3
-                  class="my-2 text-lg font-semibold text-gray-900 sm:text-xl"
+                  class="my-4 text-lg font-semibold text-gray-900 sm:text-xl"
                 >Kisan Market
                 </h3>
 
