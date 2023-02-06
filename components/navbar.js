@@ -38,12 +38,12 @@ const Navbar = () => {
 
         {/*  mobile search and hamburger menu  */}
         <div className="lg:hidden flex">
-          <button onClick={() => setHidesearch(!hidesearch)} type="button" className="mx-2 flex text-gray-100 rounded-full lg:hidden text-sm items-center" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+          <button onClick={() => setHidesearch(!hidesearch)} type="button" className="mx-2 flex text-gray-800 rounded-full lg:hidden text-sm items-center" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
             <span className="sr-only">View notifications</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#212121" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 
           </button>
-          <button onClick={() => setHidenav(!hidenotifications)} className="navbar-burger flex items-center text-gray-100 p-3">
+          <button onClick={() => setHidenav(!hidenotifications)} className="navbar-burger flex items-center text-gray-800 p-3">
             <svg className="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <title>Mobile menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -52,19 +52,19 @@ const Navbar = () => {
         </div>
         {/* end */}
         <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-          <li><a href='/' className="text-sm text-gray-100 hover:text-gray-200 font-bold">Home</a></li>
-          <li><a href="/sharemarket" className="text-sm text-gray-100 hover:text-gray-200 font-bold" >Share Market</a></li>
-          <li><a href="/mandi" className="text-sm text-gray-100 hover:text-gray-200 font-bold">Mandi Bhav</a></li>
-          {/* <li><Link href={'/codes'}><a class="text-sm text-gray-100 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
-          <li><a href="/news" className="text-sm text-gray-100 hover:text-gray-200 font-bold" >News</a></li>
-          <li><a href="/about" className="text-sm text-gray-100 flex hover:text-gray-200 font-bold">About</a></li>
-          <li><a href="/contact" className="text-sm text-gray-100 flex hover:text-gray-200 font-bold">Contact Us</a></li>
-          <li><a href="/privacy.html" className="text-sm text-gray-100 flex hover:text-gray-200 font-bold">Privacy policy</a></li>
-          {/* <li><Link href={'/privacy.html'}><a class="text-sm text-gray-100 flex hover:text-gray-200 font-bold">Privacy policy</a></Link></li> */}
+          <li><a href='/' className="text-sm text-gray-800 hover:text-gray-200 font-bold">Home</a></li>
+          <li><a href="/sharemarket" className="text-sm text-gray-800 hover:text-gray-200 font-bold" >Share Market</a></li>
+          <li><a href="/mandi" className="text-sm text-gray-800 hover:text-gray-200 font-bold">Mandi Bhav</a></li>
+          {/* <li><Link href={'/codes'}><a class="text-sm text-gray-800 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
+          <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-200 font-bold" >News</a></li>
+          <li><a href="/about" className="text-sm text-gray-800 flex hover:text-gray-200 font-bold">About</a></li>
+          <li><a href="/contact" className="text-sm text-gray-800 flex hover:text-gray-200 font-bold">Contact Us</a></li>
+          <li><a href="/privacy.html" className="text-sm text-gray-800 flex hover:text-gray-200 font-bold">Privacy policy</a></li>
+          {/* <li><Link href={'/privacy.html'}><a class="text-sm text-gray-800 flex hover:text-gray-200 font-bold">Privacy policy</a></Link></li> */}
         </ul>
         <button onClick={() => setHidesearch(!hidesearch)} type="button" className="rounded-full lg:block hidden text-sm focus:outline-none " id="user-menu-button" aria-expanded="false" aria-haspopup="true">
           <span className="sr-only">View notifications</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="#212121" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 
         </button>
       </nav>
