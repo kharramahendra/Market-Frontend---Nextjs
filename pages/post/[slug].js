@@ -53,15 +53,15 @@ const Post = ({ post }) => {
             <link rel="icon" href="/favicon2.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="robots" content="index, follow"></meta>
-            <link rel="canonical" href={`https://tensorcodes.com/post/${post.slug}`}></link>
+            <link rel="canonical" href={`https://kisanbazaar.vercel.app/post/${post.slug}`}></link>
             <meta name="keywords" content={`tensorcode,tensorcode.io,tensorcode io review,${post.keywords.toString()} ,real-world machine learning applications,data science case studies,machine learning projects for beginners,problem-solving with machine learning,real-world data science projects,machine learning in business,industry specific machine learning,machine learning for social good,machine learning in healthcare`} />
-            <meta property="og:title" content={`${post.title} - Tensorcodes.com`} />
+            <meta property="og:title" content={`${post.title} - Kisan Market`} />
             <meta property="og:description" content={`${post.category} ${post.sub_category} ${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
             <meta property="og:type" content="article" />
-            <meta property="og:url" content={`https://tensorcodes.com/post/${post.slug}`} />
+            <meta property="og:url" content={`https://kisanbazaar.vercel.app/post/${post.slug}`} />
             {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST / post.image}}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
-            {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/codes/temp4.jpg" />}
+            {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />}
             <meta charSet="utf-8"></meta>
             <meta property="og:site_name" content="Tensorcodes posts" />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
