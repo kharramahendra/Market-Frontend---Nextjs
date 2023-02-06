@@ -163,7 +163,7 @@ const Home = ({ news, prices }) => {
 
                   {/* <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="" /> */}
                   <div className="flex-grow">
-                    <h2 className="text-green-900 title-font text-lg font-bold">{price.timestamp}</h2>
+                    <h2 className="text-white title-font text-lg font-bold">{price.timestamp}</h2>
                     <div class="flex">
                       <span class="text-sm inline-block py-1 px-2.5 mr-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-rose-600 text-white rounded">{price.keywords[0]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">Secondary</span> */}
@@ -185,7 +185,7 @@ const Home = ({ news, prices }) => {
 
 
       {/* <!-- ====== news Section --> */}
-      <section class="">
+      <section class="my-2">
         <div class="">
           <div class="flex flex-wrap justify-center">
             <div class="w-full px-4">
@@ -206,9 +206,9 @@ const Home = ({ news, prices }) => {
 
 
               {news.map((post) => {
-                return <div key={post._id} class="flex justify-center">
+                return <div key={post._id} class="mx-2 flex justify-center">
                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a  data-mdb-ripple="true" data-mdb-ripple-color="light">
                       {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={process.env.NEXT_PUBLIC_HOST / post.image} alt="tech" />}
                       {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
                       {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/news.jpg' alt="tech" />}
