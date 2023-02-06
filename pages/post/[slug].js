@@ -77,18 +77,18 @@ const Post = ({ post }) => {
             <div className='rounded-xs'>
 
                 <FacebookShareButton
-                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                    url={`https://kisanbazaar.vercel.app/post/${post.slug}`} >
                     <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </FacebookShareButton>
             </div>
             <div className='rounded-sm'>
                 <WhatsappShareButton className="rounded-sm"
-                    url={`https://tensorcodes.com/post/${post.slug}`}>
+                    url={`https://kisanbazaar.vercel.app/post/${post.slug}`}>
                     <WhatsappIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </WhatsappShareButton></div>
             <div>
                 <LinkedinShareButton
-                    url={`https://tensorcodes.com/post/${post.slug}`} >
+                    url={`https://kisanbazaar.vercel.app/post/${post.slug}`} >
                     <LinkedinIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </LinkedinShareButton>
             </div>
