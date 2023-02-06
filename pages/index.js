@@ -156,7 +156,7 @@ const Home = ({ news, prices }) => {
 
             {prices.map((price) => {
               return <Link key={price._id} href={`/post/${price.slug}`}><div className=" cursor-pointer p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex items-center bg-gray-200  border p-4 rounded-lg">
+                <div className="h-full flex items-center bg-[#000137]  border p-4 rounded-lg">
                   {price.image != null && <img alt="bhav" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST / price.image} />}
                   {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="tech" />}
                   {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="tech" />}
@@ -165,11 +165,11 @@ const Home = ({ news, prices }) => {
                   <div className="flex-grow">
                     <h2 className="text-green-900 title-font text-lg font-bold">{price.timestamp}</h2>
                     <div class="flex">
-                      <span class="text-sm inline-block py-1 px-2.5 mr-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">{price.keywords[0]}</span>
+                      <span class="text-sm inline-block py-1 px-2.5 mr-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-rose-600 text-white rounded">{price.keywords[0]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">Secondary</span> */}
-                      <span class="text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-200 text-gray-900 rounded">{price.keywords[1]}</span>
+                      <span class="text-sm inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-rose-200 text-gray-900 rounded">{price.keywords[1]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red-600 text-white rounded">Danger</span> */}
-                      <span class="text-sm inline-block py-1 px-2.5 ml-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded">{price.keywords[2]}</span>
+                      <span class="text-sm inline-block py-1 px-2.5 ml-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-rose-600 text-white rounded">{price.keywords[2]}</span>
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-400 text-white rounded">Info</span> */}
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-200 text-gray-700 rounded">Light</span> */}
                       {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded">Dark</span> */}
@@ -213,11 +213,11 @@ const Home = ({ news, prices }) => {
                       {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
                       {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/news.jpg' alt="tech" />}
                     </a>
-                    <div class="flex text-white items-center px-6 py-3 bg-gray-800">
+                    <div class="flex text-white items-center px-6 py-3 bg-[#000137]">
                       {/* <svg class="h-6 w-6 text-white fill-current" viewBox="0 0 512 512">
                           <path d="M256 48C150 48 64 136.2 64 245.1v153.3c0 36.3 28.6 65.7 64 65.7h64V288h-85.3v-42.9c0-84.7 66.8-153.3 149.3-153.3s149.3 68.5 149.3 153.3V288H320v176h64c35.4 0 64-29.3 64-65.7V245.1C448 136.2 362 48 256 48z" />
                         </svg> */}
-                      <MdDateRange className='text=white' />
+                      <MdDateRange className='text-rose-600' />
                       <h5 class="mx-3 text-white text-sm font-medium">
                         {post.timestamp}
                         {/* {Date(post.timestamp).toLocaleString('en-us', { month: 'short', year: 'numeric' }).slice(0, 16)} */}
@@ -225,10 +225,10 @@ const Home = ({ news, prices }) => {
                     </div>
                     <div class="p-6">
                       <h2 class="text-gray-900  mb-2 font-semibold text-lg">{post.title}</h2>
-                      <p class="text-gray-700 text-base mb-4">
+                      <p class="text-rose-600 text-base mb-4">
                         {post.content.slice(0, 100).toString().replace(/<[^>]*>/g, '')}
                       </p>
-                      <Link href={`/post/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+                      <Link href={`/post/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-[#000137] text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
                     </div>
                   </div>
                 </div>
