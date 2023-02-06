@@ -28,7 +28,7 @@ const Navbar = () => {
     <>
 
       {/* navbar */}
-      <nav className="relative px-4 py-2 mx-2 mt-1 rounded-md bg-gray-200 flex shadow-md justify-between items-center ">
+      <nav className="relative px-4 py-2 mx-3 my-1 rounded-md bg-gray-200 flex shadow-lg justify-between items-center ">
 
         <a className="text-3xl font-bold leading-none" href="#">
           <img className="block h-10 w-auto " src="/logolight2.png" alt="lets create idea" />
