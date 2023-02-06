@@ -109,7 +109,7 @@ const Home = ({ news, prices }) => {
         </div>
 
 
-        <a className="weatherwidget-io z-10" href="https://forecast7.com/en/27d2073d75/nagaur/" data-label_1="NAGAUR" data-label_2="WEATHER" data-theme="original" data-basecolor="#02055A" >NAGAUR WEATHER</a>
+        <a className="weatherwidget-io z-10" href="https://forecast7.com/en/27d2073d75/nagaur/" data-label_1="NAGAUR" data-label_2="WEATHER" data-theme="original" data-basecolor="#000137" >NAGAUR WEATHER</a>
 
       </div>
       {/* </Link> */}
