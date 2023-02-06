@@ -100,7 +100,7 @@ export default function Contact() {
             <Head>
                 <title>Contac Us</title>
                 <meta name="description" content="Transform your online presence with my expert web development services. I offer custom website and application development for a variety of industries, including e-commerce, social media, and businesses. Utilizing cutting-edge technologies such as React, Django, Next.js, Python, and Tailwind, I deliver high-performance, user-friendly, and visually appealing websites that will help your business grow." />
-                <link rel="icon" href="/favicon2.ico" />
+                <link rel="icon" href="/mandi.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
                 <meta name="keywords" content="tensorcode,tensorcode.io,tensorcode io review,custom web development services,web development for e-commerce,web development for social media,web development for businesses,react web development,django web development,next.js web development,python web development,tailwind web development,custom web application development,professional web development services" />
                 <meta name="robots" content="index, follow"></meta>

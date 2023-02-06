@@ -28,10 +28,10 @@ const Navbar = () => {
     <>
 
       {/* navbar */}
-      <nav className="relative px-4 py-2 bg-gray-900 flex justify-between items-center ">
+      <nav className="relative px-4 py-2 bg-gray-100 flex justify-between items-center ">
 
         <a className="text-3xl font-bold leading-none" href="#">
-          <img className="block h-10 w-auto " src="/logodark2.png" alt="lets create idea" />
+          <img className="block h-10 w-auto " src="/logolight2.png" alt="lets create idea" />
         </a>
 
 

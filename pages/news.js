@@ -22,7 +22,7 @@ const News = ({ news }) => {
             In addition to my educational content, I also offer web development services to help clients build and maintain their own websites.
             I have a wealth of experience in this field and am ready to take on projects of any size.
             Thank you for visiting Tensorcodes. I hope you find my site helpful and informative, and I look forward to working with you in the future." />
-        <link rel="icon" href="/favicon2.ico" />
+        <link rel="icon" href="/mandi.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <meta name="keywords" content="tensorcode,tensorcode.io,tensorcode io review,data science ,machine learning,deep learning, neural networks ,react django ,Rest framework ,tailwind css,nextjs django combination," />
         <meta property="og:title" content="Tensorcodes - Code editor" />

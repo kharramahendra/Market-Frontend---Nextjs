@@ -50,7 +50,7 @@ const Post = ({ post }) => {
 
             <title>{post.title} - Kisan Market</title>
             <meta name="description" content={`${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
-            <link rel="icon" href="/favicon2.ico" />
+            <link rel="icon" href="/mandi.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="robots" content="index, follow"></meta>
             <link rel="canonical" href={`https://kisanbazaar.vercel.app/post/${post.slug}`}></link>
