@@ -84,7 +84,7 @@ const News = ({ news }) => {
                       <p class="text-rose-600 text-base mb-4">
                         {post.content.slice(0, 100).toString().replace(/<[^>]*>/g, '')}
                       </p>
-                      <Link href={`/post/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-[#000137] text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+                      <Link href={`/post/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
                     </div>
                   </div>
                 </div>
