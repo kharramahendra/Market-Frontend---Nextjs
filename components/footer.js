@@ -16,7 +16,7 @@ const Footer = () => {
                 <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <a class="max-w-[160px] flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                         {/* <a href="/" class="mb-6 inline-block max-w-[160px]"> */}
-                            <img src="/logolight.png" alt="logo" class="max-w-full" />
+                            <img src="/logolight2.png" alt="logo" class="max-w-full" />
                         
                     </a>
                     <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Tensorcodes.com
