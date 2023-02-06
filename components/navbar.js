@@ -94,24 +94,24 @@ const Navbar = () => {
           <div>
             <ul>
               <li className="mb-1">
-                <a href='/' className="block p-2 text-sm font-semibold text-gray-800  rounded">Home</a>
+                <a href='/' className="block p-2 text-sm font-semibold text-gray-800  rounded">होम पेज</a>
               </li>
 
               <li className="mb-1">
-                <a href="/sharemarket" className="block p-2 text-sm font-semibold text-gray-800  rounded" >Share Market</a>
+                <a href="/sharemarket" className="block p-2 text-sm font-semibold text-gray-800  rounded" >शेयर बाजार</a>
               </li>
 
               <li className="mb-1">
-                <a href='/mandi' className="block p-2 text-sm font-semibold text-gray-800  rounded" >Mandi Bhav</a>
+                <a href='/mandi' className="block p-2 text-sm font-semibold text-gray-800  rounded" >मंडी भाव</a>
               </li>
               <li className="mb-1">
-                <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >News</a>
+                <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि समाचार</a>
               </li>
               <li className="mb-1 flex">
-                <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >About</a>
+                <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >हमारे बारे में</a>
               </li>
               <li className="mb-1 flex">
-                <a href='/contact' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >Contact Us </a>
+                <a href='/contact' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >संपर्क करें</a>
               </li>
               <li className="mb-1 flex">
                 <a href='/privacy.html' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >Privacy Policy</a>
