@@ -131,7 +131,7 @@ const Home = ({ news, prices }) => {
                   किसानों की तकनीकी <br />
                   और सरकारी समाचार
                 </h1>
-                
+
                 <p className="mb-8 text-xl font-semibold text-gray-200">
                   {/* Welcome to our website,where you can find a collection of data science and machine learning codes,blogs and real-world projects that are designed to solve business problems. */}
                 </p>
@@ -152,7 +152,7 @@ const Home = ({ news, prices }) => {
         <div className="container px-5 py-10 md:py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">मंडी भाव</h1>
-           
+
           </div>
           <div className="flex flex-wrap -m-2">
 
@@ -210,7 +210,7 @@ const Home = ({ news, prices }) => {
               {news.map((post) => {
                 return <div key={post._id} class="mx-2 flex justify-center">
                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                    <a  data-mdb-ripple="true" data-mdb-ripple-color="light">
+                    <a data-mdb-ripple="true" data-mdb-ripple-color="light">
                       {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
                       {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
                       {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/news.jpg' alt="tech" />}
