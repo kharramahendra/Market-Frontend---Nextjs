@@ -104,14 +104,14 @@ const Mandi = ({ prices }) => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-10 md:py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Mandi Bhav</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Lates prices of commodities in various local mandis.</p>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">मंडी भाव</h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">पिछले कुछ दिनों का मंडी भाव</p>
           </div>
           <div className="flex flex-wrap -m-2">
 
             {prices.map((price) => {
               return <Link key={price._id} href={`/post/${price.slug}`}><div className=" cursor-pointer p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div className="h-full flex items-center bg-gray-900  border p-4 rounded-lg">
+                <div className="h-full flex items-center bg-gray-800  border p-4 rounded-lg">
                   {price.image != null && <img alt="bhav" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST / price.image} />}
                   {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="tech" />}
                   {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="tech" />}

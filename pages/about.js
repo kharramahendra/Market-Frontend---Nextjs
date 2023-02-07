@@ -24,10 +24,10 @@ export default function TradingViewWidget() {
                 <link rel="icon" href="/mandi.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
                 <meta name="keywords" content="tensorcode,tensorcode.io,tensorcode io review,data science ,machine learning,deep learning, neural networks ,react django ,Rest framework ,tailwind css,nextjs django combination," />
-                <meta property="og:title" content="Tensorcodes - Code editor" />
+                <meta property="og:title" content="Live Mandi About Us" />
                 <meta property="og:type" content="article" />
-                <meta property="og:url" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
-                <meta property="og:image" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
+                <meta property="og:url" content="/about" />
+                <meta property="og:image" content="/logodark2.jpg" />
                 <meta charSet="utf-8"></meta>
 
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
@@ -42,7 +42,7 @@ export default function TradingViewWidget() {
 
             <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-                    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="about" src="/assets/images/logodark2.jpg" />
+                    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="about" src="/logodark2.jpg" />
                     <div class="text-center lg:w-2/3 w-full">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"></h1>
                         <p class="mb-8 leading-relaxed">हमारी वेबसाइट KisanBazaar.in कृषि व्यवसाय के प्रेरकों और उत्पादकों के लिए एक पूर्ण स्थान है। हमारे प्लेटफार्म पर, हम सभी तरह के कृषि उत्पादों और फसलों के लाइव मूल्यों की जानकारी प्रदान करते हुए किसानों को समय-समय पर अपडेट करते हैं।
