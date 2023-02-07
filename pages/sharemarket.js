@@ -200,13 +200,15 @@ export default function TradingViewWidget() {
 
             {/* OVERALL */}
             {/* <div className='h-screen'> */}
-            <div className="h-[70vh] md:h-screen">
+            <div className="relative h-[70vh] md:h-screen">
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
                     <div className="tradingview-widget-copyright">
                         <a rel="noopener" target="_blank"><span className="blue-text">Share Market</span></a>
                     </div>
                 </div>
+
+                <div className='absolute bottom-3 left-0 h-12 bg-black w-8'></div>
 
             </div>
 
