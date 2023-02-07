@@ -247,7 +247,6 @@ export default function TradingViewWidget() {
 
 
 
-            <iframe id="cphBody_iframeDB" style="padding: 0px; margin: 0px; width: 870px; height: 850px;" src="https://agmarknet.gov.in/searchGraphDisplay.aspx?Tx_Commodity=75&amp;Tx_State=RJ&amp;Tx_District=0&amp;Tx_Market=0&amp;DateFrom=07-Feb-2023&amp;DateTo=07-Feb-2023&amp;Fr_Date=07-Feb-2023&amp;To_Date=07-Feb-2023&amp;Tx_Trend=0&amp;Tx_CommodityHead=Guar&amp;Tx_StateHead=Rajasthan&amp;Tx_DistrictHead=--Select--&amp;Tx_MarketHead=--Select--" frameborder="0" scrolling="auto"></iframe>
         </>
     );
 }
