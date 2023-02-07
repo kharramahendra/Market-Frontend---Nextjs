@@ -139,7 +139,7 @@ export default function TradingViewWidget() {
                         width: "100%",
                         height: "100%",
                         locale: "in",
-                        colorTheme: "dark",
+                        colorTheme: "light",
                         autosize: true,
                         showVolume: true,
                         hideDateRanges: false,

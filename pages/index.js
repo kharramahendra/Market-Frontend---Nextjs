@@ -68,12 +68,20 @@ const Home = ({ news, prices }) => {
                 {JSON.stringify({
                   "symbols": [
                     {
+                      "description": "जौ",
+                      "proName": "NCDEX:BARLEYJPR"
+                    },
+                    {
+                      "description": "सरसों",
+                      "proName": "NCDEX:RMSEED"
+                    },
+                    {
                       "description": "GUAR BIKANER",
                       "proName": "NCDEX:GUARSEDBKN"
                     },
                     {
                       "description": "GUAR JODHPUR",
-                      "proName": "NCDEX:GUARGUM5"
+                      "proName": "NCDEX:GUARSEED10"
                     },
                     {
                       "description": "JEERA JODHPUR",
