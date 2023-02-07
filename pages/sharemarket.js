@@ -137,7 +137,7 @@ export default function TradingViewWidget() {
                         symbols: [["जौ ", "NCDEX:BARLEYJPR|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], ["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["कपास", "NCDEX:COTTON|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"], ["MOONG", "NCDEX:MOONG|3M"], ["GUAR", "NCDEX:GUARSEED10|3M"]],
                         chartOnly: false,
                         width: "100%",
-                        height: "100%",
+                        height: "50%",
                         locale: "in",
                         colorTheme: "light",
                         autosize: true,
