@@ -208,7 +208,7 @@ export default function TradingViewWidget() {
                     </div>
                 </div>
 
-                <div className='absolute bottom-3 left-0 h-12 bg-black w-8'></div>
+                <div className='absolute bottom-12 left-2 h-8 bg-black w-8'></div>
 
             </div>
 
