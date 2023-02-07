@@ -199,7 +199,8 @@ export default function TradingViewWidget() {
 
 
             {/* OVERALL */}
-            <div className="h-[70vh] mb-20">
+            <div className='h-screen'>
+            <div className="h-2/3 mb-20">
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
                     <div className="tradingview-widget-copyright">
@@ -247,7 +248,7 @@ export default function TradingViewWidget() {
 
 <Footer/>
 
-
+</div>
         </>
     );
 }
