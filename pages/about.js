@@ -13,26 +13,22 @@ export default function TradingViewWidget() {
     return (
         <>
             <Head>
-                <title>About Us - Kisan Market</title>
-                <meta name="description" content="Welcome to Tensorcodes! My name is Kalu Ram Kharra and I am the creator and sole operator of this website.
-            I am passionate about using technology to solve real-world problems and help businesses and organizations reach their goals.
-            On my site, you can find a variety of data science and machine learning projects and code examples that I have created. I believe in the
-            power of education and am commited to sharing my knowledge and experience with others.
-            In addition to my educational content, I also offer web development services to help clients build and maintain their own websites.
-            I have a wealth of experience in this field and am ready to take on projects of any size.
-            Thank you for visiting Tensorcodes. I hope you find my site helpful and informative, and I look forward to working with you in the future." />
+                <title>About Us - LiveMandi.in</title>
+                <meta name="description" content="Discover all the latest news, commodity prices, and resources for farmers on our comprehensive agriculture platform. Stay up-to-date with weather forecasts, market trends, and industry developments with our integrated news widget, weather widget, and stock widget. Empowering farmers with the information they need to thrive, all in one place." />
                 <link rel="icon" href="/mandi.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-                <meta name="keywords" content="tensorcode,tensorcode.io,tensorcode io review,data science ,machine learning,deep learning, neural networks ,react django ,Rest framework ,tailwind css,nextjs django combination," />
-                <meta property="og:title" content="Live Mandi About Us" />
-                <meta property="og:type" content="article" />
-                <meta property="og:url" content="/about" />
-                <meta property="og:image" content="/logolight2.png" />
+                <meta name="keywords" content="कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)" />
+                <meta name="robots" content="index, follow"></meta>
+                <link rel="canonical" href="https://livemandi.in/"></link>
+                <meta property="og:title" content="About Us - LiveMandi.in" />
+                <meta property="og:description" content="Discover all the latest news, commodity prices, and resources for farmers on our comprehensive agriculture platform. Stay up-to-date with weather forecasts, market trends, and industry developments with our integrated news widget, weather widget, and stock widget. Empowering farmers with the information they need to thrive, all in one place." />
+                <meta property="og:image" content="/imagelight.jpg" />
+                <meta property="og:url" content="https://livemandi.in/mandi" />
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content="Livemandi.in" />
+                <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
+                <link rel="author" href="https://livemandi.in/"></link>
                 <meta charSet="utf-8"></meta>
-
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                    crossOrigin="anonymous"></script>
-
             </Head>
             <Navbar />
 

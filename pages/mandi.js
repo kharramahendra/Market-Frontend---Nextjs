@@ -72,26 +72,22 @@ const Mandi = ({ prices }) => {
     <>
 
       <Head>
-        <title>Aaj ke Mandi Bhav</title>
-        <meta name="description" content="Welcome to Tensorcodes! My name is Kalu Ram Kharra and I am the creator and sole operator of this website.
-            I am passionate about using technology to solve real-world problems and help businesses and organizations reach their goals.
-            On my site, you can find a variety of data science and machine learning projects and code examples that I have created. I believe in the
-            power of education and am commited to sharing my knowledge and experience with others.
-            In addition to my educational content, I also offer web development services to help clients build and maintain their own websites.
-            I have a wealth of experience in this field and am ready to take on projects of any size.
-            Thank you for visiting Tensorcodes. I hope you find my site helpful and informative, and I look forward to working with you in the future." />
+        <title>मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव</title>
+        <meta name="description" content="हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है। हम हर दिन मण्डी भाव की ताजा जानकारी अपडेट करते हैं, ताकि किसान समय पर अपने फसलों के लिए सही फायदेमंद मार्केट की तलाश कर सकें।" />
         <link rel="icon" href="/mandi.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-        <meta name="keywords" content="tensorcode,tensorcode.io,tensorcode io review,data science ,machine learning,deep learning, neural networks ,react django ,Rest framework ,tailwind css,nextjs django combination," />
-        <meta property="og:title" content="Tensorcodes - Code editor" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
+        <meta name="keywords" content="कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)" />
+        <meta name="robots" content="index, follow"></meta>
+        <link rel="canonical" href="https://livemandi.in/"></link>
+        <meta property="og:title" content="मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव" />
+        <meta property="og:description" content="हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है। हम हर दिन मण्डी भाव की ताजा जानकारी अपडेट करते हैं, ताकि किसान समय पर अपने फसलों के लिए सही फायदेमंद मार्केट की तलाश कर सकें।" />
+        <meta property="og:image" content="/imagelight.jpg" />
+        <meta property="og:url" content="https://livemandi.in/mandi" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Livemandi.in" />
+        <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
+        <link rel="author" href="https://livemandi.in/"></link>
         <meta charSet="utf-8"></meta>
-
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-          crossOrigin="anonymous"></script>
-
       </Head>
 
       <Navbar />

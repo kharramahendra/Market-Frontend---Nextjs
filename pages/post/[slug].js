@@ -48,22 +48,22 @@ const Post = ({ post }) => {
     return (<>
         <Head>
 
-            <title>{post.title} - Kisan Market</title>
+            <title>{post.title} - Live Mandi</title>
             <meta name="description" content={`${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
             <link rel="icon" href="/mandi.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="robots" content="index, follow"></meta>
             <link rel="canonical" href={`https://kisanbazaar.vercel.app/post/${post.slug}`}></link>
-            <meta name="keywords" content={`tensorcode,tensorcode.io,tensorcode io review,${post.keywords.toString()} ,real-world machine learning applications,data science case studies,machine learning projects for beginners,problem-solving with machine learning,real-world data science projects,machine learning in business,industry specific machine learning,machine learning for social good,machine learning in healthcare`} />
-            <meta property="og:title" content={`${post.title} - Kisan Market`} />
-            <meta property="og:description" content={`${post.category} ${post.sub_category} ${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
+            <meta name="keywords" content={`timeofrajasthan,${post.keywords.toString()} ,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)`} />
+            <meta property="og:title" content={`${post.title} - Live Mandi`} />
+            <meta property="og:description" content={`${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
             <meta property="og:type" content="article" />
             <meta property="og:url" content={`https://kisanbazaar.vercel.app/post/${post.slug}`} />
             {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST / post.image}}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />}
             <meta charSet="utf-8"></meta>
-            <meta property="og:site_name" content="Tensorcodes posts" />
+            <meta property="og:site_name" content="Live Mandi Post" />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://tensorcodes.com/about"></link>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"

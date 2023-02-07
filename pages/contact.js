@@ -98,26 +98,22 @@ export default function Contact() {
         <>
 
             <Head>
-                <title>Contac Us</title>
-                <meta name="description" content="Transform your online presence with my expert web development services. I offer custom website and application development for a variety of industries, including e-commerce, social media, and businesses. Utilizing cutting-edge technologies such as React, Django, Next.js, Python, and Tailwind, I deliver high-performance, user-friendly, and visually appealing websites that will help your business grow." />
+                <title>Contact Us - LiveMandi.in</title>
+                <meta name="description" content="Discover all the latest news, commodity prices, and resources for farmers on our comprehensive agriculture platform. Stay up-to-date with weather forecasts, market trends, and industry developments with our integrated news widget, weather widget, and stock widget. Empowering farmers with the information they need to thrive, all in one place." />
                 <link rel="icon" href="/mandi.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-                <meta name="keywords" content="tensorcode,tensorcode.io,tensorcode io review,custom web development services,web development for e-commerce,web development for social media,web development for businesses,react web development,django web development,next.js web development,python web development,tailwind web development,custom web application development,professional web development services" />
+                <meta name="keywords" content="कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)" />
                 <meta name="robots" content="index, follow"></meta>
-                <link rel="canonical" href="https://tensorcodes.com/services"></link>
-                <meta property="og:title" content="Professional Web Development Services | High-Performance, User-Friendly Websites for Business Growth" />
-                <meta property="og:description" content="Transform your online presence with my expert web development services. I offer custom website and application development for a variety of industries, including e-commerce, social media, and businesses. Utilizing cutting-edge technologies such as React, Django, Next.js, Python, and Tailwind, I deliver high-performance, user-friendly, and visually appealing websites that will help your business grow." />
-                <meta property="og:image" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
-                <meta property="og:url" content="https://tensorcodes.com/services" />
+                <link rel="canonical" href="https://livemandi.in/"></link>
+                <meta property="og:title" content="Contact Us - LiveMandi.in" />
+                <meta property="og:description" content="Discover all the latest news, commodity prices, and resources for farmers on our comprehensive agriculture platform. Stay up-to-date with weather forecasts, market trends, and industry developments with our integrated news widget, weather widget, and stock widget. Empowering farmers with the information they need to thrive, all in one place." />
+                <meta property="og:image" content="/imagelight.jpg" />
+                <meta property="og:url" content="https://livemandi.in/mandi" />
                 <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="www.tensorcodes.com/services" />
+                <meta property="og:site_name" content="Livemandi.in" />
                 <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
-                <link rel="author" href="https://tensorcodes.com/about"></link>
+                <link rel="author" href="https://livemandi.in/"></link>
                 <meta charSet="utf-8"></meta>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                    crossorigin="anonymous"></script>
-
-
             </Head>
 
 
@@ -153,9 +149,9 @@ export default function Contact() {
                                             class="border-[f0f0f0] w-full rounded border py-3 px-[14px] text-base text-[#1a237e] outline-none focus:border-primary focus-visible:shadow-none" required />
                                     </div>
                                     <div class="form-group mb-6">
-                                            <input value={phone} onChange={handleChange} id="phone" name="phone" type="text" placeholder="Your Phone"
-                                                class="border-[f0f0f0] w-full rounded border py-3 px-[14px] text-base text-[#1a237e] outline-none focus:border-primary focus-visible:shadow-none" required />
-                                        </div>
+                                        <input value={phone} onChange={handleChange} id="phone" name="phone" type="text" placeholder="Your Phone"
+                                            class="border-[f0f0f0] w-full rounded border py-3 px-[14px] text-base text-[#1a237e] outline-none focus:border-primary focus-visible:shadow-none" required />
+                                    </div>
                                     <div class="form-group mb-6">
                                         <input value={email} onChange={handleChange} id="email" name="email" type="email" placeholder="Your Email"
                                             class="border-[f0f0f0] w-full rounded border py-3 px-[14px] text-base text-[#1a237e] outline-none focus:border-primary focus-visible:shadow-none" required />
