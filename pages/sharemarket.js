@@ -208,11 +208,13 @@ export default function TradingViewWidget() {
                     </div>
                 </div>
 
-                <div className='absolute bottom-12 left-2 h-8 bg-black w-8'></div>
+                <div className='absolute bottom-15 left-2 h-10 bg-black w-10 rounded-md'>
+                    <img className="block h-full w-full" src="/bglogoblack.png" alt="lets create idea" />
+                </div>
 
             </div>
 
-            <Footer/>
+            <Footer />
 
             {/* JODHPUR MANDI */}
             {/* <div className="h-screen my-20">
@@ -252,7 +254,7 @@ export default function TradingViewWidget() {
 
 
 
-{/* </div> */}
+            {/* </div> */}
         </>
     );
 }
