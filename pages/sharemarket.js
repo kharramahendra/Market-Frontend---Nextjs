@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Navbar from '@/components/navbar';
 let tvScriptLoadingPromise;
 import Head from 'next/head'
+import Footer from '@/components/footer';
 
 export default function TradingViewWidget() {
     const onLoadScriptRef = useRef();
@@ -198,7 +199,7 @@ export default function TradingViewWidget() {
 
 
             {/* OVERALL */}
-            <div className="h-screen mb-20">
+            <div className="h-[70vh] mb-20">
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
                     <div className="tradingview-widget-copyright">
@@ -244,7 +245,7 @@ export default function TradingViewWidget() {
 
 
 
-
+<Footer/>
 
 
         </>
