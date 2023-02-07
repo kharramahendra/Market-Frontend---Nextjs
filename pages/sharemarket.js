@@ -207,6 +207,8 @@ export default function TradingViewWidget() {
                         <a rel="noopener" target="_blank"><span className="blue-text">Share Market</span></a>
                     </div>
                 </div>
+
+                <Footer/>
             </div>
 
 
@@ -246,7 +248,7 @@ export default function TradingViewWidget() {
 
 
 
-<Footer/>
+
 
 {/* </div> */}
         </>
