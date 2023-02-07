@@ -200,7 +200,7 @@ export default function TradingViewWidget() {
 
             {/* OVERALL */}
             {/* <div className='h-screen'> */}
-            <div className="h-screen">
+            <div className="h-[70vh]">
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
                     <div className="tradingview-widget-copyright">
@@ -208,9 +208,9 @@ export default function TradingViewWidget() {
                     </div>
                 </div>
 
-                <Footer/>
             </div>
 
+            <Footer/>
 
             {/* JODHPUR MANDI */}
             {/* <div className="h-screen my-20">
