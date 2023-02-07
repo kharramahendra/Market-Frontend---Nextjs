@@ -209,7 +209,7 @@ export default function TradingViewWidget() {
                 </div>
 
                 {/* <div className='absolute bottom-15 left-2 h-10 bg-black w-10 rounded-md'> */}
-                    <img className="absolute bottom-15 left-2 h-10 bg-black w-10 rounded-md" src="/bglogoblack.jpg" alt="lets create idea" />
+                    <img className="absolute bottom-16 left-2 h-10 bg-black w-10 rounded-md" src="/bglogoblack.jpg" alt="lets create idea" />
                 {/* </div> */}
 
             </div>
