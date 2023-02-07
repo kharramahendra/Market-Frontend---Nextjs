@@ -61,7 +61,7 @@ const News = ({ news }) => {
                 return <div key={post._id} class="mx-2 flex justify-center">
                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
                     <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                      {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={process.env.NEXT_PUBLIC_HOST / post.image} alt="tech" />}
+                      {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
                       {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
                       {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/news.jpg' alt="tech" />}
                     </a>

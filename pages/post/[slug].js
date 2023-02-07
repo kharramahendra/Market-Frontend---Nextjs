@@ -59,7 +59,7 @@ const Post = ({ post }) => {
             <meta property="og:description" content={`${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
             <meta property="og:type" content="article" />
             <meta property="og:url" content={`https://kisanbazaar.vercel.app/post/${post.slug}`} />
-            {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST / post.image}}`} />}
+            {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="https://kisanbazaar.vercel.app/assets/images/market.jpg" />}
             <meta charSet="utf-8"></meta>
