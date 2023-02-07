@@ -198,7 +198,7 @@ export default function TradingViewWidget() {
 
 
             {/* OVERALL */}
-            <div className="h-screen mb-20">
+            <div className="max-h-screen mb-20">
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
                     <div className="tradingview-widget-copyright">
