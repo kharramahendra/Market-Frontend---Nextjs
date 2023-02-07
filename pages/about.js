@@ -22,7 +22,7 @@ export default function TradingViewWidget() {
                 <link rel="canonical" href="https://livemandi.in/"></link>
                 <meta property="og:title" content="About Us - LiveMandi.in" />
                 <meta property="og:description" content="Discover all the latest news, commodity prices, and resources for farmers on our comprehensive agriculture platform. Stay up-to-date with weather forecasts, market trends, and industry developments with our integrated news widget, weather widget, and stock widget. Empowering farmers with the information they need to thrive, all in one place." />
-                <meta property="og:image" content="/imagelight.jpg" />
+                <meta property="og:image" content="https://kisanbazaar.vercel.app/imagelight.jpg" />
                 <meta property="og:url" content="https://livemandi.in/mandi" />
                 <meta property="og:type" content="website" />
                 <meta property="og:site_name" content="Livemandi.in" />
