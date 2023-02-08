@@ -133,7 +133,7 @@ const Mandi = ({ prices }) => {
           </div>
         </div>
       </section>
-      <div className='h-screen'>
+      <div className='h-[50vh]'>
       <iframe id="cphBody_iframeDB" className='w-full h-full' src="https://agmarknet.gov.in/MarketWiseGraph/MarkArrivalGrp.aspx" frameborder="0" scrolling="auto"></iframe>
       </div> 
       <Footer />
