@@ -61,7 +61,7 @@ const Post = ({ post }) => {
             <meta property="og:url" content={`https://kisanbazaar.vercel.app/post/${post.slug}`} />
             {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
-            {post.image == null && post.image_url == '' && <meta property="og:image" content="https://kisanbazaar.vercel.app/assets/images/market.jpg" />}
+            {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />}
             <meta charSet="utf-8"></meta>
             <meta property="og:site_name" content="Live Mandi Post" />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
