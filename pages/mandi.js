@@ -134,7 +134,7 @@ const Mandi = ({ prices }) => {
         </div>
       </section>
       {/* <div className='h-[50vh]'> */}
-      <iframe id="cphBody_iframeDB" className='w-full h-[300px]' src="https://agmarknet.gov.in/MarketWiseGraph/MarkArrivalGrp.aspx" frameborder="0" scrolling="auto"></iframe>
+      <iframe id="cphBody_iframeDB" className='w-full h-[300px]' src="https://agmarknet.gov.in/MarketWiseGraph/MarkArrivalGrp.aspx" frameborder="0" scrolling=""></iframe>
       {/* </div>  */}
       {/* <div className='h-[50vh]'> */}
       <iframe id="cphBody_iframeDB" className='w-full h-[300px]'  src="https://agmarknet.gov.in/CommodityWiseGraph/ComPRICEGrp.aspx" frameborder="0" scrolling="auto"></iframe>
