@@ -186,12 +186,12 @@ export default function Contact() {
                                             </div>
                                             <div class="grow ml-6">
                                                 <p class="font-bold mb-1">Technical support</p>
-                                                <p class="text-gray-500">support@example.com</p>
-                                                <p class="text-gray-500">+1 234-567-89</p>
+                                                <p class="text-gray-500">kharrakalu@gmail.com</p>
+                                                <p class="text-gray-500">+91 7425967649</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+                                    {/* <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                                         <div class="flex items-start">
                                             <div class="shrink-0">
                                                 <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -209,7 +209,7 @@ export default function Contact() {
                                                 <p class="text-gray-500">+1 234-567-89</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                                         <div class="flex align-start">
                                             <div class="shrink-0">
@@ -223,9 +223,9 @@ export default function Contact() {
                                                 </div>
                                             </div>
                                             <div class="grow ml-6">
-                                                <p class="font-bold mb-1">Press</p>
-                                                <p class="text-gray-500">press@example.com</p>
-                                                <p class="text-gray-500">+1 234-567-89</p>
+                                                <p class="font-bold mb-1">Content related</p>
+                                                <p class="text-gray-500">mukeshdhaka@gmail.com</p>
+                                                <p class="text-gray-500">+91 8459665696</p>
                                             </div>
                                         </div>
                                     </div>
@@ -243,8 +243,8 @@ export default function Contact() {
                                             </div>
                                             <div class="grow ml-6">
                                                 <p class="font-bold mb-1">Bug report</p>
-                                                <p class="text-gray-500">bugs@example.com</p>
-                                                <p class="text-gray-500">+1 234-567-89</p>
+                                                <p class="text-gray-500">kharrakalu@gmail.com</p>
+                                                <p class="text-gray-500">+91 7425967649</p>
                                             </div>
                                         </div>
                                     </div>
