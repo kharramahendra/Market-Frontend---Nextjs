@@ -135,7 +135,7 @@ export default function TradingViewWidget() {
                 // }
                 if (document.getElementById('tradingview_549eb') && 'TradingView' in window) {
                     new window.TradingView.MediumWidget({
-                        symbols: [["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"],["जौ ", "NCDEX:BARLEYJPR|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"], ["MOONG", "NCDEX:MOONG|3M"], ["GUAR", "NCDEX:GUARSEED10|3M"]],
+                        symbols: [["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"], ["जौ ", "NCDEX:BARLEYJPR|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"], ["MOONG", "NCDEX:MOONG|3M"], ["GUAR", "NCDEX:GUARSEED10|3M"]],
                         chartOnly: false,
                         width: "100%",
                         height: "100%",
@@ -188,6 +188,8 @@ export default function TradingViewWidget() {
                 <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
                 <link rel="author" href="https://livemandi.in/"></link>
                 <meta charSet="utf-8"></meta>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+                    crossorigin="anonymous"></script>
             </Head>
             <Navbar />
 
@@ -209,7 +211,7 @@ export default function TradingViewWidget() {
                 </div>
 
                 {/* <div className='absolute bottom-15 left-2 h-10 bg-black w-10 rounded-md'> */}
-                    <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="lets create idea" />
+                <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="lets create idea" />
                 {/* </div> */}
 
             </div>
