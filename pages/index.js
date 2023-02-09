@@ -253,7 +253,7 @@ const Home = ({ news, prices }) => {
 
 
       <div>
-        <rssapp-imageboard id="toqVbAD3l5eo7qIF"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>
+        {/* <rssapp-imageboard id="toqVbAD3l5eo7qIF"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script> */}
 
       </div>
       <Footer />

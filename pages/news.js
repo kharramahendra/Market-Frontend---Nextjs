@@ -35,7 +35,7 @@ const News = ({ news }) => {
       </Head>
 
       <Navbar />
-      <rssapp-ticker id="toqVbAD3l5eo7qIF"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
+      {/* <rssapp-ticker id="toqVbAD3l5eo7qIF"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script> */}
 
 
       {/* <!-- ====== news Section --> */}
@@ -100,7 +100,7 @@ const News = ({ news }) => {
 
 
 
-      <rssapp-wall id="toqVbAD3l5eo7qIF"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+      {/* <rssapp-wall id="toqVbAD3l5eo7qIF"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script> */}
 
 
 
