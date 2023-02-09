@@ -108,10 +108,10 @@ const Navbar = () => {
                 <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि समाचार</a>
               </li>
               <li className="mb-1 flex">
-                <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >हमारे बारे में</a>
+                <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >About Us</a>
               </li>
               <li className="mb-1 flex">
-                <a href='/contact' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >संपर्क करें</a>
+                <a href='/contact' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >Contact Us</a>
               </li>
               <li className="mb-1 flex">
                 <a href='/privacy.html' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >Privacy Policy</a>
