@@ -190,7 +190,9 @@ const Post = ({ post }) => {
                         {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
                             {post.title}
                         </h2>}
-
+                        {post.category != 'News' && <p class="font-sans my-2 lg:my-4 text-xl font-bold  text-gray-900 sm:text-2xl ">
+                        हमारी वेबसाइट पर आपको मूंग, मोठ, चना, जीरा, गवार, ईसबगोल, बाजरा, सरसों, मूंगफली, गेहूं, जौ, ज्वार, तारामीरा आदि अनाजों के दाम मिल जाएंगे
+                        </p>}
                         <span
                             class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"
                         ></span>
