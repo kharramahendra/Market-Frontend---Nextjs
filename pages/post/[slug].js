@@ -208,7 +208,7 @@ const Post = ({ post }) => {
 
 
 <div className='h-screen w-full'>
-        <script src="https://visualize.data.gov.in/?inst=9ef84268-d588-465a-a308-a864a43d0070&embed=1" ></script>
+        <iframe src="https://visualize.data.gov.in/?inst=1d53bb05-800c-44a6-bd20-ae6cb4ee4d56&vid=108140&embed=1" ></iframe>
         </div>
 
 
