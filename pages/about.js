@@ -73,11 +73,11 @@ export default function TradingViewWidget() {
                     <div class="flex flex-wrap -m-4">
                         <div class="p-4 lg:w-1/2">
                             <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200" />
+                                <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/assets/images/kharra.jpg'" />
                                 <div class="flex-grow sm:pl-8">
                                     <h2 class="title-font font-medium text-lg text-gray-900">Kalu Ram Kharra</h2>
                                     <h3 class="text-gray-500 mb-3">Web Developer</h3>
-                                    <p class="mb-4">Empowering the digital world, one line of code at a time.</p>
+                                    <p class="mb-4">Empowering the digital world,<br/> one line of code at a time.</p>
                                     <span class="inline-flex">
                                         <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
                                             <BsLinkedin />
@@ -97,14 +97,14 @@ export default function TradingViewWidget() {
                         </div>
                         <div class="p-4 lg:w-1/2">
                             <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201" />
+                                <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/assets/images/dhaka.jpg'" />
                                 <div class="flex-grow sm:pl-8">
                                     <h2 class="title-font font-medium text-lg text-gray-900">Mukesh Dhaka</h2>
                                     <h3 class="text-gray-500 mb-3">Content creator</h3>
-                                    <p class="mb-4">Crafting stories for the digital age, with passion and creativity.</p>
+                                    <p class="mb-4">Crafting stories for the digital age,<br/> with passion and creativity.</p>
                                     <span class="inline-flex">
                                         <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
-                                            <BsLinkedin />
+                                            <BsLinkedin/>
                                         </a>
                                         <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
