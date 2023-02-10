@@ -196,7 +196,7 @@ const Home = ({ news, prices }) => {
               <div class="mx-auto max-w-[510px] text-center ">
                 <h3
                   class="my-4 text-lg font-semibold text-gray-900 sm:text-xl"
-                >Kisan Market
+                >
                 </h3>
 
 
@@ -252,10 +252,10 @@ const Home = ({ news, prices }) => {
 
 
 
-      <div>
+      {/* <div>
         <rssapp-imageboard id="tSYzqV3h4jtnTocK"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>
 
-      </div>
+      </div> */}
       <Footer />
 
     </>
