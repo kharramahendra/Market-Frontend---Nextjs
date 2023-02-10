@@ -70,14 +70,14 @@ export default function TradingViewWidget() {
                         <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
                         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">A small group of dedicated individuals, making big things happen.</p>
                     </div>
-                    <div class="flex flex-wrap -m-4">
+                    <div class="flex flex-wrap mx-auto">
                         <div class="p-4 lg:w-1/2">
                             <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                                 <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/assets/images/kharra.png" />
                                 <div class="flex-grow sm:pl-8">
                                     <h2 class="title-font font-medium text-lg text-gray-900">Kalu Ram Kharra</h2>
                                     <h3 class="text-gray-500 mb-3">Web Developer</h3>
-                                    <p class="mb-4">Empowering the digital world,<br/> one line of code at a time.</p>
+                                    <p class="mb-4">Empowering the digital world,<br /> one line of code at a time.</p>
                                     <span class="inline-flex">
                                         <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
                                             <BsLinkedin />
@@ -101,10 +101,10 @@ export default function TradingViewWidget() {
                                 <div class="flex-grow sm:pl-8">
                                     <h2 class="title-font font-medium text-lg text-gray-900">Mukesh Dhaka</h2>
                                     <h3 class="text-gray-500 mb-3">Content creator</h3>
-                                    <p class="mb-4">Crafting stories for the digital age,<br/> with passion and creativity.</p>
+                                    <p class="mb-4">Crafting stories for the digital age,<br /> with passion and creativity.</p>
                                     <span class="inline-flex">
                                         <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/mukesh-dhaka-54148721b' target="_blank">
-                                            <BsLinkedin/>
+                                            <BsLinkedin />
                                         </a>
                                         {/* <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
