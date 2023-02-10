@@ -224,7 +224,7 @@ export default function Contact() {
                                             </div>
                                             <div class="grow ml-6">
                                                 <p class="font-bold mb-1">Content related</p>
-                                                <p class="text-gray-500">mukeshdhaka@gmail.com</p>
+                                                <p class="text-gray-500">mukeshdhaka673@gmail.com</p>
                                                 <p class="text-gray-500">+91 8459665696</p>
                                             </div>
                                         </div>
