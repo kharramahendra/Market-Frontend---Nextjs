@@ -167,9 +167,9 @@ export default function TradingViewWidget() {
                                         <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/mukesh-dhaka-54148721b' target="_blank">
                                             <BsLinkedin />
                                         </a>
-                                        {/* <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
+                                        <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
-                                        </a> */}
+                                        </a>
                                         <a class="ml-2 text-blue-700" href='https://www.facebook.com/rakeshchoudhary.teja' target="_blank">
                                             <BsFacebook />
                                         </a>
