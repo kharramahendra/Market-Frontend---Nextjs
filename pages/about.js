@@ -85,7 +85,7 @@ export default function TradingViewWidget() {
                                         <a class="ml-2 text-gray-500" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
                                         </a>
-                                        <a class="text-gray-500" href='https://www.facebook.com/kaluram.kharra' target="_blank">
+                                        <a class="ml-2 text-gray-500" href='https://www.facebook.com/kaluram.kharra' target="_blank">
                                             <BsFacebook />
                                         </a>
                                         <a class="ml-2 text-gray-500" href='https://www.instagram.com/kharra_kaluram/' target="_blank">
@@ -109,7 +109,7 @@ export default function TradingViewWidget() {
                                         <a class="ml-2 text-gray-500" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
                                         </a>
-                                        <a class="text-gray-500" href='https://www.facebook.com/kaluram.kharra' target="_blank">
+                                        <a class="ml-2 text-gray-500" href='https://www.facebook.com/kaluram.kharra' target="_blank">
                                             <BsFacebook />
                                         </a>
                                         <a class="ml-2 text-gray-500" href='https://www.instagram.com/kharra_kaluram/' target="_blank">
