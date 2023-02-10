@@ -164,7 +164,7 @@ export default function Contact() {
 
                                     <div>
                                         <a onClick={sendMessage}
-                                            class="block w-full rounded-md border bg-gradient-to-tr from-[#1a237e] to-[#323fcb] shadow-[#1a237e]/25 hover:bg-blue-500 p-4 text-center text-base font-semibold text-white transition ">
+                                            class="block w-full rounded-md border bg-gradient-to-tr from-pink-500 to-rose-600 shadow-[#1a237e]/25 hover:bg-pink-600 p-4 text-center text-base font-semibold text-white transition ">
                                             Send Message
                                         </a>
                                     </div>
@@ -175,7 +175,7 @@ export default function Contact() {
                                     <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                                         <div class="flex items-start">
                                             <div class="shrink-0">
-                                                <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                                <div class="p-4 bg-pink-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="headset" class="w-5 text-white"
                                                         role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                         <path fill="currentColor"
@@ -213,7 +213,7 @@ export default function Contact() {
                                     <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                                         <div class="flex align-start">
                                             <div class="shrink-0">
-                                                <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                                <div class="p-4 bg-pink-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="newspaper"
                                                         class="w-5 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                                                         <path fill="currentColor"
@@ -232,7 +232,7 @@ export default function Contact() {
                                     <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                                         <div class="flex align-start">
                                             <div class="shrink-0">
-                                                <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                                                <div class="p-4 bg-pink-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                                                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bug" class="w-5 text-white"
                                                         role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                         <path fill="currentColor"
