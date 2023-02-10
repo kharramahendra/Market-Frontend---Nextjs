@@ -138,7 +138,7 @@ export default function TradingViewWidget() {
                                 <div class="flex-grow sm:pl-8">
                                     <h2 class="title-font font-medium text-lg text-gray-900">Kalu Ram Kharra</h2>
                                     <h3 class="text-gray-500 mb-3">Web Developer</h3>
-                                    <p class="mb-4">Empowering the digital world,<br /> one line of code at a time.</p>
+                                    <p class="mb-4">Empowering the digital world,one line of code at a time.</p>
                                     <span class="inline-flex">
                                         <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
                                             <BsLinkedin />
@@ -162,14 +162,14 @@ export default function TradingViewWidget() {
                                 <div class="flex-grow sm:pl-8">
                                     <h2 class="title-font font-medium text-lg text-gray-900">Mukesh Dhaka</h2>
                                     <h3 class="text-gray-500 mb-3">Content Creator</h3>
-                                    <p class="mb-4">Crafting stories for the digital age,<br /> with passion and creativity.</p>
+                                    <p class="mb-4">Crafting stories for the digital age, with passion and creativity.</p>
                                     <span class="inline-flex">
                                         <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/mukesh-dhaka-54148721b' target="_blank">
                                             <BsLinkedin />
                                         </a>
-                                        <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
+                                        {/* <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
-                                        </a>
+                                        </a> */}
                                         <a class="ml-2 text-blue-700" href='https://www.facebook.com/rakeshchoudhary.teja' target="_blank">
                                             <BsFacebook />
                                         </a>
