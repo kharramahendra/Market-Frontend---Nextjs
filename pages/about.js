@@ -79,16 +79,16 @@ export default function TradingViewWidget() {
                                     <h3 class="text-gray-500 mb-3">Web Developer</h3>
                                     <p class="mb-4">Empowering the digital world, one line of code at a time.</p>
                                     <span class="inline-flex">
-                                        <a class="ml-2 text-gray-500" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
+                                        <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
                                             <BsLinkedin />
                                         </a>
-                                        <a class="ml-2 text-gray-500" href='https://github.com/kaluramkharra' target="_blank">
+                                        <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
                                         </a>
-                                        <a class="ml-2 text-gray-500" href='https://www.facebook.com/kaluram.kharra' target="_blank">
+                                        <a class="ml-2 text-blue-700" href='https://www.facebook.com/kaluram.kharra' target="_blank">
                                             <BsFacebook />
                                         </a>
-                                        <a class="ml-2 text-gray-500" href='https://www.instagram.com/kharra_kaluram/' target="_blank">
+                                        <a class="ml-2 text-pink-600" href='https://www.instagram.com/kharra_kaluram/' target="_blank">
                                             <BsInstagram />
                                         </a>
                                     </span>
@@ -103,16 +103,16 @@ export default function TradingViewWidget() {
                                     <h3 class="text-gray-500 mb-3">Content creator</h3>
                                     <p class="mb-4">Crafting stories for the digital age, with passion and creativity.</p>
                                     <span class="inline-flex">
-                                        <a class="ml-2 text-gray-500" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
+                                        <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
                                             <BsLinkedin />
                                         </a>
-                                        <a class="ml-2 text-gray-500" href='https://github.com/kaluramkharra' target="_blank">
+                                        <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
                                         </a>
-                                        <a class="ml-2 text-gray-500" href='https://www.facebook.com/kaluram.kharra' target="_blank">
+                                        <a class="ml-2 text-blue-700" href='https://www.facebook.com/kaluram.kharra' target="_blank">
                                             <BsFacebook />
                                         </a>
-                                        <a class="ml-2 text-gray-500" href='https://www.instagram.com/kharra_kaluram/' target="_blank">
+                                        <a class="ml-2 text-pink-600" href='https://www.instagram.com/kharra_kaluram/' target="_blank">
                                             <BsInstagram />
                                         </a>
                                     </span>
