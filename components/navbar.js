@@ -56,7 +56,7 @@ const Navbar = () => {
           <li><a href="/sharemarket" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Share Market</a></li>
           <li><a href="/mandi" className="text-sm text-gray-800 hover:text-gray-900 font-bold">Mandi Bhav</a></li>
           {/* <li><Link href={'/codes'}><a class="text-sm text-gray-800 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
-          <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >News</a></li>
+          {/* <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >News</a></li> */}
           <li><a href="/about" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">About</a></li>
           <li><a href="/contact" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Contact Us</a></li>
           <li><a href="/privacy.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Privacy policy</a></li>
@@ -104,9 +104,9 @@ const Navbar = () => {
               <li className="mb-1">
                 <a href='/mandi' className="block p-2 text-sm font-semibold text-gray-800  rounded" >मंडी भाव</a>
               </li>
-              <li className="mb-1">
+              {/* <li className="mb-1">
                 <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि समाचार</a>
-              </li>
+              </li> */}
               <li className="mb-1 flex">
                 <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >About Us</a>
               </li>
