@@ -253,7 +253,9 @@ const Home = ({ news, prices }) => {
 
 
 
-
+      <div className='h-screen w-full'>
+        <iframe height="100% " width="100%" src="https://visualize.data.gov.in/?inst=9ef84268-d588-465a-a308-a864a43d0070&vid=108221&embed=1" ></iframe>
+        </div>
 
 
       {/* <div>
