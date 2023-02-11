@@ -136,11 +136,11 @@ const Mandi = ({ prices }) => {
         </div>
       </section>
 
-      <div className='h-screen w-full'>
+      {/* <div className='h-screen w-full'>
         <iframe height="100% " width="100%" src="https://visualize.data.gov.in/" ></iframe>
         </div>
 
-
+ */}
 
       <Footer/>
 
