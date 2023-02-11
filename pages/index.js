@@ -184,6 +184,10 @@ const Home = ({ news, prices }) => {
             })}
 
           </div>
+
+          <div className="flex flex-col text-center w-full mb-8">
+          <Link href={`/mandi`}><button class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक</button></Link>
+          </div>
         </div>
       </section>
 
