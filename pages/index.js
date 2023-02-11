@@ -185,9 +185,9 @@ const Home = ({ news, prices }) => {
 
           </div>
 
-          <div className="flex flex-col text-center mb-8">
+          {/* <div className="flex flex-col text-center mb-8">
           <Link href={`/mandi`}><button class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक</button></Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -253,9 +253,9 @@ const Home = ({ news, prices }) => {
 
 
 
-      <div className='h-screen w-full'>
+      {/* <div className='h-screen w-full'>
         <iframe height="100% " width="100%" src="https://visualize.data.gov.in/?inst=9ef84268-d588-465a-a308-a864a43d0070&vid=108221&embed=1" ></iframe>
-        </div>
+        </div> */}
 
 
       {/* <div>
