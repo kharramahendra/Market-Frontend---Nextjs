@@ -258,10 +258,10 @@ const Home = ({ news, prices }) => {
         </div> */}
 
 
-      {/* <div>
-        <rssapp-imageboard id="tSYzqV3h4jtnTocK"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>
-
-      </div> */}
+      <div>
+        {/* <rssapp-imageboard id="tSYzqV3h4jtnTocK"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script> */}
+        <iframe width="600" height="700" src="https://rss.app/embed/v1/feed/tkKdUMdkPHQo3jJp" frameborder="0"></iframe>
+      </div>
       <Footer />
 
     </>
