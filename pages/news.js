@@ -36,7 +36,7 @@ const News = ({ news }) => {
 
       <Navbar />
 
-      <iframe width="1200" height="60" src="https://rss.app/embed/v1/ticker/tkKdUMdkPHQo3jJp" frameborder="0"></iframe>
+      <rssapp-ticker id="tkKdUMdkPHQo3jJp"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
       {/* <rssapp-ticker id="toqVbAD3l5eo7qIF"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script> */}
 
 
@@ -46,10 +46,10 @@ const News = ({ news }) => {
           <div class="flex flex-wrap justify-center">
             <div class="w-full px-4">
               <div class="mx-auto max-w-[510px] text-center ">
-                <h3
+                {/* <h3
                   class="my-2 text-lg font-semibold text-gray-900 sm:text-xl"
                 >Kisan Market
-                </h3>
+                </h3> */}
 
 
               </div>
@@ -101,7 +101,7 @@ const News = ({ news }) => {
 
 
 
-      <iframe width="900" height="1600" src="https://rss.app/embed/v1/wall/tkKdUMdkPHQo3jJp" frameborder="0"></iframe>
+      <rssapp-wall id="tkKdUMdkPHQo3jJp"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
       {/* <rssapp-wall id="toqVbAD3l5eo7qIF"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script> */}
 
 
