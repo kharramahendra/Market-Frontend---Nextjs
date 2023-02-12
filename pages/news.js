@@ -39,7 +39,9 @@ const News = ({ news }) => {
       <rssapp-ticker id="tkKdUMdkPHQo3jJp"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script>
       {/* <rssapp-ticker id="toqVbAD3l5eo7qIF"></rssapp-ticker><script src="https://widget.rss.app/v1/ticker.js" type="text/javascript" async></script> */}
 
+      <rssapp-carousel id="aFzgdWlnby7T6BHd"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
 
+      
       {/* <!-- ====== news Section --> */}
       <section class="my-2">
         <div class="">
