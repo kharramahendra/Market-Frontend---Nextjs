@@ -121,15 +121,17 @@ export default function TradingViewWidget() {
 
 
 
-           
 
 
 
 
 
 
+            <div className='w-full'>
+                <h2 className='text-gray-800 text-lg font-bold my-3 mx-auto'>Market Overview</h2>
+            </div>
             <div className="relative h-[70vh] md:h-screen">
-                
+
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
                     <div className="tradingview-widget-copyright">
@@ -140,8 +142,10 @@ export default function TradingViewWidget() {
                 <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="lets create idea" />
             </div>
 
-            
 
+            <div className='w-full'>
+                <h2 className='text-gray-800 text-lg font-bold my-3 mx-auto'>Technical Analysis</h2>
+            </div>
             <div className="relative h-[70vh] md:h-screen">
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_05fb2' />
