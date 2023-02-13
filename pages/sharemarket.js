@@ -76,7 +76,7 @@ export default function TradingViewWidget() {
                         autosize: true,
                         width: "100%",
                         height: "100%",
-                        symbol: "NCDEX:JEERAJDR",
+                        symbol: "NCDEX:GUARSEED10",
                         timezone: "Etc/UTC",
                         theme: "light",
                         style: "2",
