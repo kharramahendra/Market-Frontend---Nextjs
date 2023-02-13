@@ -40,99 +40,6 @@ export default function TradingViewWidget() {
             return () => onLoadScriptRef.current = null;
 
             function createWidget() {
-                // if (document.getElementById('tradingview_afaa7') && 'TradingView' in window) {
-                //     new window.TradingView.MediumWidget({
-                //         symbols: [["JEERA", "NCDEX:JEERAJDR|3M"], ["GUAR", "NCDEX:GUARSEED10|3M"]],
-                //         chartOnly: false,
-                //         width: "100%",
-                //         height: "100%",
-                //         locale: "in",
-                //         colorTheme: "light",
-                //         autosize: true,
-                //         showVolume: false,
-                //         hideDateRanges: false,
-                //         hideMarketStatus: false,
-                //         hideSymbolLogo: false,
-                //         scalePosition: "right",
-                //         scaleMode: "Normal",
-                //         fontFamily: "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
-                //         fontSize: "10",
-                //         noTimeScale: false,
-                //         valuesTracking: "2",
-                //         changeMode: "price-and-percent",
-                //         chartType: "candlesticks",
-                //         timeHoursFormat: "12-hours",
-                //         upColor: "#22ab94",
-                //         downColor: "#f7525f",
-                //         borderUpColor: "#22ab94",
-                //         borderDownColor: "#f7525f",
-                //         wickUpColor: "#22ab94",
-                //         wickDownColor: "#f7525f",
-                //         container_id: "tradingview_afaa7"
-                //     });
-                // }
-                // if (document.getElementById('tradingview_97945') && 'TradingView' in window) {
-                //     new window.TradingView.MediumWidget({
-                //         symbols: [["CHANA", "NCDEX:CHANA|3M"], ["GUAR", "NCDEX:GUARSEDBKN|3M"]],
-                //         chartOnly: false,
-                //         width: "100%",
-                //         height: "100%",
-                //         locale: "in",
-                //         colorTheme: "light",
-                //         autosize: true,
-                //         showVolume: false,
-                //         hideDateRanges: false,
-                //         hideMarketStatus: false,
-                //         hideSymbolLogo: false,
-                //         scalePosition: "right",
-                //         scaleMode: "Normal",
-                //         fontFamily: "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
-                //         fontSize: "10",
-                //         noTimeScale: false,
-                //         valuesTracking: "2",
-                //         changeMode: "price-and-percent",
-                //         chartType: "candlesticks",
-                //         timeHoursFormat: "12-hours",
-                //         upColor: "#22ab94",
-                //         downColor: "#f7525f",
-                //         borderUpColor: "#22ab94",
-                //         borderDownColor: "#f7525f",
-                //         wickUpColor: "#22ab94",
-                //         wickDownColor: "#f7525f",
-                //         container_id: "tradingview_97945"
-                //     });
-                // }
-                // if (document.getElementById('tradingview_5e64a') && 'TradingView' in window) {
-                //     new window.TradingView.MediumWidget({
-                //         symbols: [["जौ ", "NCDEX:BARLEYJPR|3M"], ["BAJRA", "NCDEX:BAJRA|12M"], ["सरसों", "NCDEX:RMSEED|3M"]],
-                //         chartOnly: false,
-                //         width: "100%",
-                //         height: "100%",
-                //         locale: "in",
-                //         colorTheme: "light",
-                //         autosize: true,
-                //         showVolume: false,
-                //         hideDateRanges: false,
-                //         hideMarketStatus: false,
-                //         hideSymbolLogo: false,
-                //         scalePosition: "right",
-                //         scaleMode: "Normal",
-                //         fontFamily: "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
-                //         fontSize: "10",
-                //         noTimeScale: false,
-                //         valuesTracking: "2",
-                //         changeMode: "price-and-percent",
-                //         chartType: "candlesticks",
-                //         timeHoursFormat: "12-hours",
-                //         upColor: "#22ab94",
-                //         downColor: "#f7525f",
-                //         borderUpColor: "#22ab94",
-                //         borderDownColor: "#f7525f",
-                //         wickUpColor: "#22ab94",
-                //         wickDownColor: "#f7525f",
-                //         container_id: "tradingview_5e64a"
-                //     });
-                // }
                 if (document.getElementById('tradingview_549eb') && 'TradingView' in window) {
                     new window.TradingView.MediumWidget({
                         symbols: [["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"], ["जौ ", "NCDEX:BARLEYJPR|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"], ["MOONG", "NCDEX:MOONG|3M"], ["GUAR", "NCDEX:GUARSEED10|3M"]],
@@ -162,6 +69,25 @@ export default function TradingViewWidget() {
                         wickUpColor: "#22ab94",
                         wickDownColor: "#f7525f",
                         container_id: "tradingview_549eb"
+                    });
+                }
+                if (document.getElementById('tradingview_09e7c') && 'TradingView' in window) {
+                    new window.TradingView.widget({
+                        autosize: true,
+                        symbol: "NCDEX:JEERAJDR",
+                        timezone: "Etc/UTC",
+                        theme: "light",
+                        style: "1",
+                        locale: "in",
+                        toolbar_bg: "#f1f3f6",
+                        enable_publishing: false,
+                        range: "3M",
+                        allow_symbol_change: true,
+                        watchlist: ["NCDEX:JEERAJDR", "NCDEX:RMSEED", "NCDEX:GUARSEED10", "NCDEX:GUARSEDBKN", "NCDEX:WHEATFAQ", "NCDEX:BARLEYJPR", "NCDEX:BAJRA", "NCDEX:MOONG", "NCDEX:CHANA"],
+                        details: true,
+                        hotlist: true,
+                        studies: ["ATR@tv-basicstudies", "LinearRegression@tv-basicstudies", "MASimple@tv-basicstudies", "MAExp@tv-basicstudies"],
+                        container_id: "tradingview_09e7c"
                     });
                 }
             }
@@ -195,13 +121,22 @@ export default function TradingViewWidget() {
 
 
 
+            <div className="relative h-[70vh] md:h-screen">
+                <div className='tradingview-widget-container'>
+                    <div id='tradingview_09e7c' />
+                    <div className="tradingview-widget-copyright">
+                        <a rel="noopener" target="_blank"><span className="blue-text">Technical Analysis</span></a>
+                    </div>
+                </div>
+
+                <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="lets create idea" />
+            </div>
 
 
 
 
 
-            {/* OVERALL */}
-            {/* <div className='h-screen'> */}
+
             <div className="relative h-[70vh] md:h-screen">
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
@@ -210,53 +145,11 @@ export default function TradingViewWidget() {
                     </div>
                 </div>
 
-                {/* <div className='absolute bottom-15 left-2 h-10 bg-black w-10 rounded-md'> */}
                 <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="lets create idea" />
-                {/* </div> */}
-
             </div>
 
             <Footer />
 
-            {/* JODHPUR MANDI */}
-            {/* <div className="h-screen my-20">
-                <div className='tradingview-widget-container'>
-                    <div id='tradingview_afaa7' />
-                    <div className="tradingview-widget-copyright">
-                        <a rel="noopener" target="_blank"><span className="blue-text">JODHPUR MANDI</span></a>
-                    </div>
-                </div>
-            </div> */}
-
-
-
-            {/* BIKANER MANDI */}
-            {/* <div className="h-screen my-20">
-                <div className='tradingview-widget-container'>
-                    <div id='tradingview_97945' />
-                    <div className="tradingview-widget-copyright">
-                        <a rel="noopener" target="_blank"><span className="blue-text">Bikaner Mandi</span></a>
-                    </div>
-                </div>
-            </div> */}
-
-            {/* JAIPUR MANDI */}
-            {/* <div className="h-screen my-20">
-                <div className='tradingview-widget-container'>
-                    <div id='tradingview_5e64a' />
-                    <div className="tradingview-widget-copyright">
-                        <a rel="noopener" target="_blank"><span className="blue-text">JAIPUR MANDI</span></a>
-                    </div>
-                </div>
-            </div> */}
-
-
-
-
-
-
-
-            {/* </div> */}
         </>
     );
 }
