@@ -77,19 +77,15 @@ export default function TradingViewWidget() {
                         symbol: "NCDEX:JEERAJDR",
                         timezone: "Etc/UTC",
                         theme: "light",
-                        width: "100%",
-                        height: "100%",
-                        style: "1",
+                        style: "2",
                         locale: "in",
                         toolbar_bg: "#f1f3f6",
                         enable_publishing: false,
                         range: "3M",
-                        allow_symbol_change: true,
                         watchlist: ["NCDEX:JEERAJDR", "NCDEX:RMSEED", "NCDEX:GUARSEED10", "NCDEX:GUARSEDBKN", "NCDEX:WHEATFAQ", "NCDEX:BARLEYJPR", "NCDEX:BAJRA", "NCDEX:MOONG", "NCDEX:CHANA"],
                         details: true,
                         hotlist: true,
-                        studies: ["ATR@tv-basicstudies", "LinearRegression@tv-basicstudies", "MASimple@tv-basicstudies", "MAExp@tv-basicstudies"],
-                        container_id: "tradingview_09e7c"
+                        container_id: "tradingview_05fb2"
                     });
                 }
             }
@@ -123,9 +119,9 @@ export default function TradingViewWidget() {
 
 
 
-            <div className="relative h-screen">
+            <div className="relative h-[70vh] md:h-screen">
                 <div className='tradingview-widget-container'>
-                    <div id='tradingview_09e7c' />
+                    <div id='tradingview_05fb2' />
                     <div className="tradingview-widget-copyright">
                         <a rel="noopener" target="_blank"><span className="blue-text">Technical Analysis</span></a>
                     </div>
