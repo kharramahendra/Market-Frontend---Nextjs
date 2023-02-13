@@ -77,6 +77,8 @@ export default function TradingViewWidget() {
                         symbol: "NCDEX:JEERAJDR",
                         timezone: "Etc/UTC",
                         theme: "light",
+                        width: "100%",
+                        height: "100%",
                         style: "1",
                         locale: "in",
                         toolbar_bg: "#f1f3f6",
@@ -121,7 +123,7 @@ export default function TradingViewWidget() {
 
 
 
-            <div className="relative h-[70vh] md:h-screen">
+            <div className="relative h-screen">
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_09e7c' />
                     <div className="tradingview-widget-copyright">
