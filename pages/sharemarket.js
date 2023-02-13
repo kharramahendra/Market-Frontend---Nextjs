@@ -128,7 +128,9 @@ export default function TradingViewWidget() {
 
 
             <div className='w-full'>
-                <h2 className='text-gray-800 text-lg font-bold my-3  max-w-1/2 mx-auto'>Market Overview</h2>
+                <div class="mx-auto max-w-[510px] text-center ">
+                    <h2 className='text-gray-800 text-lg font-bold my-3 '>Market Overview</h2>
+                </div>
             </div>
             <div className="relative h-[70vh] md:h-screen">
 
@@ -144,7 +146,9 @@ export default function TradingViewWidget() {
 
 
             <div className='w-full'>
-                <h2 className='text-gray-800 text-lg font-bold my-3  max-w-1/2 mx-auto'>Technical Analysis</h2>
+                <div class="mx-auto max-w-[510px] text-center ">
+                    <h2 className='text-gray-800 text-lg font-bold my-3 '>Technical Analysis</h2>
+                </div>
             </div>
             <div className="relative h-[70vh] md:h-screen">
                 <div className='tradingview-widget-container'>
