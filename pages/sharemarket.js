@@ -71,7 +71,7 @@ export default function TradingViewWidget() {
                         container_id: "tradingview_549eb"
                     });
                 }
-                if (document.getElementById('tradingview_09e7c') && 'TradingView' in window) {
+                if (document.getElementById('tradingview_05fb2') && 'TradingView' in window) {
                     new window.TradingView.widget({
                         autosize: true,
                         symbol: "NCDEX:JEERAJDR",
