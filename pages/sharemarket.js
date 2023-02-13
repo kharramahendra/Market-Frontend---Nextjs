@@ -74,6 +74,8 @@ export default function TradingViewWidget() {
                 if (document.getElementById('tradingview_05fb2') && 'TradingView' in window) {
                     new window.TradingView.widget({
                         autosize: true,
+                        width: "100%",
+                        height: "100%",
                         symbol: "NCDEX:JEERAJDR",
                         timezone: "Etc/UTC",
                         theme: "light",
