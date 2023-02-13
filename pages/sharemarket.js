@@ -87,7 +87,14 @@ export default function TradingViewWidget() {
                         watchlist: ["NCDEX:JEERAJDR", "NCDEX:RMSEED", "NCDEX:GUARSEED10", "NCDEX:GUARSEDBKN", "NCDEX:WHEATFAQ", "NCDEX:BARLEYJPR", "NCDEX:BAJRA", "NCDEX:MOONG", "NCDEX:CHANA"],
                         details: true,
                         hotlist: true,
-                        container_id: "tradingview_05fb2"
+                        hide_side_toolbar: false,
+                        allow_symbol_change: true,
+                        show_popup_button: true,
+                        popup_width: "1000",
+                        popup_height: "650",
+                        container_id: "tradingview_0a15b"
+
+                        // container_id: "tradingview_05fb2"
                     });
                 }
             }
@@ -152,7 +159,7 @@ export default function TradingViewWidget() {
             </div>
             <div className="relative h-[70vh] md:h-screen">
                 <div className='tradingview-widget-container'>
-                    <div id='tradingview_05fb2' />
+                    <div id='tradingview_0a15b' />
                     <div className="tradingview-widget-copyright">
                         <a rel="noopener" target="_blank"><span className="blue-text">Technical Analysis</span></a>
                     </div>
