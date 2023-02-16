@@ -67,7 +67,7 @@ const Home = ({ news, prices }) => {
               </div>
 
               <div className="tradingview-widget-copyright"></div>
-              <Script strategy='lazyOnload' src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
+              {/* <Script strategy='lazyOnload' src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
                 {`
                  "symbols": [
                   {
@@ -109,7 +109,7 @@ const Home = ({ news, prices }) => {
                 "displayMode": "adaptive",
                 "locale": "in"
                 `}
-              </Script>
+              </Script> */}
               {/* <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
                 {JSON.stringify({
                   "symbols": [
