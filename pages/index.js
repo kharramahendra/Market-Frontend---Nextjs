@@ -110,7 +110,7 @@ const Home = ({ news, prices }) => {
                 "locale": "in"
                 `}
               </Script> */}
-              {/* <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
                 {JSON.stringify({
                   "symbols": [
                     {
@@ -152,7 +152,7 @@ const Home = ({ news, prices }) => {
                   "displayMode": "adaptive",
                   "locale": "in"
                 })}
-              </script> */}
+              </script>
             </div>
           </div>
         </div>
