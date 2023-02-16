@@ -54,9 +54,9 @@ const Home = ({ news, prices }) => {
       {/* <Link href={'/p/market/sharemarket'}> */}
       <div className="relative cursor-pointer">
 
-        <div className="absolute bg-black bg-opacity-0 w-full h-20 md:h-16 z-20 top-0 right-0">
+      <Link href={'/p/market/sharemarket'}><div className="absolute bg-black bg-opacity-0 w-full h-20 md:h-16 z-20 top-0 right-0">
           <h className="text-white text-lg"></h>
-        </div>
+        </div></Link>
 
         <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
           <div className="-mr-10 overflow-hidden overflow-y-hidden overflow-x-hidden">
