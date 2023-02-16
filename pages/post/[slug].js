@@ -38,7 +38,7 @@ const Post = ({ post }) => {
     const [render, setRender] = useState(false);
     const [hidedropdown, setHidedrop] = useState(true)
 
-
+   
     useEffect(() => {
         hljs.initHighlighting();
 
@@ -71,7 +71,7 @@ const Post = ({ post }) => {
 
         </Head>
         <Navbar />
-
+    
 
         <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
             <div className='rounded-xs'>
