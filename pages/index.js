@@ -7,6 +7,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import Script from 'next/script';
 
 const Home = ({ news, prices }) => {
 
@@ -66,7 +67,50 @@ const Home = ({ news, prices }) => {
               </div>
 
               <div className="tradingview-widget-copyright"></div>
-              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+              <Script strategy='lazyOnload' src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
+                {`
+                 "symbols": [
+                  {
+                    "description": "जौ",
+                    "proName": "NCDEX:BARLEYJPR"
+                  },
+                  {
+                    "description": "सरसों",
+                    "proName": "NCDEX:RMSEED"
+                  },
+                  {
+                    "description": "GUAR BIKANER",
+                    "proName": "NCDEX:GUARSEDBKN"
+                  },
+                  {
+                    "description": "GUAR JODHPUR",
+                    "proName": "NCDEX:GUARSEED10"
+                  },
+                  {
+                    "description": "JEERA JODHPUR",
+                    "proName": "NCDEX:JEERAJDR"
+                  },
+                  {
+                    "description": "CAHANA BIKANER",
+                    "proName": "NCDEX:CHANA"
+                  },
+                  {
+                    "description": "BAJRA JAIPUR SPOT",
+                    "proName": "NCDEX:BAJRA"
+                  },
+                  {
+                    "description": "MOONG MERTA CITY SPOT",
+                    "proName": "NCDEX:MOONG"
+                  }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "locale": "in"
+                `}
+              </Script>
+              {/* <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
                 {JSON.stringify({
                   "symbols": [
                     {
@@ -108,7 +152,7 @@ const Home = ({ news, prices }) => {
                   "displayMode": "adaptive",
                   "locale": "in"
                 })}
-              </script>
+              </script> */}
             </div>
           </div>
         </div>
