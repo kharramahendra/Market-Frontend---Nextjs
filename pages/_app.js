@@ -23,6 +23,19 @@ function MyApp({ Component, pageProps }) {
   },[router.query])
 
   return <>
+
+<Script 
+strategy='lazyOnload'
+async src="https://www.googletagmanager.com/gtag/js?id=G-CKMDV7BLF8"/>
+<Script strategy='lazyOnload'>
+  {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CKMDV7BLF8');
+  `}
+  </Script>
   
   <LoadingBar
         color='#e91e63'
