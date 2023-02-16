@@ -51,7 +51,7 @@ const Home = ({ news, prices }) => {
 
 
 
-      <Link href={'/p/market/sharemarket'}>
+      {/* <Link href={'/p/market/sharemarket'}> */}
       <div className="relative cursor-pointer">
 
       <div className="absolute bg-black bg-opacity-0 w-full h-20 md:h-16 z-20 top-0 right-0">
@@ -116,7 +116,7 @@ const Home = ({ news, prices }) => {
 
         <a class="weatherwidget-io" href="https://forecast7.com/en/27d2073d75/nagaur/" data-label_1="NAGAUR" data-label_2="WEATHER" data-theme="pure" >NAGAUR WEATHER</a>
       </div>
-      </Link>
+      {/* </Link> */}
 
 
 
