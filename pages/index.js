@@ -43,7 +43,7 @@ const Home = ({ news, prices }) => {
         <link rel="author" href="https://livemandi.in/"></link>
         <meta charSet="utf-8"></meta>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-     crossorigin="anonymous"></script>
+          crossorigin="anonymous"></script>
       </Head>
 
       <Navbar />
@@ -55,7 +55,7 @@ const Home = ({ news, prices }) => {
       {/* <Link href={'/p/market/sharemarket'}> */}
       <div className="relative cursor-pointer">
 
-      <div className="absolute bg-black bg-opacity-0 w-full h-20 md:h-16 z-20 top-0 right-0">
+        <div className="absolute bg-black bg-opacity-0 w-full h-20 md:h-16 z-20 top-0 right-0">
           <h className="text-white text-lg"></h>
         </div>
 
@@ -160,89 +160,31 @@ const Home = ({ news, prices }) => {
 
         <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
           <div className="-mr-10 overflow-hidden overflow-y-hidden overflow-x-hidden">
-            <div className="tradingview-widget-container">
-              <div className="tradingview-widget-container__widget">
-
-              </div>
-
-              <div className="tradingview-widget-copyright"></div>
-              {/* <Script strategy='lazyOnload' src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
-                {`
-                 "symbols": [
-                  {
-                    "description": "जौ",
-                    "proName": "NCDEX:BARLEYJPR"
-                  },
-                  {
-                    "description": "सरसों",
-                    "proName": "NCDEX:RMSEED"
-                  },
-                  {
-                    "description": "GUAR BIKANER",
-                    "proName": "NCDEX:GUARSEDBKN"
-                  },
-                  {
-                    "description": "GUAR JODHPUR",
-                    "proName": "NCDEX:GUARSEED10"
-                  },
-                  {
-                    "description": "JEERA JODHPUR",
-                    "proName": "NCDEX:JEERAJDR"
-                  },
-                  {
-                    "description": "CAHANA BIKANER",
-                    "proName": "NCDEX:CHANA"
-                  },
-                  {
-                    "description": "BAJRA JAIPUR SPOT",
-                    "proName": "NCDEX:BAJRA"
-                  },
-                  {
-                    "description": "MOONG MERTA CITY SPOT",
-                    "proName": "NCDEX:MOONG"
-                  }
-                ],
-                "showSymbolLogo": true,
-                "colorTheme": "light",
-                "isTransparent": false,
-                "displayMode": "adaptive",
-                "locale": "in"
-                `}
-              </Script> */}
+            <div class="tradingview-widget-container">
+              <div class="tradingview-widget-container__widget"></div>
+              <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
               <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
                 {JSON.stringify({
                   "symbols": [
                     {
-                      "description": "जौ",
-                      "proName": "NCDEX:BARLEYJPR"
+                      "proName": "FOREXCOM:SPXUSD",
+                      "title": "S&P 500"
                     },
                     {
-                      "description": "सरसों",
-                      "proName": "NCDEX:RMSEED"
+                      "proName": "FOREXCOM:NSXUSD",
+                      "title": "US 100"
                     },
                     {
-                      "description": "GUAR BIKANER",
-                      "proName": "NCDEX:GUARSEDBKN"
+                      "proName": "FX_IDC:EURUSD",
+                      "title": "EUR/USD"
                     },
                     {
-                      "description": "GUAR JODHPUR",
-                      "proName": "NCDEX:GUARSEED10"
+                      "proName": "BITSTAMP:BTCUSD",
+                      "title": "Bitcoin"
                     },
                     {
-                      "description": "JEERA JODHPUR",
-                      "proName": "NCDEX:JEERAJDR"
-                    },
-                    {
-                      "description": "CAHANA BIKANER",
-                      "proName": "NCDEX:CHANA"
-                    },
-                    {
-                      "description": "BAJRA JAIPUR SPOT",
-                      "proName": "NCDEX:BAJRA"
-                    },
-                    {
-                      "description": "MOONG MERTA CITY SPOT",
-                      "proName": "NCDEX:MOONG"
+                      "proName": "BITSTAMP:ETHUSD",
+                      "title": "Ethereum"
                     }
                   ],
                   "showSymbolLogo": true,
@@ -402,8 +344,8 @@ const Home = ({ news, prices }) => {
 
 
       <div>
-      <rssapp-imageboard id="tkKdUMdkPHQo3jJp"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>        {/* <rssapp-imageboard id="tSYzqV3h4jtnTocK"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script> */}
-     
+        <rssapp-imageboard id="tkKdUMdkPHQo3jJp"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>        {/* <rssapp-imageboard id="tSYzqV3h4jtnTocK"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script> */}
+
       </div>
 
       <rssapp-list id="aFzgdWlnby7T6BHd"></rssapp-list><script src="https://widget.rss.app/v1/list.js" type="text/javascript" async></script>
