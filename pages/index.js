@@ -20,6 +20,17 @@ const Home = ({ news, prices }) => {
       js.src = 'https://weatherwidget.io/js/widget.min.js';
       fjs.parentNode.insertBefore(js, fjs);
     }
+
+    if (!tvScriptLoadingPromise) {
+      tvScriptLoadingPromise = new Promise((resolve) => {
+        const script = document.createElement('script');
+        // script.id = 'tradingview-widget-loading-script';
+        script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
+        script.type = 'text/javascript';
+        script.onload = resolve;
+
+        document.head.appendChild(script);
+      })};
   })
  
 
@@ -55,7 +66,7 @@ const Home = ({ news, prices }) => {
               </div>
 
               <div className="tradingview-widget-copyright"></div>
-              <Script src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
+              <Script >
                 {JSON.stringify({
                   "symbols": [
                     {
