@@ -49,8 +49,7 @@ const Home = ({ news, prices }) => {
       <Navbar />
 
 
-      <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
-          <div className="-mr-10 overflow-hidden overflow-y-hidden overflow-x-hidden">
+     
             <div className="tradingview-widget-container">
               <div className="tradingview-widget-container__widget">
 
@@ -144,8 +143,7 @@ const Home = ({ news, prices }) => {
                 })}
               </script> */}
             </div>
-          </div>
-        </div>
+          
 
 
       {/* <Link href={'/p/market/sharemarket'}> */}
