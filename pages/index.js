@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Script from 'next/script';
-
+let tvScriptLoadingPromise;
 const Home = ({ news, prices }) => {
 
   useEffect(() => {
