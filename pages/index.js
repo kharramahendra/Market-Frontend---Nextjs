@@ -36,7 +36,7 @@ const Home = ({ news, prices }) => {
         <meta property="og:title" content="कृषि क्षेत्र के लिए अद्यतन समाचार और मार्केट की जानकारी" />
         <meta property="og:description" content="हमारे पूर्ण कृषि प्लेटफार्म पर, किसानों को सम्पूर्ण कृषि समाचार, फसल भाव, और स्रोतों की उपलब्धता प्रदान की जाती है। हमारी संलग्न समाचार विजेट, मौसम विजेट, और स्टॉक विजेट के साथ, उन्हें मौसम पूर्वानुमान, बाजार प्रवृत्तियों, और उद्योग विकास की ताजा जानकारी प्राप्त करने में मदद करते हैं। किसानों को सफल होने के लिए जरूरी जानकारी के साथ सशक्त करने का उद्देश्य, हमारी प्लेटफार्म पर।" />
         <meta property="og:image" content="https://livemandi.in/imagelight2.jpg" />
-        <meta property="og:url" content="https://livemandi.in/" />
+        <meta property="og:url" content="https://livemandi.in/imagelight2.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Livemandi.in" />
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
@@ -58,6 +58,105 @@ const Home = ({ news, prices }) => {
       <div className="absolute bg-black bg-opacity-0 w-full h-20 md:h-16 z-20 top-0 right-0">
           <h className="text-white text-lg"></h>
         </div>
+
+        <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
+          <div className="-mr-10 overflow-hidden overflow-y-hidden overflow-x-hidden">
+            <div className="tradingview-widget-container">
+              <div className="tradingview-widget-container__widget">
+
+              </div>
+
+              <div className="tradingview-widget-copyright"></div>
+              {/* <Script strategy='lazyOnload' src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
+                {`
+                 "symbols": [
+                  {
+                    "description": "जौ",
+                    "proName": "NCDEX:BARLEYJPR"
+                  },
+                  {
+                    "description": "सरसों",
+                    "proName": "NCDEX:RMSEED"
+                  },
+                  {
+                    "description": "GUAR BIKANER",
+                    "proName": "NCDEX:GUARSEDBKN"
+                  },
+                  {
+                    "description": "GUAR JODHPUR",
+                    "proName": "NCDEX:GUARSEED10"
+                  },
+                  {
+                    "description": "JEERA JODHPUR",
+                    "proName": "NCDEX:JEERAJDR"
+                  },
+                  {
+                    "description": "CAHANA BIKANER",
+                    "proName": "NCDEX:CHANA"
+                  },
+                  {
+                    "description": "BAJRA JAIPUR SPOT",
+                    "proName": "NCDEX:BAJRA"
+                  },
+                  {
+                    "description": "MOONG MERTA CITY SPOT",
+                    "proName": "NCDEX:MOONG"
+                  }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "locale": "in"
+                `}
+              </Script> */}
+              <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                {JSON.stringify({
+                  "symbols": [
+                    {
+                      "description": "जौ",
+                      "proName": "NCDEX:BARLEYJPR"
+                    },
+                    {
+                      "description": "सरसों",
+                      "proName": "NCDEX:RMSEED"
+                    },
+                    {
+                      "description": "GUAR BIKANER",
+                      "proName": "NCDEX:GUARSEDBKN"
+                    },
+                    {
+                      "description": "GUAR JODHPUR",
+                      "proName": "NCDEX:GUARSEED10"
+                    },
+                    {
+                      "description": "JEERA JODHPUR",
+                      "proName": "NCDEX:JEERAJDR"
+                    },
+                    {
+                      "description": "CAHANA BIKANER",
+                      "proName": "NCDEX:CHANA"
+                    },
+                    {
+                      "description": "BAJRA JAIPUR SPOT",
+                      "proName": "NCDEX:BAJRA"
+                    },
+                    {
+                      "description": "MOONG MERTA CITY SPOT",
+                      "proName": "NCDEX:MOONG"
+                    }
+                  ],
+                  "showSymbolLogo": true,
+                  "colorTheme": "light",
+                  "isTransparent": false,
+                  "displayMode": "adaptive",
+                  "locale": "in"
+                })}
+              </script>
+            </div>
+          </div>
+        </div>
+
 
         <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
           <div className="-mr-10 overflow-hidden overflow-y-hidden overflow-x-hidden">
