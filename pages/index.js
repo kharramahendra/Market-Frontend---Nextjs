@@ -21,16 +21,7 @@ const Home = ({ news, prices }) => {
       fjs.parentNode.insertBefore(js, fjs);
     }
 
-    if (!tvScriptLoadingPromise) {
-      tvScriptLoadingPromise = new Promise((resolve) => {
-        const script = document.createElement('script');
-        // script.id = 'tradingview-widget-loading-script';
-        script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
-        script.type = 'text/javascript';
-        script.onload = resolve;
-
-        document.head.appendChild(script);
-      })};
+   
   })
  
 
@@ -60,101 +51,7 @@ const Home = ({ news, prices }) => {
       <Navbar />
 
 
-      <div className="tradingview-widget-container">
-              <div className="tradingview-widget-container__widget">
-
-              </div>
-
-              <div className="tradingview-widget-copyright"></div>
-              <Script >
-                {JSON.stringify({
-                  "symbols": [
-                    {
-                      "description": "जौ",
-                      "proName": "NCDEX:BARLEYJPR"
-                    },
-                    {
-                      "description": "सरसों",
-                      "proName": "NCDEX:RMSEED"
-                    },
-                    {
-                      "description": "GUAR BIKANER",
-                      "proName": "NCDEX:GUARSEDBKN"
-                    },
-                    {
-                      "description": "GUAR JODHPUR",
-                      "proName": "NCDEX:GUARSEED10"
-                    },
-                    {
-                      "description": "JEERA JODHPUR",
-                      "proName": "NCDEX:JEERAJDR"
-                    },
-                    {
-                      "description": "CAHANA BIKANER",
-                      "proName": "NCDEX:CHANA"
-                    },
-                    {
-                      "description": "BAJRA JAIPUR SPOT",
-                      "proName": "NCDEX:BAJRA"
-                    },
-                    {
-                      "description": "MOONG MERTA CITY SPOT",
-                      "proName": "NCDEX:MOONG"
-                    }
-                  ],
-                  "showSymbolLogo": true,
-                  "colorTheme": "light",
-                  "isTransparent": false,
-                  "displayMode": "adaptive",
-                  "locale": "in"
-                })}
-              </Script>
-              {/* <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                {JSON.stringify({
-                  "symbols": [
-                    {
-                      "description": "जौ",
-                      "proName": "NCDEX:BARLEYJPR"
-                    },
-                    {
-                      "description": "सरसों",
-                      "proName": "NCDEX:RMSEED"
-                    },
-                    {
-                      "description": "GUAR BIKANER",
-                      "proName": "NCDEX:GUARSEDBKN"
-                    },
-                    {
-                      "description": "GUAR JODHPUR",
-                      "proName": "NCDEX:GUARSEED10"
-                    },
-                    {
-                      "description": "JEERA JODHPUR",
-                      "proName": "NCDEX:JEERAJDR"
-                    },
-                    {
-                      "description": "CAHANA BIKANER",
-                      "proName": "NCDEX:CHANA"
-                    },
-                    {
-                      "description": "BAJRA JAIPUR SPOT",
-                      "proName": "NCDEX:BAJRA"
-                    },
-                    {
-                      "description": "MOONG MERTA CITY SPOT",
-                      "proName": "NCDEX:MOONG"
-                    }
-                  ],
-                  "showSymbolLogo": true,
-                  "colorTheme": "light",
-                  "isTransparent": false,
-                  "displayMode": "adaptive",
-                  "locale": "in"
-                })}
-              </script> */}
-            </div>
-
-
+  
 
 
       {/* <Link href={'/p/market/sharemarket'}> */}
