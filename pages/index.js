@@ -49,17 +49,7 @@ const Home = ({ news, prices }) => {
       <Navbar />
 
 
-
-
-
-      {/* <Link href={'/p/market/sharemarket'}> */}
-      <div className="relative cursor-pointer">
-
-        <div className="absolute bg-black bg-opacity-0 w-full h-20 md:h-16 z-20 top-0 right-0">
-          <h className="text-white text-lg"></h>
-        </div>
-
-        <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
+      <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
           <div className="-mr-10 overflow-hidden overflow-y-hidden overflow-x-hidden">
             <div className="tradingview-widget-container">
               <div className="tradingview-widget-container__widget">
@@ -67,7 +57,7 @@ const Home = ({ news, prices }) => {
               </div>
 
               <div className="tradingview-widget-copyright"></div>
-              <script src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
+              <Script src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
               {JSON.stringify({
                  "symbols": [
                   {
@@ -109,7 +99,113 @@ const Home = ({ news, prices }) => {
                 "displayMode": "adaptive",
                 "locale": "in"
                 })}
-              </script>
+              </Script>
+              {/* <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                {JSON.stringify({
+                  "symbols": [
+                    {
+                      "description": "जौ",
+                      "proName": "NCDEX:BARLEYJPR"
+                    },
+                    {
+                      "description": "सरसों",
+                      "proName": "NCDEX:RMSEED"
+                    },
+                    {
+                      "description": "GUAR BIKANER",
+                      "proName": "NCDEX:GUARSEDBKN"
+                    },
+                    {
+                      "description": "GUAR JODHPUR",
+                      "proName": "NCDEX:GUARSEED10"
+                    },
+                    {
+                      "description": "JEERA JODHPUR",
+                      "proName": "NCDEX:JEERAJDR"
+                    },
+                    {
+                      "description": "CAHANA BIKANER",
+                      "proName": "NCDEX:CHANA"
+                    },
+                    {
+                      "description": "BAJRA JAIPUR SPOT",
+                      "proName": "NCDEX:BAJRA"
+                    },
+                    {
+                      "description": "MOONG MERTA CITY SPOT",
+                      "proName": "NCDEX:MOONG"
+                    }
+                  ],
+                  "showSymbolLogo": true,
+                  "colorTheme": "light",
+                  "isTransparent": false,
+                  "displayMode": "adaptive",
+                  "locale": "in"
+                })}
+              </script> */}
+            </div>
+          </div>
+        </div>
+
+
+      {/* <Link href={'/p/market/sharemarket'}> */}
+      <div className="relative cursor-pointer">
+
+        <div className="absolute bg-black bg-opacity-0 w-full h-20 md:h-16 z-20 top-0 right-0">
+          <h className="text-white text-lg"></h>
+        </div>
+
+        <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
+          <div className="-mr-10 overflow-hidden overflow-y-hidden overflow-x-hidden">
+            <div className="tradingview-widget-container">
+              <div className="tradingview-widget-container__widget">
+
+              </div>
+
+              <div className="tradingview-widget-copyright"></div>
+              <Script src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
+              {JSON.stringify({
+                 "symbols": [
+                  {
+                    "description": "जौ",
+                    "proName": "NCDEX:BARLEYJPR"
+                  },
+                  {
+                    "description": "सरसों",
+                    "proName": "NCDEX:RMSEED"
+                  },
+                  {
+                    "description": "GUAR BIKANER",
+                    "proName": "NCDEX:GUARSEDBKN"
+                  },
+                  {
+                    "description": "GUAR JODHPUR",
+                    "proName": "NCDEX:GUARSEED10"
+                  },
+                  {
+                    "description": "JEERA JODHPUR",
+                    "proName": "NCDEX:JEERAJDR"
+                  },
+                  {
+                    "description": "CAHANA BIKANER",
+                    "proName": "NCDEX:CHANA"
+                  },
+                  {
+                    "description": "BAJRA JAIPUR SPOT",
+                    "proName": "NCDEX:BAJRA"
+                  },
+                  {
+                    "description": "MOONG MERTA CITY SPOT",
+                    "proName": "NCDEX:MOONG"
+                  }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "locale": "in"
+                })}
+              </Script>
               {/* <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
                 {JSON.stringify({
                   "symbols": [
