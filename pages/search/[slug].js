@@ -11,15 +11,21 @@ const Home = ({ posts }) => {
   
   return (<>
    <Head>
-      <title>Kisan market- Search Results</title>
-      <meta name="description" content="find a collection of data science and machine learning codes,blogs and real-world projects that are designed to solve business problems." />
-      <link rel="icon" href="/mandi.ico" />
-      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-        <meta name="keywords" content="tensorcode,tensorcode.io,tensorcode io review,data science ,machine learning,deep learning, neural networks,AI" />
-        <meta property="og:title" content="Tensorcodes.com-find data science projects and codes" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1474314243412-cd4a79f02c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" />
+   <title>मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव</title>
+        <meta name="description" content="हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है। हम हर दिन मण्डी भाव की ताजा जानकारी अपडेट करते हैं, ताकि किसान समय पर अपने फसलों के लिए सही फायदेमंद मार्केट की तलाश कर सकें।" />
+        <link rel="icon" href="/mandi.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta name="keywords" content="livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)" />
+        <meta name="robots" content="index, follow"></meta>
+        <link rel="canonical" href="https://livemandi.in/"></link>
+        <meta property="og:title" content="मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव" />
+        <meta property="og:description" content="हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है। हम हर दिन मण्डी भाव की ताजा जानकारी अपडेट करते हैं, ताकि किसान समय पर अपने फसलों के लिए सही फायदेमंद मार्केट की तलाश कर सकें।" />
+        <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg"/>
+        <meta property="og:url" content="https://livemandi.in/mandi" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Livemandi.in" />
+        <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
+        <link rel="author" href="https://livemandi.in/"></link>
         <meta charSet="utf-8"></meta>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
      crossorigin="anonymous"></script>
