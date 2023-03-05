@@ -56,7 +56,7 @@ const Navbar = () => {
           <li><a href="/sharemarket" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Share Market</a></li>
           <li><a href="/mandi" className="text-sm text-gray-800 hover:text-gray-900 font-bold">Mandi Bhav</a></li>
           {/* <li><Link href={'/codes'}><a class="text-sm text-gray-800 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
-          <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >News</a></li>
+          {/* <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >News</a></li> */}
           <li><a href="/about" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">About</a></li>
           <li><a href="/contact" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Contact Us</a></li>
           <li><a href="/privacy.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Privacy policy</a></li>
