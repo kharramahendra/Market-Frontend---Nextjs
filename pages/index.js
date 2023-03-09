@@ -22,7 +22,7 @@ const Home = ({ news, prices }) => {
           script.id = 'tradingview-widget-loading-script';
           script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
           script.type = 'text/javascript';
-          script.textContent = {
+          script.textContent = `{
             "symbols": [
               {
                 "proName": "FOREXCOM:SPXUSD",
@@ -50,7 +50,7 @@ const Home = ({ news, prices }) => {
             "isTransparent": false,
             "displayMode": "adaptive",
             "locale": "in"
-          }
+          }`
           script.onload = resolve;
 
           document.head.appendChild(script);
@@ -83,6 +83,8 @@ const Home = ({ news, prices }) => {
       //   }
       // }
     }
+
+
 
     var js, fjs = document.getElementsByTagName('script')[0];
     if (!document.getElementById('weatherwidget-io-js')) {
