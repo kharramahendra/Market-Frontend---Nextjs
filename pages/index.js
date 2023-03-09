@@ -62,7 +62,7 @@ const Home = ({ news, prices }) => {
           <h className="text-white text-lg"></h>
         </div> */}
 
-        <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
+        {/* <div className="w-full z-10 overflow-x-hidden overflow-y-hidden h-20 lg:h-12">
           <div className="-mr-10 overflow-hidden overflow-y-hidden overflow-x-hidden">
             <div className="tradingview-widget-container">
               <div className="tradingview-widget-container__widget">
@@ -70,7 +70,7 @@ const Home = ({ news, prices }) => {
               </div>
 
               <div className="tradingview-widget-copyright"></div>
-              {/* <Script src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
+              <Script src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js'>
                 {JSON.stringify({
                   "symbols": [
                     {
@@ -112,11 +112,11 @@ const Home = ({ news, prices }) => {
                   "displayMode": "adaptive",
                   "locale": "in"
                 })}
-              </Script> */}
+              </Script>
               
             </div>
           </div>
-        </div>
+        </div> */}
 
 
 
