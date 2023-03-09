@@ -51,7 +51,7 @@ const Home = ({ news, prices }) => {
 
       <Navbar />
 
-<Ticker/>
+
   
 
 
