@@ -7,84 +7,12 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import Ticker from '@/components/ticker';
 import Script from 'next/script';
 let tvScriptLoadingPromise;
 const Home = ({ news, prices }) => {
 
   useEffect(() => {
-
-    () => {
-      // onLoadScriptRef.current = createWidget;
-
-      if (!tvScriptLoadingPromise) {
-        tvScriptLoadingPromise = new Promise((resolve) => {
-          const script = document.createElement('script');
-          script.id = 'tradingview-widget-loading-script';
-          script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
-          script.type = 'text/javascript';
-          script.textContent = `{
-            "symbols": [
-              {
-                "proName": "FOREXCOM:SPXUSD",
-                "title": "S&P 500"
-              },
-              {
-                "proName": "FOREXCOM:NSXUSD",
-                "title": "US 100"
-              },
-              {
-                "proName": "FX_IDC:EURUSD",
-                "title": "EUR/USD"
-              },
-              {
-                "proName": "BITSTAMP:BTCUSD",
-                "title": "Bitcoin"
-              },
-              {
-                "proName": "BITSTAMP:ETHUSD",
-                "title": "Ethereum"
-              }
-            ],
-            "showSymbolLogo": true,
-            "colorTheme": "light",
-            "isTransparent": false,
-            "displayMode": "adaptive",
-            "locale": "in"
-          }`
-          script.onload = resolve;
-
-          document.head.appendChild(script);
-        });
-      }
-
-      tvScriptLoadingPromise.then(() => onLoadScriptRef.current && onLoadScriptRef.current());
-
-      return () => onLoadScriptRef.current = null;
-
-      // function createWidget() {
-      //   if (document.getElementById('tradingview_09e7c') && 'TradingView' in window) {
-      //     new window.TradingView.widget({
-      //       autosize: true,
-      //       symbol: "NCDEX:JEERAJDR",
-      //       timezone: "Etc/UTC",
-      //       theme: "light",
-      //       style: "1",
-      //       locale: "in",
-      //       toolbar_bg: "#f1f3f6",
-      //       enable_publishing: false,
-      //       range: "3M",
-      //       allow_symbol_change: true,
-      //       watchlist: ["NCDEX:JEERAJDR","NCDEX:RMSEED","NCDEX:GUARSEED10","NCDEX:GUARSEDBKN","NCDEX:WHEATFAQ","NCDEX:BARLEYJPR","NCDEX:BAJRA","NCDEX:MOONG","NCDEX:CHANA"],
-      //       details: true,
-      //       hotlist: true,
-      //       studies: ["ATR@tv-basicstudies","LinearRegression@tv-basicstudies","MASimple@tv-basicstudies","MAExp@tv-basicstudies"],
-      //       container_id: "tradingview_09e7c"
-      //     });
-      //   }
-      // }
-    }
-
-
 
     var js, fjs = document.getElementsByTagName('script')[0];
     if (!document.getElementById('weatherwidget-io-js')) {
@@ -123,7 +51,7 @@ const Home = ({ news, prices }) => {
 
       <Navbar />
 
-
+<Ticker/>
   
 
 
