@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Footer from '../components/footer'
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link'
+import Script from 'next/script';
 import { useState } from 'react';
 let tvScriptLoadingPromise;
 
