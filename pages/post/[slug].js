@@ -62,7 +62,7 @@ const Post = ({ post }) => {
             <meta property="og:description" content={`${post.timestamp} मण्डी भाव की ताजा जानकारी - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`} />
             <meta property="og:type" content="article" />
             <meta property="og:url" content={`https://livemandi.in/post/${post.slug}`} />
-            {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}}`} />}
+            {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/dailymandi.jpg" />}
             {/* <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" /> */}
