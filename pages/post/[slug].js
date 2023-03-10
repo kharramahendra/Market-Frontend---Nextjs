@@ -56,12 +56,16 @@ const Post = ({ post }) => {
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="robots" content="index, follow"></meta>
             <link rel="canonical" href={`https://livemandi.in/post/${post.slug}`}></link>
-            <meta name="keywords" content='livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,timeofrajasthan ,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)'/>
+            <meta name="keywords" content='livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,timeofrajasthan ,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)' />
             <meta property="og:title" content={`${post.title} - मण्डी भाव की ताजा जानकारी`} />
-            <meta property="og:description" content={`${post.timestamp} मण्डी भाव की ताजा जानकारी - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`}/>
+            <meta property="og:description" content={`${post.timestamp} मण्डी भाव की ताजा जानकारी - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`} />
             <meta property="og:type" content="article" />
             <meta property="og:url" content={`https://livemandi.in/post/${post.slug}`} />
             <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.png" />
+            <meta property="og:image:width" content="820" />
+            <meta property="og:image:height" content="580" />
+            <meta property="og:image:type" content="image/png" />
+
             {/* {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />} */}
