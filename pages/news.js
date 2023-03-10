@@ -27,7 +27,7 @@ const News = ({ news }) => {
         <meta property="og:title" content="कृषि खबरों का नवीनतम संग्रह" />
         <meta property="og:description" content="कृषि खबरों का नवीनतम संग्रह, कृषि क्षेत्र में होने वाली हर घटना और बदलाव के बारे में। हमारी वेबसाइट पर आपको हमेशा अपडेट मिलेंगे।" />
         <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/mandinews.jpg" />
-        <meta property="og:url" content="https://livemandi.in/" />
+        <meta property="og:url" content="https://livemandi.in/news/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Livemandi.in" />
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>

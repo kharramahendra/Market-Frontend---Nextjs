@@ -86,7 +86,7 @@ const Mandi = ({ prices }) => {
         <meta property="og:title" content="मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव" />
         <meta property="og:description" content="हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है। हम हर दिन मण्डी भाव की ताजा जानकारी अपडेट करते हैं, ताकि किसान समय पर अपने फसलों के लिए सही फायदेमंद मार्केट की तलाश कर सकें।" />
         <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/dailymandi.jpg" />
-        <meta property="og:url" content="https://livemandi.in/mandi" />
+        <meta property="og:url" content="https://livemandi.in/mandi/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Livemandi.in" />
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
