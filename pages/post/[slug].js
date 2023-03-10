@@ -51,7 +51,7 @@ const Post = ({ post }) => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta http-equiv="X-UA-Compatible" content="ie=edge" />
             <title>{post.title} - मण्डी भाव की ताजा जानकारी</title>
-            <meta name="description" content={`${post.timestamp} मण्डी भाव की ताजा जानकारी - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`} />
+            <meta name="description" key="desc" content={`${post.timestamp} मण्डी भाव की ताजा जानकारी - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`} />
             <link rel="icon" href="/mandi.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="robots" content="index, follow"></meta>
@@ -61,7 +61,7 @@ const Post = ({ post }) => {
             <meta property="og:description" content={`${post.timestamp} मण्डी भाव की ताजा जानकारी - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`}/>
             <meta property="og:type" content="article" />
             <meta property="og:url" content={`https://livemandi.in/post/${post.slug}`} />
-            <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" />
+            <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.png" />
             {/* {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />} */}
