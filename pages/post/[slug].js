@@ -74,7 +74,7 @@ const Post = ({ post }) => {
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />} */}
             <meta charSet="utf-8"></meta>
-            <meta property="og:site_name" content="Live Mandi Post" />
+            <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
