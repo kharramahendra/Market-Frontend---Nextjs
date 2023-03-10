@@ -19,6 +19,9 @@ export default function TradingViewWidget() {
     return (
         <>
             <Head>
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta http-equiv="X-UA-Compatible" content="ie=edge" />
                 <title>About Us - LiveMandi.in</title>
                 <meta name="description" content="Discover all the latest news, commodity prices, and resources for farmers on our comprehensive agriculture platform. Stay up-to-date with weather forecasts, market trends, and industry developments with our integrated news widget, weather widget, and stock widget. Empowering farmers with the information they need to thrive, all in one place." />
                 <link rel="icon" href="/mandi.ico" />
@@ -64,7 +67,7 @@ export default function TradingViewWidget() {
 
 
 
-           
+
 
             <section class="text-gray-600 body-font">
                 <div class="containerx px-5 py-24 mx-auto">

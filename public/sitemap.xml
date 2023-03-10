@@ -13,29 +13,29 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://livemandi.in/about</loc>
+  <loc>https://livemandi.in/mandi</loc>
   <lastmod>2023-01-17T06:21:45+00:00</lastmod>
-  <priority>0.75</priority>
+  <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://livemandi.in/services</loc>
+  <loc>https://livemandi.in/sharemarket</loc>
   <lastmod>2023-01-17T06:21:45+00:00</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://livemandi.in/projects</loc>
+  <loc>https://livemandi.in/news</loc>
   <lastmod>2023-01-17T06:21:45+00:00</lastmod>
-  <priority>0.90</priority>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://livemandi.in/codes</loc>
+  <loc>https://livemandi.in/contact</loc>
   <lastmod>2023-01-17T06:21:45+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://livemandi.in/blogs</loc>
+  <loc>https://livemandi.in/about</loc>
   <lastmod>2023-01-17T06:21:45+00:00</lastmod>
-  <priority>0.78</priority>
+  <priority>0.5</priority>
 </url>
 
 

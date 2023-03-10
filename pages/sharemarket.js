@@ -105,6 +105,9 @@ export default function TradingViewWidget() {
     return (
         <>
             <Head>
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta http-equiv="X-UA-Compatible" content="ie=edge" />
                 <title>मण्डी भाव विश्लेषण - शेयर मार्केट के अनुसार फसलों की मार्केट भाव</title>
                 <meta name="description" content="हमारी वेबसाइट पर, किसानों के लिए शेयर मार्केट के अनुसार फसलों की मार्केट भाव का ग्राफिकल प्रतिनिधित्व उपलब्ध है। हमारी वेबसाइट पर, किसानों को पूर्ण और स्पष्ट प्रतिनिधित्व मिलेगा, ताकि वे अपने फसलों के लिए शेयर मार्केट की तलाश कर सकें।" />
                 <link rel="icon" href="/mandi.ico" />
@@ -114,7 +117,7 @@ export default function TradingViewWidget() {
                 <link rel="canonical" href="https://livemadni.in/"></link>
                 <meta property="og:title" content="मण्डी भाव विश्लेषण - शेयर मार्केट के अनुसार फसलों की मार्केट भाव" />
                 <meta property="og:description" content="हमारी वेबसाइट पर, किसानों के लिए शेयर मार्केट के अनुसार फसलों की मार्केट भाव का ग्राफिकल प्रतिनिधित्व उपलब्ध है। हमारी वेबसाइट पर, किसानों को पूर्ण और स्पष्ट प्रतिनिधित्व मिलेगा, ताकि वे अपने फसलों के लिए शेयर मार्केट की तलाश कर सकें।" />
-                <meta property="og:image" content="https://livemandi.in/assets/images/sharemarket.jpg"/>
+                <meta property="og:image" content="https://livemandi.in/assets/images/sharemarket.jpg" />
                 <meta property="og:url" content="https://livemandi.in/" />
                 <meta property="og:type" content="website" />
                 <meta property="og:site_name" content="Livemandi.in" />
@@ -148,7 +151,7 @@ export default function TradingViewWidget() {
                     </div>
                 </div>
 
-                <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="lets create idea" />
+                <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="" />
             </div>
 
 

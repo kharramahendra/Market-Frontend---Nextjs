@@ -38,7 +38,7 @@ const Post = ({ post }) => {
     const [render, setRender] = useState(false);
     const [hidedropdown, setHidedrop] = useState(true)
 
-   
+
     useEffect(() => {
         hljs.initHighlighting();
 
@@ -47,7 +47,9 @@ const Post = ({ post }) => {
 
     return (<>
         <Head>
-
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
             <title>{post.title} - Live Mandi</title>
             <meta name="description" content={`${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
             <link rel="icon" href="/mandi.ico" />
@@ -59,7 +61,7 @@ const Post = ({ post }) => {
             <meta property="og:description" content={`${post.content.slice(0, 300).toString().replace(/<[^>]*>/g, '')}`} />
             <meta property="og:type" content="article" />
             <meta property="og:url" content={`https://livemandi.in/post/${post.slug}`} />
-            <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg"/>
+            <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" />
             {/* {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />} */}
@@ -68,11 +70,11 @@ const Post = ({ post }) => {
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-     crossorigin="anonymous"></script>
+                crossorigin="anonymous"></script>
 
         </Head>
         <Navbar />
-    
+
 
         <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
             <div className='rounded-xs'>
@@ -102,7 +104,7 @@ const Post = ({ post }) => {
                         <h1 className="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">{post.timestamp}</h1>
 
                     </div></div></section>}
-        
+
 
         {post.category == 'Price' && <div className="flex justify-center sticky top-2 left-2 ml-2">
             <div>
@@ -192,7 +194,7 @@ const Post = ({ post }) => {
                             {post.title}
                         </h2>}
                         {post.category != 'News' && <p class="font-sans mb-2 lg:my-4 text-lg font-semibold  text-gray-900 sm:text-xl ">
-                        हमारी वेबसाइट पर आपको मूंग, मोठ, चना, जीरा, गवार, ईसबगोल, बाजरा, सरसों, मूंगफली, गेहूं, जौ, ज्वार, तारामीरा आदि अनाजों के दाम मिल जाएंगे
+                            हमारी वेबसाइट पर आपको मूंग, मोठ, चना, जीरा, गवार, ईसबगोल, बाजरा, सरसों, मूंगफली, गेहूं, जौ, ज्वार, तारामीरा आदि अनाजों के दाम मिल जाएंगे
                         </p>}
                         <span
                             class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"

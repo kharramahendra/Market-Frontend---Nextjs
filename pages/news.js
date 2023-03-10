@@ -14,6 +14,9 @@ const News = ({ news }) => {
     <>
 
       <Head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>कृषि खबरों का नवीनतम संग्रह</title>
         <meta name="description" content="कृषि खबरों का नवीनतम संग्रह, कृषि क्षेत्र में होने वाली हर घटना और बदलाव के बारे में। हमारी वेबसाइट पर आपको हमेशा अपडेट मिलेंगे।" />
         <link rel="icon" href="/mandi.ico" />
@@ -23,7 +26,7 @@ const News = ({ news }) => {
         <link rel="canonical" href="https://livemadni.in/"></link>
         <meta property="og:title" content="कृषि खबरों का नवीनतम संग्रह" />
         <meta property="og:description" content="कृषि खबरों का नवीनतम संग्रह, कृषि क्षेत्र में होने वाली हर घटना और बदलाव के बारे में। हमारी वेबसाइट पर आपको हमेशा अपडेट मिलेंगे।" />
-        <meta property="og:image" content="https://livemandi.in/assets/images/mandinews.jpg"/>
+        <meta property="og:image" content="https://livemandi.in/assets/images/mandinews.jpg" />
         <meta property="og:url" content="https://livemandi.in/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Livemandi.in" />
@@ -31,7 +34,7 @@ const News = ({ news }) => {
         <link rel="author" href="https://livemandi.in/"></link>
         <meta charSet="utf-8"></meta>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-     crossorigin="anonymous"></script>
+          crossorigin="anonymous"></script>
       </Head>
 
       <Navbar />
@@ -41,7 +44,7 @@ const News = ({ news }) => {
 
       <rssapp-carousel id="aFzgdWlnby7T6BHd"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script>
 
-      
+
       {/* <!-- ====== news Section --> */}
       <section class="my-2">
         <div class="">

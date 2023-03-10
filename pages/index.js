@@ -22,13 +22,16 @@ const Home = ({ news, prices }) => {
       fjs.parentNode.insertBefore(js, fjs);
     }
 
-   
+
   })
- 
+
 
   return (
     <>
       <Head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>कृषि क्षेत्र के लिए अद्यतन समाचार और मार्केट की जानकारी</title>
         <meta name="description" content="हमारे पूर्ण कृषि प्लेटफार्म पर, किसानों को सम्पूर्ण कृषि समाचार, फसल भाव, और स्रोतों की उपलब्धता प्रदान की जाती है। हमारी संलग्न समाचार विजेट, मौसम विजेट, और स्टॉक विजेट के साथ, उन्हें मौसम पूर्वानुमान, बाजार प्रवृत्तियों, और उद्योग विकास की ताजा जानकारी प्राप्त करने में मदद करते हैं। किसानों को सफल होने के लिए जरूरी जानकारी के साथ सशक्त करने का उद्देश्य, हमारी प्लेटफार्म पर।" />
         <link rel="icon" href="/mandi.ico" />
@@ -38,7 +41,7 @@ const Home = ({ news, prices }) => {
         <link rel="canonical" href="https://livemandi.in/"></link>
         <meta property="og:title" content="कृषि क्षेत्र के लिए अद्यतन समाचार और मार्केट की जानकारी" />
         <meta property="og:description" content="हमारे पूर्ण कृषि प्लेटफार्म पर, किसानों को सम्पूर्ण कृषि समाचार, फसल भाव, और स्रोतों की उपलब्धता प्रदान की जाती है। हमारी संलग्न समाचार विजेट, मौसम विजेट, और स्टॉक विजेट के साथ, उन्हें मौसम पूर्वानुमान, बाजार प्रवृत्तियों, और उद्योग विकास की ताजा जानकारी प्राप्त करने में मदद करते हैं। किसानों को सफल होने के लिए जरूरी जानकारी के साथ सशक्त करने का उद्देश्य, हमारी प्लेटफार्म पर।" />
-        <meta property="og:image" content="https://livemandi.in/assets/images/mandinews.jpg"/>
+        <meta property="og:image" content="https://livemandi.in/assets/images/mandinews.jpg" />
         <meta property="og:url" content="https://livemandi.in/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Livemandi.in" />
@@ -52,7 +55,7 @@ const Home = ({ news, prices }) => {
       <Navbar />
 
 
-  
+
 
 
       {/* <Link href={'/p/market/sharemarket'}> */}
