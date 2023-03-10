@@ -14,6 +14,16 @@ const Home = ({ news, prices }) => {
 
   useEffect(() => {
 
+
+    let adpromise = new Promise((resolve,reject)=>{
+      let script = document.createElement('script')
+      script.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
+      script.crossorigin='anonymous'
+      script.async
+      script.onload = resolve
+
+    })
+
     var js, fjs = document.getElementsByTagName('script')[0];
     if (!document.getElementById('weatherwidget-io-js')) {
       js = document.createElement('script');
@@ -45,8 +55,8 @@ const Home = ({ news, prices }) => {
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
         <link rel="author" href="https://livemandi.in/"></link>
         <meta charSet="utf-8"></meta>
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-          crossorigin="anonymous"></Script>
+        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+          crossorigin="anonymous"></script> */}
       </Head>
 
       <Navbar />
