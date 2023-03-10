@@ -82,7 +82,7 @@ const Mandi = ({ prices }) => {
         <link rel="canonical" href="https://livemandi.in/"></link>
         <meta property="og:title" content="मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव" />
         <meta property="og:description" content="हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है। हम हर दिन मण्डी भाव की ताजा जानकारी अपडेट करते हैं, ताकि किसान समय पर अपने फसलों के लिए सही फायदेमंद मार्केट की तलाश कर सकें।" />
-        <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg"/>
+        <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" />
         <meta property="og:url" content="https://livemandi.in/mandi" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Livemandi.in" />
@@ -90,7 +90,10 @@ const Mandi = ({ prices }) => {
         <link rel="author" href="https://livemandi.in/"></link>
         <meta charSet="utf-8"></meta>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-     crossorigin="anonymous"></script>
+          crossorigin="anonymous"></script>
+
+        {/* ad1 */}
+        <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
       </Head>
 
       <Navbar />
@@ -98,7 +101,14 @@ const Mandi = ({ prices }) => {
 
 
 
-
+      <amp-ad width="100vw" height="320"
+        type="adsense"
+        data-ad-client="ca-pub-8245105696445903"
+        data-ad-slot="6452827701"
+        data-auto-format="rspv"
+        data-full-width="">
+        <div overflow=""></div>
+      </amp-ad>
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-10 md:py-24 mx-auto">
@@ -137,11 +147,11 @@ const Mandi = ({ prices }) => {
         </div>
       </section>
 
-      
 
 
 
-      <Footer/>
+
+      <Footer />
 
     </>
   );
