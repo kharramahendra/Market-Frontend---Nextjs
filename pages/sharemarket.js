@@ -120,7 +120,7 @@ export default function TradingViewWidget() {
                 <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/sharemarket%20(2).jpg" />
                 <meta property="og:url" content="https://livemandi.in/" />
                 <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="Livemandi.in" />
+                <meta property="og:site_name" content="Livemandi.in/ShareMarket" />
                 <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
                 <link rel="author" href="https://livemandi.in/"></link>
                 <meta charSet="utf-8"></meta>
