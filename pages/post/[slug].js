@@ -51,6 +51,7 @@ const Post = ({ post }) => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta http-equiv="X-UA-Compatible" content="ie=edge" />
             <title>{post.title} - मण्डी भाव की ताजा जानकारी</title>
+            <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" ></meta>
             <meta name="description" key="desc" content={`${post.timestamp} मण्डी भाव की ताजा जानकारी - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`} />
             <link rel="icon" href="/mandi.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
