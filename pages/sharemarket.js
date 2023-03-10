@@ -118,7 +118,7 @@ export default function TradingViewWidget() {
                 <meta property="og:title" content="मण्डी भाव विश्लेषण - शेयर मार्केट के अनुसार फसलों की मार्केट भाव" />
                 <meta property="og:description" content="हमारी वेबसाइट पर, किसानों के लिए शेयर मार्केट के अनुसार फसलों की मार्केट भाव का ग्राफिकल प्रतिनिधित्व उपलब्ध है। हमारी वेबसाइट पर, किसानों को पूर्ण और स्पष्ट प्रतिनिधित्व मिलेगा, ताकि वे अपने फसलों के लिए शेयर मार्केट की तलाश कर सकें।" />
                 <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/sharemarket%20(2).jpg" />
-                <meta property="og:url" content="https://livemandi.in/" />
+                <meta property="og:url" content="https://livemandi.in/sharemarket" />
                 <meta property="og:type" content="website" />
                 <meta property="og:site_name" content="Livemandi.in/ShareMarket" />
                 <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
