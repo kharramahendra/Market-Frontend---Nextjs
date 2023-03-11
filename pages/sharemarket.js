@@ -152,11 +152,11 @@ export default function TradingViewWidget() {
                 <Navbar />
 
 
-                <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container top-1 right-1">
                     <div class="tradingview-widget-container__widget"></div>
                     <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
-                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" >
-                        {/* {JSON.stringify({
+                    <Script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" >
+                        {JSON.stringify({
                             "symbols": [
                                 {
                                     "description": "GUAR ",
@@ -196,9 +196,9 @@ export default function TradingViewWidget() {
                             "isTransparent": false,
                             "displayMode": "adaptive",
                             "locale": "in"
-                        })} */}
-                        {obj1}
-                    </script>
+                        })}
+                     
+                    </Script>
                 </div>
 
 
