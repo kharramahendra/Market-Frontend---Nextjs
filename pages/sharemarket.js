@@ -122,7 +122,8 @@ const ShareMarket = () =>{
         []
     );
 
-    return <>
+    return (
+    <>
      
 
             <Head>
@@ -238,7 +239,7 @@ const ShareMarket = () =>{
                 <Footer />
             </body>
         </>
-    
+    );
 }
 
 
