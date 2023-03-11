@@ -63,7 +63,7 @@ const Ticker = () => {
                             },
                     {
                         "proName": "BITSTAMP:ETHUSD",
-                    "title": "Ethereum"
+                    "title": "kalu"
                             }
                     ],
                     "colorTheme": "light",
