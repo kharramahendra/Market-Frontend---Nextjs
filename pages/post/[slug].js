@@ -64,7 +64,7 @@ const Post = ({ post }) => {
             <meta property="og:url" content={`https://livemandi.in/post/${post.slug}`} />
             {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
-            {post.image == null && post.image_url == '' && <meta property="og:image" content="https://livemandi.in/assets/assets/images/dailymandi.jpg" />}
+            {post.image == null && post.image_url == '' && <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" />}
             {/* <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" /> */}
             {/* <meta property="og:image:width" content="820" />
             <meta property="og:image:height" content="580" />
