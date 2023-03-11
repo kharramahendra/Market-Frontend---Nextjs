@@ -8,23 +8,39 @@ function TradingViewWidget() {
     script.innerHTML = `
       {
         "symbols": [
-          {
-            "proName": "FOREXCOM:SPXUSD",
-            "title": "kaluram"
-          },
-          {
-            "proName": "FOREXCOM:NSXUSD",
-            "title": "kharra"
-          },
-          {
-            "proName": "FX_IDC:EURUSD",
-            "title": "EUR/USD"
-          },
-          {
-            "proName": "BITSTAMP:BTCUSD",
-            "title": "Bitcoin"
-          }
-        ],
+            {
+              "description": "GUAR",
+              "proName": "NCDEX:GUARSEED10"
+            },
+            {
+              "description": "JEERA",
+              "proName": "NCDEX:JEERAJDR"
+            },
+            {
+              "description": "जौ",
+              "proName": "NCDEX:BARLEYJPR"
+            },
+            {
+              "description": "CHANA",
+              "proName": "NCDEX:CHANA"
+            },
+            {
+              "description": "MOONG",
+              "proName": "NCDEX:MOONG"
+            },
+            {
+              "description": "गेहूं",
+              "proName": "NCDEX:WHEATFAQ"
+            },
+            {
+              "description": "सरसों",
+              "proName": "NCDEX:RMSEED"
+            },
+            {
+              "description": "BAJRA",
+              "proName": "NCDEX:BAJRA"
+            }
+          ],
         "showSymbolLogo": true,
         "colorTheme": "light",
         "isTransparent": false,
