@@ -124,6 +124,55 @@ const ShareMarket = () =>{
 
     return (
         <>
+        <div class="tradingview-widget-container top-1 right-1 absolute" >
+                    <div class="tradingview-widget-container__widget" ></div>
+                    {/* <div class="tradingview-widget-copyright"></div> */}
+                    <Script type="text/javascript" id='new_trading_widget' src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                        {JSON.stringify({
+                            "symbols": [
+                                {
+                                    "description": "GUAR ",
+                                    "proName": "NCDEX:GUARSEED10"
+                                },
+                                {
+                                    "description": "JEERA",
+                                    "proName": "NCDEX:JEERAJDR"
+                                },
+                                {
+                                    "description": "जौ",
+                                    "proName": "NCDEX:BARLEYJPR"
+                                },
+                                {
+                                    "description": "गेहूं",
+                                    "proName": "NCDEX:WHEATFAQ"
+                                },
+                                {
+                                    "description": "सरसों",
+                                    "proName": "NCDEX:RMSEED"
+                                },
+                                {
+                                    "description": "MOONG",
+                                    "proName": "NCDEX:MOONG"
+                                },
+                                {
+                                    "description": "CHANA",
+                                    "proName": "NCDEX:CHANA"
+                                },
+                                {
+                                    "description": "BAJRA",
+                                    "proName": "NCDEX:BAJRA"
+                                }
+                            ],
+                            "showSymbolLogo": true,
+                            "colorTheme": "light",
+                            "isTransparent": false,
+                            "displayMode": "adaptive",
+                            "locale": "in"
+                        })}
+
+                    </Script>
+                </div>
+
             <Head>
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -200,22 +249,6 @@ const ShareMarket = () =>{
 
                     </Script>
                 </div>
-
-
-                <div class="tradingview-widget-container">
-                    <div class="tradingview-widget-container__widget"></div>
-                    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NCDEX-GUARSEED10/" rel="noopener" target="_blank"><span class="blue-text">GUARSEED10 quotes</span></a> by TradingView</div>
-                    <script src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-                        
-                        {JSON.stringify({"symbol": "NCDEX:GUARSEED10",
-                        "width": 350,
-                        "colorTheme": "dark",
-                        "isTransparent": false,
-                        "locale": "in"})}
-                        
-                    </script>
-                </div>
-
 
 
 
