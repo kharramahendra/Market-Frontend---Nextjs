@@ -158,8 +158,8 @@ const ShareMarket = () =>{
                     <div class="tradingview-widget-container__widget" ></div>
                     {/* <div class="tradingview-widget-copyright"></div> */}
                     <Script type="text/javascript"  strategy="beforeInteractive" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                        onload = {()=>{
-                            symbols = [
+                       {JSON.stringify({
+                            symbols : [
                                 {
                                     "description": "GUAR ",
                                     "proName": "NCDEX:GUARSEED10"
@@ -191,13 +191,13 @@ const ShareMarket = () =>{
                                 {
                                     "description": "BAJRA",
                                     "proName": "NCDEX:BAJRA"
-                                }]
-                            showSymbolLogo= true,
-                            colorTheme= "light",
-                            isTransparent= false,
-                            displayMode= "adaptive",
-                            locale="in"
-                        }}
+                                }],
+                            showSymbolLogo: true,
+                            colorTheme:"light",
+                            isTransparent: false,
+                            displayMode:"adaptive",
+                            locale:"in"
+                        })}
 
                     </Script>
                 </div>
