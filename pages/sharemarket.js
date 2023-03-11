@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useState } from 'react';
 import Navbar from '@/components/navbar';
 let tvScriptLoadingPromise;
+let tvScriptLoadingPromise2;
 import Head from 'next/head'
 import Footer from '@/components/footer';
 import Script from 'next/script';
@@ -33,6 +34,15 @@ export default function TradingViewWidget() {
                     script.onload = resolve;
 
                     document.head.appendChild(script);
+                });
+                tvScriptLoadingPromise2 = new Promise((resolve) => {
+                    const script2 = document.createElement('script');
+                    script2.id = 'tradingview-widget-loading-script';
+                    script2.src = 'https://s3.tradingview.com/tv.js';
+                    script2.type = 'text/javascript';
+                    script2.onload = resolve;
+
+                    document.head.appendChild(script2);
                 });
             }
 
@@ -77,7 +87,7 @@ export default function TradingViewWidget() {
                         autosize: true,
                         width: "100%",
                         height: "100%",
-                        symbol: "NCDEX:GUARSEED10",
+                        symbols: [["GUAR", "NCDEX:GUARSEED10|3M"], ["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"], ["जौ ", "NCDEX:BARLEYJPR|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"], ["MOONG", "NCDEX:MOONG|3M"]],
                         timezone: "Etc/UTC",
                         theme: "light",
                         style: "2",
@@ -168,10 +178,10 @@ export default function TradingViewWidget() {
 
 
 
-            {/* <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container">
                 <div class="tradingview-widget-container__widget"></div>
-                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
-                <Script type="text/javascript" strategy="beforeInteractive" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                <div class="tradingview-widget-copyright" id='tradingview_05fb2'><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
+                {/* <Script type="text/javascript" strategy="beforeInteractive" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
                     {JSON.stringify({
                         "symbols": [
                             {
@@ -201,8 +211,8 @@ export default function TradingViewWidget() {
                         "displayMode": "adaptive",
                         "locale": "in"
                     })}
-                </Script>
-            </div> */}
+                </Script> */}
+            </div>
 
 
 
