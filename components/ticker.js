@@ -69,7 +69,7 @@ const Ticker = () => {
         <div class="tradingview-widget-container">
             <div class="tradingview-widget-container__widget"></div>
             <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
-            <Script id="show-banner" strategy="afterInteractive" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+            <script id="show-banner" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
                 {`{"symbols": [
                         {
                             "proName": "FOREXCOM:SPXUSD",
@@ -97,7 +97,7 @@ const Ticker = () => {
                     "showSymbolLogo": true,
                     "locale": "in"
 }`}
-            </Script>
+            </script>
         </div>
     </>
 }
