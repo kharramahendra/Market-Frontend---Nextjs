@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { useState } from 'react';
 import Navbar from '@/components/navbar';
 let tvScriptLoadingPromise;
-let tvScriptLoadingPromise2;
 import Head from 'next/head'
 import Footer from '@/components/footer';
 import Script from 'next/script';
@@ -35,15 +34,7 @@ export default function TradingViewWidget() {
 
                     document.head.appendChild(script);
                 });
-                tvScriptLoadingPromise2 = new Promise((resolve) => {
-                    const script2 = document.createElement('script');
-                    script2.id = 'tradingview-widget-loading-script';
-                    script2.src = 'https://s3.tradingview.com/tv.js';
-                    script2.type = 'text/javascript';
-                    script2.onload = resolve;
-
-                    document.head.appendChild(script2);
-                });
+              
             }
 
             tvScriptLoadingPromise.then(() => onLoadScriptRef.current && onLoadScriptRef.current());
@@ -82,32 +73,32 @@ export default function TradingViewWidget() {
                         container_id: "tradingview_549eb"
                     });
                 }
-                if (document.getElementById('tradingview_05fb2') && 'TradingView' in window) {
-                    new window.TradingView.widget({
-                        autosize: true,
-                        width: "100%",
-                        height: "100%",
-                        symbols: [["GUAR", "NCDEX:GUARSEED10|3M"], ["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"], ["जौ ", "NCDEX:BARLEYJPR|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"], ["MOONG", "NCDEX:MOONG|3M"]],
-                        timezone: "Etc/UTC",
-                        theme: "light",
-                        style: "2",
-                        locale: "in",
-                        toolbar_bg: "#f1f3f6",
-                        enable_publishing: false,
-                        range: "3M",
-                        watchlist: ["NCDEX:JEERAJDR", "NCDEX:RMSEED", "NCDEX:GUARSEED10", "NCDEX:GUARSEDBKN", "NCDEX:WHEATFAQ", "NCDEX:BARLEYJPR", "NCDEX:BAJRA", "NCDEX:MOONG", "NCDEX:CHANA"],
-                        details: true,
-                        hotlist: true,
-                        hide_side_toolbar: false,
-                        allow_symbol_change: true,
-                        show_popup_button: true,
-                        popup_width: "1000",
-                        popup_height: "650",
-                        // container_id: "tradingview_0a15b"
+                // if (document.getElementById('tradingview_05fb2') && 'TradingView' in window) {
+                //     new window.TradingView.widget({
+                //         autosize: true,
+                //         width: "100%",
+                //         height: "100%",
+                //         symbols: [["GUAR", "NCDEX:GUARSEED10|3M"], ["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"], ["जौ ", "NCDEX:BARLEYJPR|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"], ["MOONG", "NCDEX:MOONG|3M"]],
+                //         timezone: "Etc/UTC",
+                //         theme: "light",
+                //         style: "2",
+                //         locale: "in",
+                //         toolbar_bg: "#f1f3f6",
+                //         enable_publishing: false,
+                //         range: "3M",
+                //         watchlist: ["NCDEX:JEERAJDR", "NCDEX:RMSEED", "NCDEX:GUARSEED10", "NCDEX:GUARSEDBKN", "NCDEX:WHEATFAQ", "NCDEX:BARLEYJPR", "NCDEX:BAJRA", "NCDEX:MOONG", "NCDEX:CHANA"],
+                //         details: true,
+                //         hotlist: true,
+                //         hide_side_toolbar: false,
+                //         allow_symbol_change: true,
+                //         show_popup_button: true,
+                //         popup_width: "1000",
+                //         popup_height: "650",
+                //         // container_id: "tradingview_0a15b"
 
-                        container_id: "tradingview_05fb2"
-                    });
-                }
+                //         container_id: "tradingview_05fb2"
+                //     });
+                // }
             }
         },
         []
@@ -137,37 +128,7 @@ export default function TradingViewWidget() {
                 <meta charSet="utf-8"></meta>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
                     crossorigin="anonymous"></script>
-                     <Script type="text/javascript" strategy="beforeInteractive" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                    {JSON.stringify({
-                        "symbols": [
-                            {
-                                "proName": "FOREXCOM:SPXUSD",
-                                "title": "S&P 500"
-                            },
-                            {
-                                "proName": "FOREXCOM:NSXUSD",
-                                "title": "US 100"
-                            },
-                            {
-                                "proName": "FX_IDC:EURUSD",
-                                "title": "EUR/USD"
-                            },
-                            {
-                                "proName": "BITSTAMP:BTCUSD",
-                                "title": "Bitcoin"
-                            },
-                            {
-                                "proName": "BITSTAMP:ETHUSD",
-                                "title": "Ethereum"
-                            }
-                        ],
-                        "showSymbolLogo": true,
-                        "colorTheme": "light",
-                        "isTransparent": false,
-                        "displayMode": "adaptive",
-                        "locale": "in"
-                    })}
-                </Script>
+                     
             </Head>
             <body>
             <Navbar />
