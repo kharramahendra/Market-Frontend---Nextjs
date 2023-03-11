@@ -7,6 +7,7 @@ import Navbar from '@/components/navbar';
 let tvScriptLoadingPromise;
 import Head from 'next/head'
 import Footer from '@/components/footer';
+import Script from 'next/script';
 
 export default function TradingViewWidget() {
     const onLoadScriptRef = useRef();
@@ -131,27 +132,15 @@ export default function TradingViewWidget() {
 
 
 
-            <div class="tradingview-widget-container">
-                <div class="tradingview-widget-container__widget"></div>
-                <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NCDEX-GUARSEED10/" rel="noopener" target="_blank"><span class="blue-text">GUARSEED10 quotes</span></a> by TradingView</div>
-                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-                    {{
-                        "symbol": "NCDEX:GUARSEED10",
-                        "width": "100%",
-                        "colorTheme": "dark",
-                        "isTransparent": false,
-                        "locale": "in"
-                    }}
-                </script>
-            </div>
+           
 
 
 
             <div class="tradingview-widget-container">
                 <div class="tradingview-widget-container__widget"></div>
                 <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
-                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                    {{
+                <Script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {JSON.stringify({
                         "symbols": [
                             {
                                 "proName": "FOREXCOM:SPXUSD",
@@ -179,8 +168,8 @@ export default function TradingViewWidget() {
                         "isTransparent": false,
                         "displayMode": "adaptive",
                         "locale": "in"
-                    }}
-                </script>
+                    })}
+                </Script>
             </div>
 
 
