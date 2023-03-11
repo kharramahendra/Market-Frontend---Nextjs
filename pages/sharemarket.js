@@ -202,10 +202,10 @@ const ShareMarket = () =>{
                 </div>
 
 
-                {/* <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container">
                     <div class="tradingview-widget-container__widget"></div>
                     <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NCDEX-GUARSEED10/" rel="noopener" target="_blank"><span class="blue-text">GUARSEED10 quotes</span></a> by TradingView</div>
-                    <Script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
                         {JSON.stringify({
                             "symbol": "NCDEX:GUARSEED10",
                         "width": 350,
@@ -213,8 +213,8 @@ const ShareMarket = () =>{
                         "isTransparent": false,
                         "locale": "in"
 })}
-                    </Script>
-                </div> */}
+                    </script>
+                </div>
 
 
 
