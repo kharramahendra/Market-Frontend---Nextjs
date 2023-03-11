@@ -128,6 +128,7 @@ export default function TradingViewWidget() {
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
                     crossorigin="anonymous"></script>
             </Head>
+            <body>
             <Navbar />
 
 
@@ -228,7 +229,7 @@ export default function TradingViewWidget() {
             </section>
 
             <Footer />
-
-        </>
+            </body>
+            </>
     );
 }
