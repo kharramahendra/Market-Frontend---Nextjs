@@ -219,10 +219,7 @@ const Home = ({ news, prices }) => {
       </section>
 
 
-      {/* <div className='h-screen w-full'>
-        <iframe height="100% " width="100%" src="https://visualize.data.gov.in/?inst=9ef84268-d588-465a-a308-a864a43d0070&vid=108221&embed=1" ></iframe>
-        </div> */}
-
+     
 
       <div>
         <rssapp-imageboard id="tkKdUMdkPHQo3jJp"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>        {/* <rssapp-imageboard id="tSYzqV3h4jtnTocK"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script> */}
