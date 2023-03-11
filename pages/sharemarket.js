@@ -9,8 +9,10 @@ import Head from 'next/head'
 import Footer from '@/components/footer';
 import Script from 'next/script';
 import Ticker from '@/components/ticker';
+import GuarWidget from '@/components/guar';
 
-const ShareMarket = () =>{
+
+const ShareMarket = () => {
     const onLoadScriptRef = useRef();
     const [hidesearch, setHidesearch] = useState(true)
     const [hidenotifications, setHidenav] = useState(true)
@@ -124,8 +126,8 @@ const ShareMarket = () =>{
     );
 
     return (
-    <>
-     
+        <>
+
 
             <Head>
                 <meta charset="UTF-8" />
@@ -151,49 +153,48 @@ const ShareMarket = () =>{
                     crossorigin="anonymous"></script>
 
             </Head>
+
+            <Navbar />
+
+
             
-                <Navbar />
-
-        
-   <Ticker/>
-
-           {/* <iframe src='https://livemandi.in/privacy.html'></iframe> */}
+            <Ticker />
+            <GuarWidget/>
 
 
+            <div className="relative h-[70vh] md:h-screen">
 
-                <div className="relative h-[70vh] md:h-screen">
-
-                    <div className='tradingview-widget-container'>
-                        <div id='tradingview_549eb' />
-                        <div className="tradingview-widget-copyright">
-                            <a rel="noopener" target="_blank"><span className="blue-text">Share Market</span></a>
-                        </div>
+                <div className='tradingview-widget-container'>
+                    <div id='tradingview_549eb' />
+                    <div className="tradingview-widget-copyright">
+                        <a rel="noopener" target="_blank"><span className="blue-text">Share Market</span></a>
                     </div>
-
-                    <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="" />
                 </div>
 
+                <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="" />
+            </div>
 
 
 
 
 
-                <section class="text-gray-600 body-font">
-                    <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
 
-                        <div class="text-center lg:w-2/3 w-full">
-                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">शेयर बाजार</h1>
-                            <h2 class="mb-8 leading-relaxed">आप हमारी वेबसाइट के शेयर बाजार पृष्ठ पर जाकर फसलों की लाइव कीमतों के बारे में जान सकते हैं। हमारी वेबसाइट आपके लिए शेयर बाजार में निवेश करने से पहले फसलों के मूल्यों के बारे में सटीक और ताजा जानकारी प्रदान करती है। हम निरंतर फसलों की कीमतों को अपडेट करते रहते हैं ताकि आप फसलों की बेहतर बिक्री के लिए सही समय चुन सकें। हम आपको शेयर बाजार के लिए फसलों के वर्तमान और भविष्य के मूल्यों के बारे में समय समय पर जानकारी उपलब्ध कराते रहते हैं। इससे आप अपने निवेश को सटीकता और उन्नति के साथ सम्पन्न कर सकते हैं।</h2>
-                            <div class="flex justify-center">
-                                {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+            <section class="text-gray-600 body-font">
+                <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
+
+                    <div class="text-center lg:w-2/3 w-full">
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">शेयर बाजार</h1>
+                        <h2 class="mb-8 leading-relaxed">आप हमारी वेबसाइट के शेयर बाजार पृष्ठ पर जाकर फसलों की लाइव कीमतों के बारे में जान सकते हैं। हमारी वेबसाइट आपके लिए शेयर बाजार में निवेश करने से पहले फसलों के मूल्यों के बारे में सटीक और ताजा जानकारी प्रदान करती है। हम निरंतर फसलों की कीमतों को अपडेट करते रहते हैं ताकि आप फसलों की बेहतर बिक्री के लिए सही समय चुन सकें। हम आपको शेयर बाजार के लिए फसलों के वर्तमान और भविष्य के मूल्यों के बारे में समय समय पर जानकारी उपलब्ध कराते रहते हैं। इससे आप अपने निवेश को सटीकता और उन्नति के साथ सम्पन्न कर सकते हैं।</h2>
+                        <div class="flex justify-center">
+                            {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
         <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
-                            </div>
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <Footer />
-            
+            <Footer />
+
         </>
     );
 }
