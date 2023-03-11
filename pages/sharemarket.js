@@ -161,7 +161,7 @@ const ShareMarket = () => {
 
 
             <Ticker />
-            {/* <GuarWidget/> */}
+            
 
 
             <div className="relative h-[70vh] md:h-screen">
@@ -197,7 +197,7 @@ const ShareMarket = () => {
             </section>
 
 
-
+{/* 
             <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -208,13 +208,10 @@ const ShareMarket = () => {
                             भविष्य की कीमतें  कैसे समझे
                         </h1>
                         <p class="mb-8 leading-relaxed">एक उपयोगी सुझाव हम दे सकते हैं कि मंडियों में आमतौर पर दाम स्टॉक मार्केट से कुछ कम होते हैं, क्योंकि मंडियों में दाम बाजार से सीधे किसानों से तय किए जाते हैं और इसमें बिचौलियों की बड़ी संख्या शामिल नहीं होती है।</p>
-                        {/* <div class="flex justify-center">
-                            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                            <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-                        </div> */}
+                        
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <Footer />
 
