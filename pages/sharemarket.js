@@ -197,7 +197,7 @@ export default function TradingViewWidget() {
                             "displayMode": "adaptive",
                             "locale": "in"
                         })} */}
-                     obj
+                     {obj}
                     </Script>
                 </div>
 
