@@ -16,6 +16,48 @@ export default function TradingViewWidget() {
     const [hidedropdown, setHidedrop] = useState(true)
     const [query, setQuery] = useState('data science');
 
+    const obj1 = {
+        "symbols": [
+            {
+                "description": "GUAR ",
+                "proName": "NCDEX:GUARSEED10"
+            },
+            {
+                "description": "JEERA",
+                "proName": "NCDEX:JEERAJDR"
+            },
+            {
+                "description": "जौ",
+                "proName": "NCDEX:BARLEYJPR"
+            },
+            {
+                "description": "गेहूं",
+                "proName": "NCDEX:WHEATFAQ"
+            },
+            {
+                "description": "सरसों",
+                "proName": "NCDEX:RMSEED"
+            },
+            {
+                "description": "MOONG",
+                "proName": "NCDEX:MOONG"
+            },
+            {
+                "description": "CHANA",
+                "proName": "NCDEX:CHANA"
+            },
+            {
+                "description": "BAJRA",
+                "proName": "NCDEX:BAJRA"
+            }
+        ],
+        "showSymbolLogo": true,
+        "colorTheme": "light",
+        "isTransparent": false,
+        "displayMode": "adaptive",
+        "locale": "in"
+    }
+
     const handlechange = (e) => {
         if (e.target.name == 'query') {
             setQuery(e.target.value)
@@ -114,7 +156,7 @@ export default function TradingViewWidget() {
                     <div class="tradingview-widget-container__widget"></div>
                     <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
                     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                        {JSON.stringify({
+                        {/* {JSON.stringify({
                             "symbols": [
                                 {
                                     "description": "GUAR ",
@@ -154,7 +196,8 @@ export default function TradingViewWidget() {
                             "isTransparent": false,
                             "displayMode": "adaptive",
                             "locale": "in"
-                        })}
+                        })} */}
+                        {obj1}
                     </script>
                 </div>
 
