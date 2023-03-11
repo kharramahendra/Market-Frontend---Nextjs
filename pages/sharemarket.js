@@ -16,47 +16,7 @@ export default function TradingViewWidget() {
     const [hidedropdown, setHidedrop] = useState(true)
     const [query, setQuery] = useState('data science');
 
-    const obj1 = {
-        "symbols": [
-            {
-                "description": "GUAR ",
-                "proName": "NCDEX:GUARSEED10"
-            },
-            {
-                "description": "JEERA",
-                "proName": "NCDEX:JEERAJDR"
-            },
-            {
-                "description": "जौ",
-                "proName": "NCDEX:BARLEYJPR"
-            },
-            {
-                "description": "गेहूं",
-                "proName": "NCDEX:WHEATFAQ"
-            },
-            {
-                "description": "सरसों",
-                "proName": "NCDEX:RMSEED"
-            },
-            {
-                "description": "MOONG",
-                "proName": "NCDEX:MOONG"
-            },
-            {
-                "description": "CHANA",
-                "proName": "NCDEX:CHANA"
-            },
-            {
-                "description": "BAJRA",
-                "proName": "NCDEX:BAJRA"
-            }
-        ],
-        "showSymbolLogo": true,
-        "colorTheme": "light",
-        "isTransparent": false,
-        "displayMode": "adaptive",
-        "locale": "in"
-    }
+    
 
     const handlechange = (e) => {
         if (e.target.name == 'query') {
