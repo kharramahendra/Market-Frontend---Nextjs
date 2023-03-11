@@ -153,9 +153,9 @@ export default function TradingViewWidget() {
 
 
                 <div class="tradingview-widget-container top-1 right-1">
-                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-container__widget" ></div>
                     {/* <div class="tradingview-widget-copyright"></div> */}
-                    <Script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    <Script type="text/javascript" id='new_trading_widget' src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
                         {JSON.stringify({
                             "symbols": [
                                 {
