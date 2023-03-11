@@ -151,7 +151,7 @@ const ShareMarket = () =>{
                     crossorigin="anonymous"></script>
 
             </Head>
-            <body>
+            
                 <Navbar />
 
 
@@ -191,7 +191,7 @@ const ShareMarket = () =>{
                 </section>
 
                 <Footer />
-            </body>
+            
         </>
     );
 }
