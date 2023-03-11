@@ -154,6 +154,8 @@ const ShareMarket = () =>{
             
                 <Navbar />
 
+        
+<Ticker/>
 
            {/* <iframe src='https://livemandi.in/privacy.html'></iframe> */}
 
