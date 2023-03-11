@@ -56,7 +56,7 @@ export default function TradingViewWidget() {
         "displayMode": "adaptive",
         "locale": "in"
     }
-    
+
 
     const handlechange = (e) => {
         if (e.target.name == 'query') {
@@ -152,7 +152,7 @@ export default function TradingViewWidget() {
                 <Navbar />
 
 
-                <div class="tradingview-widget-container top-1 right-1 absolute" id='widget-ticker-tape-container'>
+                <div class="tradingview-widget-container top-1 right-1 absolute" >
                     <div class="tradingview-widget-container__widget" ></div>
                     {/* <div class="tradingview-widget-copyright"></div> */}
                     <Script type="text/javascript" id='new_trading_widget' src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
@@ -197,14 +197,28 @@ export default function TradingViewWidget() {
                             "displayMode": "adaptive",
                             "locale": "in"
                         })}
-                
+
                     </Script>
+                </div>
+
+
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NCDEX-GUARSEED10/" rel="noopener" target="_blank"><span class="blue-text">GUARSEED10 quotes</span></a> by TradingView</div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+                        {JSON.stringify({
+                            "symbol": "NCDEX:GUARSEED10",
+                        "width": 350,
+                        "colorTheme": "dark",
+                        "isTransparent": false,
+                        "locale": "in"
+})}
+                    </script>
                 </div>
 
 
 
 
-               
                 <div className="relative h-[70vh] md:h-screen">
 
                     <div className='tradingview-widget-container'>
