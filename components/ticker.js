@@ -23,11 +23,11 @@ function TradingViewWidget() {
             "symbols": [
               {
                 "proName": "FOREXCOM:SPXUSD",
-                "title": "S&P 500"
+                "title": "kalu"
               },
               {
                 "proName": "FOREXCOM:NSXUSD",
-                "title": "US 100"
+                "title": "ram"
               },
               {
                 "proName": "FX_IDC:EURUSD",
