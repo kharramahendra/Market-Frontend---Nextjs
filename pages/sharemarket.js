@@ -202,7 +202,7 @@ const ShareMarket = () =>{
                 </div>
 
 
-                <div class="tradingview-widget-container">
+                {/* <div class="tradingview-widget-container">
                     <div class="tradingview-widget-container__widget"></div>
                     <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NCDEX-GUARSEED10/" rel="noopener" target="_blank"><span class="blue-text">GUARSEED10 quotes</span></a> by TradingView</div>
                     <Script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
@@ -214,7 +214,7 @@ const ShareMarket = () =>{
                         "locale": "in"
 })}
                     </Script>
-                </div>
+                </div> */}
 
 
 
