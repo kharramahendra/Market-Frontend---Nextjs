@@ -198,7 +198,7 @@ const Home = ({ news, prices }) => {
 
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
-          {/* <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="about" src="/logolight2.png" /> */}
+          {/* <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="about" src="" /> */}
           <div class="text-center lg:w-2/3 w-full">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"></h1>
             <h2 class="mb-8 leading-relaxed text-gray-800 font-medium">आज के समय में भारत की अर्थव्यवस्था का बड़ा हिस्सा किसानों पर आधारित है। हम जानते हैं कि किसानों की बिक्री कीमतें सही न होने के कारण वे फायदे में नहीं रह पाते हैं। हमारी वेबसाइट एक ऐसी पहल है जो किसानों को उनकी फसल की सटीक बिक्री कीमतें प्रदान करती है।
