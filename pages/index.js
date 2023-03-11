@@ -196,7 +196,27 @@ const Home = ({ news, prices }) => {
       </section>
       {/* --------------------------------------- */}
 
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
+          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="about" src="/logolight2.png" />
+          <div class="text-center lg:w-2/3 w-full">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"></h1>
+            <h2 class="mb-8 leading-relaxed">आज के समय में भारत की अर्थव्यवस्था का बड़ा हिस्सा किसानों पर आधारित है। हम जानते हैं कि किसानों की बिक्री कीमतें सही न होने के कारण वे फायदे में नहीं रह पाते हैं। हमारी वेबसाइट एक ऐसी पहल है जो किसानों को उनकी फसल की सटीक बिक्री कीमतें प्रदान करती है।
 
+              हमारी वेबसाइट पर आपको ग्वार सीड, जीरा, चना, बाजरा, मस्तर्ड, जौ, गेहूं जैसी कई फसलों की ताजा बिक्री कीमतें मिलेंगी। इससे आप अपनी फसल की सही बिक्री कीमतें तय कर सकते हैं और इससे आपके पैसे की बचत होगी।
+
+              इसके अलावा, हमारी वेबसाइट आपको फसलों की भविष्यवाणी भी प्रदान करती है। हमारे चार्ट आपको फसलों के दरों के बारे में जानकारी प्रदान करते हैं और आप अपने फसल को उस समय बेच सकते हैं जब उसकी कीमत सबसे अधिक होती है।
+
+              इससे आपके लिए नुकसान की संभावना कम होगी और आप फसलों की सही मूल्य के साथ फायदा उठा सकेंगे।
+
+            </h2>
+            <div class="flex justify-center">
+              {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       {/* <div className='h-screen w-full'>
