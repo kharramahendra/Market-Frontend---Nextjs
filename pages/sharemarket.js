@@ -8,6 +8,7 @@ let tvScriptLoadingPromise;
 import Head from 'next/head'
 import Footer from '@/components/footer';
 import Script from 'next/script';
+import Ticker from '@/components/ticker';
 
 const ShareMarket = () =>{
     const onLoadScriptRef = useRef();
@@ -154,7 +155,7 @@ const ShareMarket = () =>{
                 <Navbar />
 
 
-            
+            <Ticker/>
 
 
 
