@@ -1,5 +1,5 @@
 // TradingViewWidget.js
-
+import createDOMPurify from 'dompurify'
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link'
 import { useState } from 'react';
@@ -15,6 +15,43 @@ export default function TradingViewWidget() {
     const [hidenotifications, setHidenav] = useState(true)
     const [hidedropdown, setHidedrop] = useState(true)
     const [query, setQuery] = useState('data science');
+
+    const rawhtml = `<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright" id='tradingview_05fb2'><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
+    <script type="text/javascript"src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+            "symbols": [
+                {
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500"
+                },
+                {
+                    "proName": "FOREXCOM:NSXUSD",
+                    "title": "US 100"
+                },
+                {
+                    "proName": "FX_IDC:EURUSD",
+                    "title": "EUR/USD"
+                },
+                {
+                    "proName": "BITSTAMP:BTCUSD",
+                    "title": "Bitcoin"
+                },
+                {
+                    "proName": "BITSTAMP:ETHUSD",
+                    "title": "Ethereum"
+                }
+            ],
+            "showSymbolLogo": true,
+            "colorTheme": "light",
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "locale": "in"
+        }
+    </script>
+</div>`
+
     const handlechange = (e) => {
         if (e.target.name == 'query') {
             setQuery(e.target.value)
@@ -34,7 +71,7 @@ export default function TradingViewWidget() {
 
                     document.head.appendChild(script);
                 });
-              
+
             }
 
             tvScriptLoadingPromise.then(() => onLoadScriptRef.current && onLoadScriptRef.current());
@@ -128,22 +165,24 @@ export default function TradingViewWidget() {
                 <meta charSet="utf-8"></meta>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
                     crossorigin="anonymous"></script>
-                     
+
             </Head>
             <body>
-            <Navbar />
+                <Navbar />
 
 
 
-           
+                <div>
+                    {<div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(rawHTML) }} />}
+                </div>
 
 
 
-            <div class="tradingview-widget-container">
+                {/* <div class="tradingview-widget-container">
                 <div class="tradingview-widget-container__widget"></div>
                 <div class="tradingview-widget-copyright" id='tradingview_05fb2'><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
-                {/* <Script type="text/javascript" strategy="beforeInteractive" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                    {JSON.stringify({
+                <script type="text/javascript"src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
                         "symbols": [
                             {
                                 "proName": "FOREXCOM:SPXUSD",
@@ -171,34 +210,34 @@ export default function TradingViewWidget() {
                         "isTransparent": false,
                         "displayMode": "adaptive",
                         "locale": "in"
-                    })}
-                </Script> */}
-            </div>
+                    }
+                </script>
+            </div> */}
 
 
 
 
 
 
-            {/* <div className='w-full'>
+                {/* <div className='w-full'>
                 <div class="mx-auto max-w-[510px] text-center ">
                     <h2 className='text-gray-800 text-2xl font-bold my-3 '>Market Overview</h2>
                 </div>
             </div> */}
-            <div className="relative h-[70vh] md:h-screen">
+                <div className="relative h-[70vh] md:h-screen">
 
-                <div className='tradingview-widget-container'>
-                    <div id='tradingview_549eb' />
-                    <div className="tradingview-widget-copyright">
-                        <a rel="noopener" target="_blank"><span className="blue-text">Share Market</span></a>
+                    <div className='tradingview-widget-container'>
+                        <div id='tradingview_549eb' />
+                        <div className="tradingview-widget-copyright">
+                            <a rel="noopener" target="_blank"><span className="blue-text">Share Market</span></a>
+                        </div>
                     </div>
+
+                    <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="" />
                 </div>
 
-                <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="" />
-            </div>
 
-
-            {/* <div className='w-full' id="tech">
+                {/* <div className='w-full' id="tech">
                 <div class="mx-auto max-w-[510px] text-center ">
                     <h2 className='text-gray-800 text-2xl font-bold my-3 '>Technical Analysis</h2>
                 </div>
@@ -216,22 +255,22 @@ export default function TradingViewWidget() {
 
 
 
-            <section class="text-gray-600 body-font">
-                <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
+                <section class="text-gray-600 body-font">
+                    <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
 
-                    <div class="text-center lg:w-2/3 w-full">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">शेयर बाजार</h1>
-                        <h2 class="mb-8 leading-relaxed">आप हमारी वेबसाइट के शेयर बाजार पृष्ठ पर जाकर फसलों की लाइव कीमतों के बारे में जान सकते हैं। हमारी वेबसाइट आपके लिए शेयर बाजार में निवेश करने से पहले फसलों के मूल्यों के बारे में सटीक और ताजा जानकारी प्रदान करती है। हम निरंतर फसलों की कीमतों को अपडेट करते रहते हैं ताकि आप फसलों की बेहतर बिक्री के लिए सही समय चुन सकें। हम आपको शेयर बाजार के लिए फसलों के वर्तमान और भविष्य के मूल्यों के बारे में समय समय पर जानकारी उपलब्ध कराते रहते हैं। इससे आप अपने निवेश को सटीकता और उन्नति के साथ सम्पन्न कर सकते हैं।</h2>
-                        <div class="flex justify-center">
-                            {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                        <div class="text-center lg:w-2/3 w-full">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">शेयर बाजार</h1>
+                            <h2 class="mb-8 leading-relaxed">आप हमारी वेबसाइट के शेयर बाजार पृष्ठ पर जाकर फसलों की लाइव कीमतों के बारे में जान सकते हैं। हमारी वेबसाइट आपके लिए शेयर बाजार में निवेश करने से पहले फसलों के मूल्यों के बारे में सटीक और ताजा जानकारी प्रदान करती है। हम निरंतर फसलों की कीमतों को अपडेट करते रहते हैं ताकि आप फसलों की बेहतर बिक्री के लिए सही समय चुन सकें। हम आपको शेयर बाजार के लिए फसलों के वर्तमान और भविष्य के मूल्यों के बारे में समय समय पर जानकारी उपलब्ध कराते रहते हैं। इससे आप अपने निवेश को सटीकता और उन्नति के साथ सम्पन्न कर सकते हैं।</h2>
+                            <div class="flex justify-center">
+                                {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
         <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <Footer />
+                <Footer />
             </body>
-            </>
+        </>
     );
 }
