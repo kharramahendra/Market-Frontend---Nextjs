@@ -123,7 +123,7 @@ const Mandi = ({ prices }) => {
           <div className="container px-5 py-10 md:py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-8">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">मंडी भाव</h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">राजस्थान के सभी बाजारों के भाव जानने के लिए नीचे दी गई तारीख पर क्लिक करें</p>
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी बाजारों के भाव जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> पृष्ठ पर जाकर फसलों की लाइव कीमतों के बारे में जान सकते हैं।</p>
             </div>
             <div className="flex flex-wrap -m-2">
 
