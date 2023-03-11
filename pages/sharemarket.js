@@ -155,7 +155,7 @@ const ShareMarket = () =>{
                 <Navbar />
 
 
-            <Ticker/>
+           
 
 
 
