@@ -156,7 +156,7 @@ export default function TradingViewWidget() {
                     <div class="tradingview-widget-container__widget"></div>
                     {/* <div class="tradingview-widget-copyright"></div> */}
                     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" >
-                        {/* {JSON.stringify({
+                        {JSON.stringify({
                             "symbols": [
                                 {
                                     "description": "GUAR ",
@@ -196,8 +196,8 @@ export default function TradingViewWidget() {
                             "isTransparent": false,
                             "displayMode": "adaptive",
                             "locale": "in"
-                        })} */}
-                     {obj}
+                        })}
+                
                     </script>
                 </div>
 
