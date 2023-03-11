@@ -9,7 +9,7 @@ import Head from 'next/head'
 import Footer from '@/components/footer';
 import Script from 'next/script';
 
-export default function TradingViewWidget() {
+const ShareMarket = () =>{
     const onLoadScriptRef = useRef();
     const [hidesearch, setHidesearch] = useState(true)
     const [hidenotifications, setHidenav] = useState(true)
@@ -255,3 +255,6 @@ export default function TradingViewWidget() {
         </>
     );
 }
+
+
+export default ShareMarket
