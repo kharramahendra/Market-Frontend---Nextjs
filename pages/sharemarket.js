@@ -16,42 +16,6 @@ export default function TradingViewWidget() {
     const [hidedropdown, setHidedrop] = useState(true)
     const [query, setQuery] = useState('data science');
 
-    const rawhtml = `<div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright" id='tradingview_05fb2'><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
-    <script type="text/javascript"src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-        {
-            "symbols": [
-                {
-                    "proName": "FOREXCOM:SPXUSD",
-                    "title": "S&P 500"
-                },
-                {
-                    "proName": "FOREXCOM:NSXUSD",
-                    "title": "US 100"
-                },
-                {
-                    "proName": "FX_IDC:EURUSD",
-                    "title": "EUR/USD"
-                },
-                {
-                    "proName": "BITSTAMP:BTCUSD",
-                    "title": "Bitcoin"
-                },
-                {
-                    "proName": "BITSTAMP:ETHUSD",
-                    "title": "Ethereum"
-                }
-            ],
-            "showSymbolLogo": true,
-            "colorTheme": "light",
-            "isTransparent": false,
-            "displayMode": "adaptive",
-            "locale": "in"
-        }
-    </script>
-</div>`
-
     const handlechange = (e) => {
         if (e.target.name == 'query') {
             setQuery(e.target.value)
@@ -110,32 +74,7 @@ export default function TradingViewWidget() {
                         container_id: "tradingview_549eb"
                     });
                 }
-                // if (document.getElementById('tradingview_05fb2') && 'TradingView' in window) {
-                //     new window.TradingView.widget({
-                //         autosize: true,
-                //         width: "100%",
-                //         height: "100%",
-                //         symbols: [["GUAR", "NCDEX:GUARSEED10|3M"], ["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"], ["जौ ", "NCDEX:BARLEYJPR|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"], ["MOONG", "NCDEX:MOONG|3M"]],
-                //         timezone: "Etc/UTC",
-                //         theme: "light",
-                //         style: "2",
-                //         locale: "in",
-                //         toolbar_bg: "#f1f3f6",
-                //         enable_publishing: false,
-                //         range: "3M",
-                //         watchlist: ["NCDEX:JEERAJDR", "NCDEX:RMSEED", "NCDEX:GUARSEED10", "NCDEX:GUARSEDBKN", "NCDEX:WHEATFAQ", "NCDEX:BARLEYJPR", "NCDEX:BAJRA", "NCDEX:MOONG", "NCDEX:CHANA"],
-                //         details: true,
-                //         hotlist: true,
-                //         hide_side_toolbar: false,
-                //         allow_symbol_change: true,
-                //         show_popup_button: true,
-                //         popup_width: "1000",
-                //         popup_height: "650",
-                //         // container_id: "tradingview_0a15b"
 
-                //         container_id: "tradingview_05fb2"
-                //     });
-                // }
             }
         },
         []
@@ -171,50 +110,53 @@ export default function TradingViewWidget() {
                 <Navbar />
 
 
-
-                <div>
-                    {<div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(rawHTML) }} />}
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                        {JSON.stringify({
+                            "symbols": [
+                                {
+                                    "description": "GUAR ",
+                                    "proName": "NCDEX:GUARSEED10"
+                                },
+                                {
+                                    "description": "JEERA",
+                                    "proName": "NCDEX:JEERAJDR"
+                                },
+                                {
+                                    "description": "जौ",
+                                    "proName": "NCDEX:BARLEYJPR"
+                                },
+                                {
+                                    "description": "गेहूं",
+                                    "proName": "NCDEX:WHEATFAQ"
+                                },
+                                {
+                                    "description": "सरसों",
+                                    "proName": "NCDEX:RMSEED"
+                                },
+                                {
+                                    "description": "MOONG",
+                                    "proName": "NCDEX:MOONG"
+                                },
+                                {
+                                    "description": "CHANA",
+                                    "proName": "NCDEX:CHANA"
+                                },
+                                {
+                                    "description": "BAJRA",
+                                    "proName": "NCDEX:BAJRA"
+                                }
+                            ],
+                            "showSymbolLogo": true,
+                            "colorTheme": "light",
+                            "isTransparent": false,
+                            "displayMode": "adaptive",
+                            "locale": "in"
+                        })}
+                    </script>
                 </div>
-
-
-
-                {/* <div class="tradingview-widget-container">
-                <div class="tradingview-widget-container__widget"></div>
-                <div class="tradingview-widget-copyright" id='tradingview_05fb2'><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
-                <script type="text/javascript"src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                    {
-                        "symbols": [
-                            {
-                                "proName": "FOREXCOM:SPXUSD",
-                                "title": "S&P 500"
-                            },
-                            {
-                                "proName": "FOREXCOM:NSXUSD",
-                                "title": "US 100"
-                            },
-                            {
-                                "proName": "FX_IDC:EURUSD",
-                                "title": "EUR/USD"
-                            },
-                            {
-                                "proName": "BITSTAMP:BTCUSD",
-                                "title": "Bitcoin"
-                            },
-                            {
-                                "proName": "BITSTAMP:ETHUSD",
-                                "title": "Ethereum"
-                            }
-                        ],
-                        "showSymbolLogo": true,
-                        "colorTheme": "light",
-                        "isTransparent": false,
-                        "displayMode": "adaptive",
-                        "locale": "in"
-                    }
-                </script>
-            </div> */}
-
-
 
 
 
@@ -237,21 +179,7 @@ export default function TradingViewWidget() {
                 </div>
 
 
-                {/* <div className='w-full' id="tech">
-                <div class="mx-auto max-w-[510px] text-center ">
-                    <h2 className='text-gray-800 text-2xl font-bold my-3 '>Technical Analysis</h2>
-                </div>
-            </div>
-            <div className="relative h-[70vh] md:h-screen">
-                <div className='tradingview-widget-container'>
-                    <div id='tradingview_05fb2' />
-                    <div className="tradingview-widget-copyright">
-                        <a rel="noopener" target="_blank"><span className="blue-text">Technical Analysis</span></a>
-                    </div>
-                </div>
 
-                <img className="absolute bottom-[62px] left-16 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="lets create idea" />
-            </div> */}
 
 
 
