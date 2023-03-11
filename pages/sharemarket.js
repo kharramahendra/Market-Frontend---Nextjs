@@ -12,6 +12,8 @@ import Ticker from '@/components/ticker';
 import GuarWidget from '@/components/guar';
 
 
+
+
 const ShareMarket = () => {
     const onLoadScriptRef = useRef();
     const [hidesearch, setHidesearch] = useState(true)
