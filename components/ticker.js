@@ -8,7 +8,7 @@ const Ticker = () => {
             <div class="tradingview-widget-container__widget"></div>
             <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
             <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
-                {JSON.stringify({
+                {JSON.parse(JSON.stringify({
                     "symbols": [
                         {
                             "proName": "FOREXCOM:SPXUSD",
@@ -35,7 +35,7 @@ const Ticker = () => {
                     "isTransparent": false,
                     "showSymbolLogo": true,
                     "locale": "in"
-                })}
+                }))}
             </script>
         </div>
     </>
