@@ -186,21 +186,21 @@ const Post = ({ post }) => {
 
                     <div class="w-full">
                         <div class="flex justify-items-end items-end">
-                            {post.category == 'News' &&
+                            {/* {post.category == 'News' &&
                                 <span
                                     class="my-2 inline-block rounded-lg  py-1 px-3 text-lg font-semibold text-pink-700"
                                 >
                                     {post.timestamp}
 
                                 </span>
-                            }
+                            } */}
                         </div>
 
 
 
-                        {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
+                        {/* {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
                             {post.title}
-                        </h2>}
+                        </h2>} */}
                         {post.category != 'News' && <p class="font-sans mb-2 lg:my-4 text-lg font-semibold  text-gray-900 sm:text-xl ">
                             हमारी वेबसाइट पर आपको मूंग, मोठ, चना, जीरा, गवार, ईसबगोल, बाजरा, सरसों, मूंगफली, गेहूं, जौ, ज्वार, तारामीरा आदि फसलो के <span className='font-bold'>आज के मंडी भाव</span> मिल जाएंगे
                         </p>}
@@ -208,9 +208,9 @@ const Post = ({ post }) => {
                             class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"
                         ></span>
                         <Markup class="overflox-x-hidden postp" content={post.content} />
-                        <span
+                        {post.category != 'News' && <span
                             class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
-                        ></span>
+                        ></span>}
                     </div>
                 </div>
             </div>
