@@ -76,7 +76,7 @@ const Mandi = ({ prices }) => {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title> {Date().toString().slice(0, 15)} - मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव |  Aaj Ke Mandi Bhav </title>
+        <title> {Date().toString().slice(3, 15)} - मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव |  Aaj Ke Mandi Bhav </title>
         <meta name="description" content="Mandi Bhav | Daily Mandi Bhav | Aaj Ke Mandi Bhav | Mandi Bhav in Hindi | मंडी भाव राजस्थान Today | मंडी भाव Today, किसानों के लिए ताजा फसल मंडी भाव की जानकारी उपलब्ध है। हम हर दिन मण्डी भाव की ताजा जानकारी अपडेट करते हैं, ताकि किसान समय पर अपने फसलों के लिए सही फायदेमंद मार्केट की तलाश कर सकें।" />
         <link rel="icon" href="/mandi.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
@@ -122,7 +122,7 @@ const Mandi = ({ prices }) => {
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-10 md:py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-8">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">{Date().toString().slice(0, 15)} - मंडी भाव</h1>
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">{Date().toString().slice(3, 15)} - मंडी भाव</h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव के बारे में जान सकते हैं।</p>
             </div>
             <div className="flex flex-wrap -m-2">
