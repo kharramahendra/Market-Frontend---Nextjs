@@ -101,6 +101,8 @@ const Mandi = ({ prices }) => {
         <script async custom-element="amp-auto-ads"
           src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
         </script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+          crossorigin="anonymous"></script>
       </Head>
       <body>
         <Navbar />
