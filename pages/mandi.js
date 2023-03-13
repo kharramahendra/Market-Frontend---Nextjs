@@ -123,16 +123,16 @@ const Mandi = ({ prices }) => {
           <div className="container px-5 py-10 md:py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-8">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">मंडी भाव</h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी बाजारों के भाव जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> पृष्ठ पर जाकर फसलों की लाइव कीमतों के बारे में जान सकते हैं।</p>
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव के बारे में जान सकते हैं।</p>
             </div>
             <div className="flex flex-wrap -m-2">
 
               {prices.map((price) => {
                 return <Link key={price._id} href={`/post/${price.slug}`}><div className=" cursor-pointer p-2 lg:w-1/3 md:w-1/2 w-full">
                   <div className="h-full flex items-center bg-gray-800 border p-4 rounded-lg">
-                    {price.image != null && <img alt="bhav" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST + price.image} />}
-                    {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="Mandi Bhav" />}
-                    {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="tech" />}
+                    {price.image != null && <img alt="मंडी भाव राजस्थान Today" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST + price.image} />}
+                    {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="मंडी भाव राजस्थान Today" />}
+                    {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="मंडी भाव राजस्थान Today" />}
 
                     {/* <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="" /> */}
                     <div className="flex-grow">
