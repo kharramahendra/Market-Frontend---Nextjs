@@ -204,13 +204,13 @@ const Post = ({ post }) => {
                         {post.category != 'News' && <p class="font-sans mb-2 lg:my-4 text-lg font-semibold  text-gray-900 sm:text-xl ">
                             हमारी वेबसाइट पर आपको मूंग, मोठ, चना, जीरा, गवार, ईसबगोल, बाजरा, सरसों, मूंगफली, गेहूं, जौ, ज्वार, तारामीरा आदि फसलो के <span className='font-bold'>आज के मंडी भाव</span> मिल जाएंगे
                         </p>}
-                        <span
-                            class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"
-                        ></span>
-                        <Markup class="overflox-x-hidden postp" content={post.content} />
                         {post.category != 'News' && <span
-                            class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
+                            class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"
                         ></span>}
+                        <Markup class="overflox-x-hidden postp" content={post.content} />
+                        <span
+                            class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
+                        ></span>
                     </div>
                 </div>
             </div>
