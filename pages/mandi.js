@@ -143,12 +143,12 @@ const Mandi = ({ prices }) => {
             </div>
             <div className="flex flex-col text-center w-full mb-8">
               <p className="lg:w-2/3 mx-auto leading-relaxed font-bold text-blue-700">
-                {`merta mandi bhav ${Date().toString().slice(8, 15)}` |
-                `merta mandi bhav today` |
-                `indore mandi bhav ${Date().toString().slice(8, 15)}` |
-                `neemuch mandi bhav ${Date().toString().slice(8, 15)}` |
-                `neemuch mandi bhav today` |
-                `nagaur mandi bhav ${Date().toString().slice(8, 15)}`}</p>
+                {`merta mandi bhav ${Date().toString().slice(8, 15)} | 
+                merta mandi bhav today | 
+                indore mandi bhav ${Date().toString().slice(8, 15)} |  
+                neemuch mandi bhav ${Date().toString().slice(8, 15)} |  
+                neemuch mandi bhav today | 
+                nagaur mandi bhav ${Date().toString().slice(8, 15)}`}</p>
             </div>
           </div>
         </section>
