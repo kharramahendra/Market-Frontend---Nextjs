@@ -109,16 +109,16 @@ const Post = ({ post }) => {
             </div> */}
         </div>
 
-        {post.category == 'Price' &&
+        {/* {post.category == 'Price' &&
             <section className="text-gray-600 body-font">
                 <div className="container px-5 pt-5 pb-2 mx-auto">
                     <div className="flex flex-col text-center w-full">
                         <h1 className="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">{post.timestamp}</h1>
 
-                    </div></div></section>}
+                    </div></div></section>} */}
 
 
-        {post.category == 'Price' && <div className="flex justify-center sticky top-2 left-2 ml-2">
+        {/* {post.category == 'Price' && <div className="flex justify-center sticky top-2 left-2 ml-2">
             <div>
                 <div className="dropdown relative ml-2 my-0">
                     <button onClick={() => { setHidedrop(!hidedropdown) }} className="dropdown-toggle px-6 py-2.5 bg-pink-600 hover:bg-pink-700 text-white font-medium text-sm leading-tight uppercase rounded shadow-md  hover:shadow-lg   transition duration-150 ease-in-out flex items-center " aria-expanded="false"> फसल
@@ -180,7 +180,7 @@ const Post = ({ post }) => {
                     </ul>
                 </div>
             </div>
-        </div>}
+        </div>} */}
 
 
         <section class="pt-8 pb-10  lg:pb-20 lg:mx-20 md:mx-10 mx-1 ">
@@ -189,28 +189,12 @@ const Post = ({ post }) => {
                 <div class="flex flex-wrap ">
 
                     <div class="w-full">
-                        <div class="flex justify-items-end items-end">
-                            {/* {post.category == 'News' &&
-                                <span
-                                    class="my-2 inline-block rounded-lg  py-1 px-3 text-lg font-semibold text-pink-700"
-                                >
-                                    {post.timestamp}
-
-                                </span>
-                            } */}
-                        </div>
-
-
-
+                       
                         {/* {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
                             {post.title}
                         </h2>} */}
-                        {post.category != 'News' && <p class="font-sans mb-2 lg:my-4 text-lg font-semibold  text-gray-900 sm:text-xl ">
-                            हमारी वेबसाइट पर आपको मूंग, मोठ, चना, जीरा, गवार, ईसबगोल, बाजरा, सरसों, मूंगफली, गेहूं, जौ, ज्वार, तारामीरा आदि फसलो के <span className='font-bold'>आज के मंडी भाव</span> मिल जाएंगे
-                        </p>}
-                        {post.category != 'News' && <span
-                            class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"
-                        ></span>}
+                        
+                        
                         <Markup class="overflox-x-hidden postp" content={post.content} />
                         <amp-ad width="100vw" height="320"
                             type="adsense"
