@@ -69,16 +69,13 @@ const Post = ({ post }) => {
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
-            <script async custom-element="amp-auto-ads"
-                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-            </script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+                                crossorigin="anonymous"></script>
 
         </Head>
 
         <body>
-            <amp-auto-ads type="adsense"
-                data-ad-client="ca-pub-8245105696445903">
-            </amp-auto-ads>
+           
             <Navbar />
 
 
@@ -113,8 +110,7 @@ const Post = ({ post }) => {
 
 
                             <Markup class="overflox-x-hidden postp" content={post.content} />
-                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                                crossorigin="anonymous"></script>
+                            
 
                             <ins class="adsbygoogle"
                                 style="display:block"
