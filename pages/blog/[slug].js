@@ -70,12 +70,13 @@ const Post = ({ post }) => {
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                                crossorigin="anonymous"></script>
+                crossorigin="anonymous"></script>
+
 
         </Head>
 
         <body>
-           
+
             <Navbar />
 
 
@@ -110,7 +111,7 @@ const Post = ({ post }) => {
 
 
                             <Markup class="overflox-x-hidden postp" content={post.content} />
-                            
+
 
                             <ins class="adsbygoogle"
                                 style="display:block"
@@ -118,9 +119,7 @@ const Post = ({ post }) => {
                                 data-ad-slot="5048611652"
                                 data-ad-format="auto"
                                 data-full-width-responsive="true"></ins>
-                            <Script>
-                                (adsbygoogle = window.adsbygoogle || []).push({ });
-                            </Script>
+
                             <span
                                 class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
                             ></span>
