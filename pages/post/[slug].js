@@ -59,7 +59,7 @@ const Post = ({ post }) => {
             <meta name="description" key="desc" content={`${post.timestamp} मण्डी भाव की ताजा जानकारी - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`} />
             <link rel="icon" href="/mandi.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
             <link rel="canonical" href={`https://livemandi.in/post/${post.slug}`}></link>
             <meta name="keywords" content='ipl bhav live,शेयर बाजार,मंडी भाव राजस्थान Today,राजस्थान मंडी भाव, सरसों,किसान मंडी भाव,e-mandi bhav mp,राजस्थान मंडी भाव टुडे | ग्वार का,livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,timeofrajasthan ,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)' />
             <meta property="og:title" content={`${post.title} - मण्डी भाव की ताजा जानकारी`} />
@@ -89,18 +89,18 @@ const Post = ({ post }) => {
 
 
         <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
-            <div className='rounded-xs'>
 
-                <FacebookShareButton
-                    url={`https://livemandi.in/post/${post.slug}`} >
-                    <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
-                </FacebookShareButton>
-            </div>
             <div className='rounded-sm'>
                 <WhatsappShareButton className="rounded-sm"
                     url={`https://livemandi.in/post/${post.slug}`}>
                     <WhatsappIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </WhatsappShareButton></div>
+            <div className='rounded-xs'>
+                <FacebookShareButton
+                    url={`https://livemandi.in/post/${post.slug}`} >
+                    <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
+                </FacebookShareButton>
+            </div>
             {/* <div>
                 <LinkedinShareButton
                     url={`https://livemandi.in/post/${post.slug}`} >

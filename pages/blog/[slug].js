@@ -41,11 +41,6 @@ const Post = ({ post }) => {
 
     useEffect(() => {
         hljs.initHighlighting();
-        // const script = document.createElement('script')
-        // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
-        // script.async = true
-        // script.crossOrigin = 'anonymous'
-        // document.head.appendChild(script)
 
     }, [post]);
 
@@ -90,22 +85,22 @@ const Post = ({ post }) => {
         <Navbar />
 
         <amp-auto-ads type="adsense"
-          data-ad-client="ca-pub-8245105696445903">
+            data-ad-client="ca-pub-8245105696445903">
         </amp-auto-ads>
 
         <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
-            <div className='rounded-xs'>
-
-                <FacebookShareButton
-                    url={`https://livemandi.in/post/${post.slug}`} >
-                    <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
-                </FacebookShareButton>
-            </div>
             <div className='rounded-sm'>
                 <WhatsappShareButton className="rounded-sm"
                     url={`https://livemandi.in/post/${post.slug}`}>
                     <WhatsappIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </WhatsappShareButton></div>
+            <div className='rounded-xs'>
+                <FacebookShareButton
+                    url={`https://livemandi.in/post/${post.slug}`} >
+                    <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
+                </FacebookShareButton>
+            </div>
+
             {/* <div>
                 <LinkedinShareButton
                     url={`https://livemandi.in/post/${post.slug}`} >
@@ -218,13 +213,13 @@ const Post = ({ post }) => {
                         ></span>}
                         <Markup class="overflox-x-hidden postp" content={post.content} />
                         <amp-ad width="100vw" height="320"
-     type="adsense"
-     data-ad-client="ca-pub-8245105696445903"
-     data-ad-slot="6452827701"
-     data-auto-format="rspv"
-     data-full-width="">
-  <div overflow=""></div>
-</amp-ad>
+                            type="adsense"
+                            data-ad-client="ca-pub-8245105696445903"
+                            data-ad-slot="6452827701"
+                            data-auto-format="rspv"
+                            data-full-width="">
+                            <div overflow=""></div>
+                        </amp-ad>
                         <span
                             class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
                         ></span>
