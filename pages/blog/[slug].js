@@ -64,22 +64,12 @@ const Post = ({ post }) => {
             {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" />}
-            {/* <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" /> */}
-            {/* <meta property="og:image:width" content="820" />
-            <meta property="og:image:height" content="580" />
-            <meta property="og:image:type" content="image/jpg" /> */}
-
-            {/* {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}}`} />}
-            {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
-            {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />} */}
+            
             <meta charSet="utf-8"></meta>
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
-            <script async custom-element="amp-auto-ads"
-                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-            </script>
-            <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+           
 
         </Head>
         <Navbar />
@@ -216,6 +206,10 @@ const Post = ({ post }) => {
 
 
         <Footer />
+        <script async custom-element="amp-auto-ads"
+                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+            </script>
+            <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
         <amp-auto-ads type="adsense"
             data-ad-client="ca-pub-8245105696445903">
         </amp-auto-ads>
