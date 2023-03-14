@@ -84,9 +84,7 @@ const Post = ({ post }) => {
         </Head>
         <Navbar />
 
-        <amp-auto-ads type="adsense"
-            data-ad-client="ca-pub-8245105696445903">
-        </amp-auto-ads>
+       
 
         <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
             <div className='rounded-sm'>
@@ -218,6 +216,9 @@ const Post = ({ post }) => {
 
 
         <Footer />
+        <amp-auto-ads type="adsense"
+            data-ad-client="ca-pub-8245105696445903">
+        </amp-auto-ads>
     </>
 
     )
