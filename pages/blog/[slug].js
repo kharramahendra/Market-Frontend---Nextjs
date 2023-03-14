@@ -97,12 +97,12 @@ const Post = ({ post }) => {
                     url={`https://livemandi.in/post/${post.slug}`}>
                     <WhatsappIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </WhatsappShareButton></div>
-            <div>
+            {/* <div>
                 <LinkedinShareButton
                     url={`https://livemandi.in/post/${post.slug}`} >
                     <LinkedinIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </LinkedinShareButton>
-            </div>
+            </div> */}
         </div>
 
         {post.category == 'Price' &&

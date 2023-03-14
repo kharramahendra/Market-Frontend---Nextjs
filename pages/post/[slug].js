@@ -41,7 +41,11 @@ const Post = ({ post }) => {
 
     useEffect(() => {
         hljs.initHighlighting();
-
+        const script = document.createElement('script')
+        script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
+        script.async = true
+        script.crossOrigin = 'anonymous'
+        document.Head.appendChild(script);
 
     }, [post]);
 
@@ -77,8 +81,8 @@ const Post = ({ post }) => {
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                crossorigin="anonymous"></script>
+            {/* <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+                crossorigin="anonymous"></Script> */}
 
         </Head>
         <Navbar />
@@ -97,12 +101,12 @@ const Post = ({ post }) => {
                     url={`https://livemandi.in/post/${post.slug}`}>
                     <WhatsappIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </WhatsappShareButton></div>
-            <div>
+            {/* <div>
                 <LinkedinShareButton
                     url={`https://livemandi.in/post/${post.slug}`} >
                     <LinkedinIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </LinkedinShareButton>
-            </div>
+            </div> */}
         </div>
 
         {post.category == 'Price' &&
