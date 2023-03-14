@@ -69,9 +69,16 @@ const Post = ({ post }) => {
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
-           
+            <script async custom-element="amp-auto-ads"
+          src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+        </script>
 
         </Head>
+
+        <body>
+        <amp-auto-ads type="adsense"
+          data-ad-client="ca-pub-8245105696445903">
+        </amp-auto-ads>
         <Navbar />
 
        
@@ -88,87 +95,9 @@ const Post = ({ post }) => {
                     <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
                 </FacebookShareButton>
             </div>
-
-            {/* <div>
-                <LinkedinShareButton
-                    url={`https://livemandi.in/post/${post.slug}`} >
-                    <LinkedinIcon size={42} className="rounded-l-md drop-shadow-xl" />
-                </LinkedinShareButton>
-            </div> */}
         </div>
 
-        {/* {post.category == 'Price' &&
-            <section className="text-gray-600 body-font">
-                <div className="container px-5 pt-5 pb-2 mx-auto">
-                    <div className="flex flex-col text-center w-full">
-                        <h1 className="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">{post.timestamp}</h1>
-
-                    </div></div></section>} */}
-
-
-        {/* {post.category == 'Price' && <div className="flex justify-center sticky top-2 left-2 ml-2">
-            <div>
-                <div className="dropdown relative ml-2 my-0">
-                    <button onClick={() => { setHidedrop(!hidedropdown) }} className="dropdown-toggle px-6 py-2.5 bg-pink-600 hover:bg-pink-700 text-white font-medium text-sm leading-tight uppercase rounded shadow-md  hover:shadow-lg   transition duration-150 ease-in-out flex items-center " aria-expanded="false"> फसल
-                        <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            data-prefix="fas"
-                            data-icon="caret-down"
-                            className="w-2 ml-2"
-                            role="img"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 320 512"
-                        >
-                            <path
-                                fill="currentColor"
-                                d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
-                            ></path>
-                        </svg>
-                    </button>
-                    <ul hidden={hidedropdown} className="dropdown-menu min-w-max absolute bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none " aria-labelledby="dropdownMenuButton2" >
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent mx-3 text-gray-700 hover:bg-gray-100 " href="#jeera" >जीरा</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#guar" >ग्वार</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#rayda" >सरसों</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#isabgul" >इसबगोल</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent mx-3 text-gray-700 hover:bg-gray-100 " href="#bajra" >बाजरा</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#wheat" >गेहूँ</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#barley" >जौ</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#moong" >मूंग</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent mx-3 text-gray-700 hover:bg-gray-100 " href="#methi" >मेथी</a>
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#chana" >चना</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#moath" >मोथ</a >
-                        </li>
-                        <li>
-                            <a onClick={() => { setHidedrop(!hidedropdown) }} className=" dropdown-item mx-3 text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#taramira" >तारामिरा</a >
-                        </li>
-
-
-                    </ul>
-                </div>
-            </div>
-        </div>} */}
+       
 
 
         <section class="pt-8 pb-10  lg:pb-20 lg:mx-20 md:mx-10 mx-1 ">
@@ -184,14 +113,7 @@ const Post = ({ post }) => {
                         
                         
                         <Markup class="overflox-x-hidden postp" content={post.content} />
-                        <amp-ad width="100vw" height="320"
-                            type="adsense"
-                            data-ad-client="ca-pub-8245105696445903"
-                            data-ad-slot="6452827701"
-                            data-auto-format="rspv"
-                            data-full-width="">
-                            <div overflow=""></div>
-                        </amp-ad>
+                       
                         <span
                             class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
                         ></span>
@@ -206,13 +128,7 @@ const Post = ({ post }) => {
 
 
         <Footer />
-        <script async custom-element="amp-auto-ads"
-                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-            </script>
-            <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-        <amp-auto-ads type="adsense"
-            data-ad-client="ca-pub-8245105696445903">
-        </amp-auto-ads>
+        </body>
     </>
 
     )
