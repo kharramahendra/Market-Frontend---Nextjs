@@ -98,7 +98,7 @@ const Mandi = ({ prices }) => {
         {/* ad1 */}
         {/* <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script> */}
 
-       
+
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
           crossorigin="anonymous"></script>
       </Head>
@@ -140,6 +140,15 @@ const Mandi = ({ prices }) => {
                 </div></Link>
               })}
 
+            </div>
+            <div className="flex flex-col text-center w-full mb-8">
+              <p className="lg:w-2/3 mx-auto leading-relaxed font-bold text-blue-700">
+                {`merta mandi bhav ${Date().toString().slice(8, 15)}` |
+                `merta mandi bhav today` |
+                `indore mandi bhav ${Date().toString().slice(8, 15)}` |
+                `neemuch mandi bhav ${Date().toString().slice(8, 15)}` |
+                `neemuch mandi bhav today` |
+                `nagaur mandi bhav ${Date().toString().slice(8, 15)}`}</p>
             </div>
           </div>
         </section>
