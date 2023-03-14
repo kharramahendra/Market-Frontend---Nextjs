@@ -118,9 +118,9 @@ const Post = ({ post }) => {
                                 data-ad-slot="5048611652"
                                 data-ad-format="auto"
                                 data-full-width-responsive="true"></ins>
-                            <script>
+                            <Script>
                                 (adsbygoogle = window.adsbygoogle || []).push({ });
-                            </script>
+                            </Script>
                             <span
                                 class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
                             ></span>
