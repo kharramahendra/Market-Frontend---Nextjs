@@ -59,7 +59,7 @@ const Post = ({ post }) => {
             <meta name="description" key="desc" content={`${post.title} - हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है।`} />
             <link rel="icon" href="/mandi.ico" />
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
             <link rel="canonical" href={`https://livemandi.in/blog/${post.slug}`}></link>
             <meta name="keywords" content='ipl bhav live,शेयर बाजार,मंडी भाव राजस्थान Today,राजस्थान मंडी भाव, सरसों,किसान मंडी भाव,e-mandi bhav mp,राजस्थान मंडी भाव टुडे | ग्वार का,livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,timeofrajasthan ,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)' />
             <meta property="og:title" content={`${post.title}`} />
@@ -81,12 +81,17 @@ const Post = ({ post }) => {
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
-            <Script strategy="lazyOnload" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                crossorigin="anonymous"></Script>
+            <script async custom-element="amp-auto-ads"
+                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+            </script>
+            <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 
         </Head>
         <Navbar />
 
+        <amp-auto-ads type="adsense"
+          data-ad-client="ca-pub-8245105696445903">
+        </amp-auto-ads>
 
         <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
             <div className='rounded-xs'>
@@ -212,6 +217,14 @@ const Post = ({ post }) => {
                             class="inline-block mb-6 mt-2 md:mb-10 h-[1px] w-full bg-body-color"
                         ></span>}
                         <Markup class="overflox-x-hidden postp" content={post.content} />
+                        <amp-ad width="100vw" height="320"
+     type="adsense"
+     data-ad-client="ca-pub-8245105696445903"
+     data-ad-slot="6452827701"
+     data-auto-format="rspv"
+     data-full-width="">
+  <div overflow=""></div>
+</amp-ad>
                         <span
                             class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
                         ></span>
