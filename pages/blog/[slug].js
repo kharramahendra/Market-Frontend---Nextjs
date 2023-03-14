@@ -64,70 +64,81 @@ const Post = ({ post }) => {
             {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" />}
-            
+
             <meta charSet="utf-8"></meta>
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
             <script async custom-element="amp-auto-ads"
-          src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-        </script>
+                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+            </script>
 
         </Head>
 
         <body>
-        <amp-auto-ads type="adsense"
-          data-ad-client="ca-pub-8245105696445903">
-        </amp-auto-ads>
-        <Navbar />
-
-       
-
-        <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
-            <div className='rounded-sm'>
-                <WhatsappShareButton className="rounded-sm"
-                    url={`https://livemandi.in/post/${post.slug}`}>
-                    <WhatsappIcon size={42} className="rounded-l-md drop-shadow-xl" />
-                </WhatsappShareButton></div>
-            <div className='rounded-xs'>
-                <FacebookShareButton
-                    url={`https://livemandi.in/post/${post.slug}`} >
-                    <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
-                </FacebookShareButton>
-            </div>
-        </div>
-
-       
+            <amp-auto-ads type="adsense"
+                data-ad-client="ca-pub-8245105696445903">
+            </amp-auto-ads>
+            <Navbar />
 
 
-        <section class="pt-8 pb-10  lg:pb-20 lg:mx-20 md:mx-10 mx-1 ">
-            <div class="containery">
 
-                <div class="flex flex-wrap ">
-
-                    <div class="w-full">
-                       
-                        {/* {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
-                            {post.title}
-                        </h2>} */}
-                        
-                        
-                        <Markup class="overflox-x-hidden postp" content={post.content} />
-                       
-                        <span
-                            class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
-                        ></span>
-                    </div>
+            <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
+                <div className='rounded-sm'>
+                    <WhatsappShareButton className="rounded-sm"
+                        url={`https://livemandi.in/post/${post.slug}`}>
+                        <WhatsappIcon size={42} className="rounded-l-md drop-shadow-xl" />
+                    </WhatsappShareButton></div>
+                <div className='rounded-xs'>
+                    <FacebookShareButton
+                        url={`https://livemandi.in/post/${post.slug}`} >
+                        <FacebookIcon size={42} className="rounded-l-md drop-shadow-xl" />
+                    </FacebookShareButton>
                 </div>
             </div>
 
-        </section>
+
+
+
+            <section class="pt-8 pb-10  lg:pb-20 lg:mx-20 md:mx-10 mx-1 ">
+                <div class="containery">
+
+                    <div class="flex flex-wrap ">
+
+                        <div class="w-full">
+
+                            {/* {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
+                            {post.title}
+                        </h2>} */}
+
+
+                            <Markup class="overflox-x-hidden postp" content={post.content} />
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+                                crossorigin="anonymous"></script>
+
+                            <ins class="adsbygoogle"
+                                style="display:block"
+                                data-ad-client="ca-pub-8245105696445903"
+                                data-ad-slot="5048611652"
+                                data-ad-format="auto"
+                                data-full-width-responsive="true"></ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({ });
+                            </script>
+                            <span
+                                class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
+                            ></span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
 
 
 
 
 
-        <Footer />
+            <Footer />
         </body>
     </>
 
