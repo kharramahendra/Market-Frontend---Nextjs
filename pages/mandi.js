@@ -98,9 +98,7 @@ const Mandi = ({ prices }) => {
         {/* ad1 */}
         {/* <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script> */}
 
-        <script async custom-element="amp-auto-ads"
-          src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-        </script>
+       
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
           crossorigin="anonymous"></script>
       </Head>
@@ -108,18 +106,6 @@ const Mandi = ({ prices }) => {
         <Navbar />
 
 
-        <amp-auto-ads type="adsense"
-          data-ad-client="ca-pub-8245105696445903">
-        </amp-auto-ads>
-
-        {/* <amp-ad width="100vw" height="320"
-        type="adsense"
-        data-ad-client="ca-pub-8245105696445903"
-        data-ad-slot="6452827701"
-        data-auto-format="rspv"
-        data-full-width="">
-        <div overflow=""></div>
-      </amp-ad> */}
 
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-10 md:py-24 mx-auto">
