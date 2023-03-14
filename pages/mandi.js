@@ -141,7 +141,7 @@ const Mandi = ({ prices }) => {
               })}
 
             </div>
-            <div className="flex flex-col text-center w-full mb-8">
+            <div className="flex flex-col text-center w-full my-8">
               <p className="lg:w-2/3 mx-auto leading-relaxed font-bold text-blue-700">
                 {`merta mandi bhav ${Date().toString().slice(8, 15)} | 
                 merta mandi bhav today | 
