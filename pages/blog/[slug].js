@@ -1,5 +1,5 @@
 import React from 'react'
-export const config = { amp: true }
+// export const config = { amp: true }
 import {
     FacebookShareButton,
     FacebookIcon,
@@ -114,12 +114,15 @@ const Post = ({ post }) => {
                             <Markup class="overflox-x-hidden postp" content={post.content} />
 
 
-                            {/* <ins class="adsbygoogle"
-                                style="display:block"
+                            <ins class="adsbygoogle"
+                                style={{display:"block"}}
                                 data-ad-client="ca-pub-8245105696445903"
                                 data-ad-slot="5048611652"
                                 data-ad-format="auto"
-                                data-full-width-responsive="true"></ins> */}
+                                data-full-width-responsive="true"></ins>
+                                <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});    
+     </script>
 
                             <span
                                 class="inline-block mb-6 mt-6 md:mb-10 h-[1px] w-full bg-body-color"
