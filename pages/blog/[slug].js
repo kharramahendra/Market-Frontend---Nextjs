@@ -47,7 +47,7 @@ const Post = ({ post }) => {
         script.crossOrigin = 'anonymous'
         document.head.appendChild(script)
 
-    }, []);
+    }, [post]);
 
     return (<>
         <Head>
