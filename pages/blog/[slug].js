@@ -113,7 +113,7 @@ const Post = ({ post }) => {
 
                             <Markup class="overflox-x-hidden postp" content={post.content} />
 
-
+                            <div dangerouslySetInnerHTML={{ __html: post.content }} />
                             <ins class="adsbygoogle"
                                 style={{ display: "block" }}
                                 data-ad-client="ca-pub-8245105696445903"
