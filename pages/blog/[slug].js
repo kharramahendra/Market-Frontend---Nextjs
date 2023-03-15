@@ -134,7 +134,7 @@ const Post = ({ post }) => {
             </section>
 
 
-            <div class="h-[30vh] md:h-[50vh] lg:h-[70vh] max-h-screen"><iframe width="100%" height="100%" class="w-full min-h-full" src="https://www.youtube.com/embed/zMZ6IBCQCm8" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+            {/* <div class="h-[30vh] md:h-[50vh] lg:h-[70vh] max-h-screen"><iframe width="100%" height="100%" class="w-full min-h-full" src="https://www.youtube.com/embed/zMZ6IBCQCm8" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div> */}
 
 
 
