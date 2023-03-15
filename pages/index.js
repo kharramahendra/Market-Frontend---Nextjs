@@ -53,7 +53,7 @@ const Home = ({ news, prices }) => {
       </Head>
 
       <Navbar />
-<Ticker/>
+      <Ticker />
 
 
 
@@ -100,7 +100,7 @@ const Home = ({ news, prices }) => {
         <div className="container px-5 py-10 md:py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">मंडी भाव</h1>
-
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव (mandi bhav) जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> (share bazaar) पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव (live mandi bhav) के बारे में जान सकते हैं।</p>
           </div>
           <div className="flex flex-wrap -m-2">
 
@@ -201,7 +201,7 @@ const Home = ({ news, prices }) => {
           {/* <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="about" src="" /> */}
           <div class="text-center lg:w-2/3 w-full">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"></h1>
-            <h2 class="mb-8 leading-relaxed text-gray-800 font-medium">आज के समय में भारत की अर्थव्यवस्था का बड़ा हिस्सा किसानों पर आधारित है। हम जानते हैं कि किसानों की बिक्री कीमतें सही न होने के कारण वे फायदे में नहीं रह पाते हैं। हमारी वेबसाइट एक ऐसी पहल है जो किसानों को उनकी फसल की सटीक बिक्री कीमतें प्रदान करती है।
+            <h2 class="mb-8 text-lg sm:text:xl leading-relaxed text-gray-800 font-medium">आज के समय में भारत की अर्थव्यवस्था का बड़ा हिस्सा किसानों पर आधारित है। हम जानते हैं कि किसानों की बिक्री कीमतें सही न होने के कारण वे फायदे में नहीं रह पाते हैं। हमारी वेबसाइट एक ऐसी पहल है जो किसानों को उनकी फसल की सटीक बिक्री कीमतें प्रदान करती है।
 
               हमारी वेबसाइट पर आपको ग्वार सीड, जीरा, चना, बाजरा, सरसों, जौ, गेहूं जैसी कई फसलों की ताजा बिक्री कीमतें मिलेंगी। इससे आप अपनी फसल की सही बिक्री कीमतें तय कर सकते हैं और इससे आपके पैसे की बचत होगी।
 
@@ -219,7 +219,7 @@ const Home = ({ news, prices }) => {
       </section>
 
 
-     
+
 
       <div>
         <rssapp-imageboard id="tkKdUMdkPHQo3jJp"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>        {/* <rssapp-imageboard id="tSYzqV3h4jtnTocK"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script> */}
