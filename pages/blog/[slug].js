@@ -111,9 +111,9 @@ const Post = ({ post }) => {
                         </h2>} */}
 
 
-                            <Markup class="overflox-x-hidden postp" content={post.content} />
+                            {/* <Markup class="overflox-x-hidden postp" content={post.content} /> */}
 
-                            <div dangerouslySetInnerHTML={{ __html: post.content }} />
+                            <div class="overflox-x-hidden postp" dangerouslySetInnerHTML={{ __html: post.content }} />
                             <ins class="adsbygoogle"
                                 style={{ display: "block" }}
                                 data-ad-client="ca-pub-8245105696445903"
