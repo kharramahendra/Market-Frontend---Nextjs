@@ -72,7 +72,7 @@ const Post = ({ post }) => {
             <link rel="author" href="https://livemandi.in/about"></link>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
                 crossorigin="anonymous"></script>
-          
+
 
         </Head>
 
@@ -133,7 +133,8 @@ const Post = ({ post }) => {
 
             </section>
 
-          
+
+            <div class=" md:max-w-4xl md:w-full max-h-screen"><iframe width="100%" height="100%" class="w-full min-h-full" src="https://www.youtube.com/embed/zMZ6IBCQCm8" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
 
 
