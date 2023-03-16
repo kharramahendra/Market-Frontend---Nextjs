@@ -116,7 +116,7 @@ const News = ({ news }) => {
                 {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src='../assets/images/news.jpg' alt="tech" />}
                 {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
                 <div class="w-1/2 flex flex-col">
-                  <div class="p-2 pb-0 flex-1">
+                  <div class="p-2 pb-0 flex-col">
 
                     <span class="text-md md:text-lg lg:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 100)} ...</span>
                     {/* <div class="flex items-center mt-4">
@@ -127,7 +127,7 @@ const News = ({ news }) => {
                         <i class="text-grey-darker far fa-building"></i> 2mins to center
                       </div>
                     </div> */}
-                    <Link href={`/blog/${post.slug}`}><button class="px-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+                    <Link href={`/blog/${post.slug}`}><button class="px-2 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
 
                   </div>
                   {/* <div
