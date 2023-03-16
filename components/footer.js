@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/dist/client/router'
 import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
-const Footer = ({ news }) => {
+const Footer = () => {
     const [news,setData] = useState()
 
     useEffect(() => {
