@@ -118,7 +118,7 @@ const News = ({ news }) => {
                 <div class="w-1/2 flex flex-col">
                   <div class="p-2 pb-0 flex-1">
 
-                    <span class="text-md md:text-lg lg:text-xl font-semibold md:font-bold text-black">{post.title}</span>
+                    <span class="text-md md:text-lg lg:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 100)} ...</span>
                     {/* <div class="flex items-center mt-4">
                       <div class="pr-2 text-xs">
                         <i class="fas fa-wifi text-green"></i> Free WiFi
