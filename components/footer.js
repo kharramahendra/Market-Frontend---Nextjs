@@ -3,12 +3,39 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/dist/client/router'
 import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
-const Footer = () => {
+const Footer = ({ news }) => {
 
 
     return (
         <>
-      
+
+            <section class="text-gray-600 body-font">
+                <div class="containerx px-5 py-24 mx-auto">
+                    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+
+                        {news.map((post) => {
+                            return <div key={post._id} class="mb-7 mx-2 bg-gray-100  sm:mx-auto w-full md:w-2/5 rounded shadow-lg flex card text-grey-darkest">
+                                {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
+                                {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-lg" src={post.image_url} alt="tech" />}
+                                {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src='../assets/images/news.jpg' alt="tech" />}
+                                <div class="w-1/2 flex flex-col">
+                                    <div class="p-2 pb-0 flex-col">
+
+                                        <span class="text-md md:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 70)} ...</span>
+
+                                        <Link href={`/blog/${post.slug}`}><button class="px-2 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        })}
+
+
+
+                    </div>
+                </div>
+            </section>
 
 
 
@@ -16,8 +43,8 @@ const Footer = () => {
                 <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <a class="max-w-[160px] flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                         {/* <a href="/" class="mb-6 inline-block max-w-[160px]"> */}
-                            <img src="/logolight2.png" alt="logo" class="max-w-full" />
-                        
+                        <img src="/logolight2.png" alt="logo" class="max-w-full" />
+
                     </a>
                     <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Livemandi.in
                         <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
@@ -57,5 +84,15 @@ const Footer = () => {
         </>
     )
 }
-
+export async function getServerSideProps(context) {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/home/`)
+    const json_res = await res.json()
+    let posts = JSON.parse(JSON.stringify(json_res))
+    let news = posts.news
+    let prices = posts.prices
+    console.log(prices)
+    return {
+        props: { news: JSON.parse(JSON.stringify(news)), prices: JSON.parse(JSON.stringify(prices)) }
+    }
+}
 export default Footer
