@@ -110,7 +110,7 @@ const News = ({ news }) => {
           <div class="flex flex-wrap -mx-4 -mb-10 text-center">
 
             {news.map((post) => {
-              return <div key={post._id} class="sm:w-1/2 mb-7 mx-2 bg-black md:mx-4  w-full md:w-1/2 rounded shadow-md flex card text-grey-darkest">
+              return <div key={post._id} class="sm:w-1/2 mb-7 mx-2 bg-gray-100 md:mx-0  w-full md:w-1/2 rounded shadow-lg flex card text-grey-darkest">
                 {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
                 {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-lg" src={post.image_url} alt="tech" />}
                 {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src='../assets/images/news.jpg' alt="tech" />}
@@ -118,7 +118,7 @@ const News = ({ news }) => {
                 <div class="w-1/2 flex flex-col">
                   <div class="p-2 pb-0 flex-1">
 
-                    <span class="text-md md:text-lg lg:text-xl font-semibold md:font-bold text-white">{post.title}</span>
+                    <span class="text-md md:text-lg lg:text-xl font-semibold md:font-bold text-black">{post.title}</span>
                     {/* <div class="flex items-center mt-4">
                       <div class="pr-2 text-xs">
                         <i class="fas fa-wifi text-green"></i> Free WiFi
@@ -127,7 +127,7 @@ const News = ({ news }) => {
                         <i class="text-grey-darker far fa-building"></i> 2mins to center
                       </div>
                     </div> */}
-                    <Link href={`/blog/${post.slug}`}><button class="px-3 ml-2 my-1 py-2 hover:shadow-md bg-gray-100 text-black text-xs font-bold uppercase rounded leading-tight hover:bg-gray-200 ">और अधिक जानें</button></Link>
+                    <Link href={`/blog/${post.slug}`}><button class="px-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
 
                   </div>
                   {/* <div
