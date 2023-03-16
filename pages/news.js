@@ -17,14 +17,14 @@ const News = ({ news }) => {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>कृषि खबरों का नवीनतम संग्रह</title>
+        <title>कृषि समाचार - फसलों से संबंधित ताज़ा खबरें और अपडेट्स</title>
         <meta name="description" content="कृषि खबरों का नवीनतम संग्रह, कृषि क्षेत्र में होने वाली हर घटना और बदलाव के बारे में। हमारी वेबसाइट पर आपको हमेशा अपडेट मिलेंगे।" />
         <link rel="icon" href="/mandi.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <meta name="keywords" content="शेयर बाजार,मंडी भाव राजस्थान Today,राजस्थान मंडी भाव, सरसों,किसान मंडी भाव,e-mandi bhav mp,राजस्थान मंडी भाव टुडे | ग्वार का,livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,शेयर मार्केट के अनुसार फसलों की मार्केट भाव,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)" />
         <meta name="robots" content="index, follow"></meta>
         <link rel="canonical" href="https://livemadni.in/"></link>
-        <meta property="og:title" content="कृषि खबरों का नवीनतम संग्रह" />
+        <meta property="og:title" content="कृषि समाचार - फसलों से संबंधित ताज़ा खबरें और अपडेट्स" />
         <meta property="og:description" content="कृषि खबरों का नवीनतम संग्रह, कृषि क्षेत्र में होने वाली हर घटना और बदलाव के बारे में। हमारी वेबसाइट पर आपको हमेशा अपडेट मिलेंगे।" />
         <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/mandinews.jpg" />
         <meta property="og:url" content="https://livemandi.in/news/" />
