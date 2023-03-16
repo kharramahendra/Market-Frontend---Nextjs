@@ -127,8 +127,9 @@ const News = ({ news }) => {
                         <i class="text-grey-darker far fa-building"></i> 2mins to center
                       </div>
                     </div> */}
+                                      <Link href={`/blog/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+
                   </div>
-                  <Link href={`/blog/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
                   {/* <div
                     class="bg-grey-lighter p-3 flex items-center justify-between transition hover:bg-grey-light">
                     Read More
