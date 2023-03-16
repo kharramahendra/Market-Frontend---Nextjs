@@ -106,7 +106,7 @@ const News = ({ news }) => {
 
 
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="containerx px-5 py-24 mx-auto">
           <div class="flex flex-wrap -mx-4 -mb-10 text-center">
 
             {news.map((post) => {
@@ -118,7 +118,7 @@ const News = ({ news }) => {
                 <div class="w-1/2 flex flex-col">
                   <div class="p-4 pb-0 flex-1">
 
-                    <span class="text-3xl text-grey-darkest">{post.title}</span>
+                    <span class="text-md text-grey-darkest">{post.title}</span>
                     <div class="flex items-center mt-4">
                       <div class="pr-2 text-xs">
                         <i class="fas fa-wifi text-green"></i> Free WiFi
