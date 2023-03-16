@@ -111,9 +111,9 @@ const News = ({ news }) => {
 
             {news.map((post) => {
               return <div key={post._id} class="sm:w-1/2 mb-7 mx-2 bg-black md:mx-4  w-full md:w-1/2 rounded shadow-md flex card text-grey-darkest">
-                {post.image != null && <img class="w-1/2 h-full object-cover object-center " src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
-                {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center " src={post.image_url} alt="tech" />}
-                {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center " src='../assets/images/news.jpg' alt="tech" />}
+                {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
+                {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-lg" src={post.image_url} alt="tech" />}
+                {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src='../assets/images/news.jpg' alt="tech" />}
                 {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
                 <div class="w-1/2 flex flex-col">
                   <div class="p-2 pb-0 flex-1">
