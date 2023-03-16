@@ -110,7 +110,7 @@ const News = ({ news }) => {
           <div class="flex flex-wrap -mx-4 -mb-10 text-center">
 
             {news.map((post) => {
-              return <div ikey={post._id} class="sm:w-1/2 mb-7 px-2 bg-white w-full md:w-1/2 rounded shadow-md flex card text-grey-darkest">
+              return <div ikey={post._id} class="sm:w-1/2 mb-7 mx-2 md:mx-4 bg-white w-full md:w-1/2 rounded shadow-md flex card text-grey-darkest">
                 {post.image != null && <img class="w-1/2 h-full object-cover object-center " src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
                 {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center " src={post.image_url} alt="tech" />}
                 {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center " src='../assets/images/news.jpg' alt="tech" />}
