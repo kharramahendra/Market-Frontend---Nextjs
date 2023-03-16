@@ -110,7 +110,7 @@ const News = ({ news }) => {
           <div class="flex flex-wrap -mx-4 -mb-10 text-center">
 
             {news.map((post) => {
-              return <div key={post._id} class="mb-7 mx-2 bg-gray-100 md:mx-0 sm:mx-auto w-full md:w-2/5 rounded shadow-lg flex card text-grey-darkest">
+              return <div key={post._id} class="mb-7 mx-2 bg-gray-100  sm:mx-auto w-full md:w-2/5 rounded shadow-lg flex card text-grey-darkest">
                 {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
                 {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-lg" src={post.image_url} alt="tech" />}
                 {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src='../assets/images/news.jpg' alt="tech" />}
@@ -118,7 +118,7 @@ const News = ({ news }) => {
                 <div class="w-1/2 flex flex-col">
                   <div class="p-2 pb-0 flex-col">
 
-                    <span class="text-md md:text-lg lg:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 70)} ...</span>
+                    <span class="text-md md:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 70)} ...</span>
                     {/* <div class="flex items-center mt-4">
                       <div class="pr-2 text-xs">
                         <i class="fas fa-wifi text-green"></i> Free WiFi
