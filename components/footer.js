@@ -24,93 +24,12 @@ const Footer = ({ news }) => {
                                     <div class="p-2 pb-0 flex-col">
 
                                         <span class="text-md md:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 70)} ...</span>
-                                        {/* <div class="flex items-center mt-4">
-                      <div class="pr-2 text-xs">
-                        <i class="fas fa-wifi text-green"></i> Free WiFi
-                      </div>
-                      <div class="px-2 text-xs">
-                        <i class="text-grey-darker far fa-building"></i> 2mins to center
-                      </div>
-                    </div> */}
                                         <Link href={`/blog/${post.slug}`}><button class="px-2 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
 
                                     </div>
-                                    {/* <div
-                    class="bg-grey-lighter p-3 flex items-center justify-between transition hover:bg-grey-light">
-                    Read More
-                    <i class="fas fa-chevron-right"></i>
-                  </div> */}
                                 </div>
                             </div>
                         })}
-
-
-                        {/* <div id="app" class="sm:w-1/2 mb-7  bg-white w-full md:w-1/2 rounded shadow-md flex card text-grey-darkest">
-              <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" />
-              <div class="w-full flex flex-col">
-                <div class="p-4 pb-0 flex-1">
-
-                  <span class="text-2xl text-grey-darkest">£63.00<span class="text-lg">/PPPN</span></span>
-                  <div class="flex items-center mt-4">
-                    <div class="pr-2 text-xs">
-                      <i class="fas fa-wifi text-green"></i> Free WiFi
-                    </div>
-                    <div class="px-2 text-xs">
-                      <i class="text-grey-darker far fa-building"></i> 2mins to center
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="bg-grey-lighter p-3 flex items-center justify-between transition hover:bg-grey-light">
-                  Book Now
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-              </div>
-            </div>
-            <div id="app" class="sm:w-1/2 mb-7  bg-white w-full md:w-1/2 rounded shadow-md flex card text-grey-darkest">
-              <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" />
-              <div class="w-1/2 flex flex-col">
-                <div class="p-4 pb-0 flex-1">
-
-                  <span class="text-3xl text-grey-darkest">£63.00<span class="text-lg">/PPPN</span></span>
-                  <div class="flex items-center mt-4">
-                    <div class="pr-2 text-xs">
-                      <i class="fas fa-wifi text-green"></i> Free WiFi
-                    </div>
-                    <div class="px-2 text-xs">
-                      <i class="text-grey-darker far fa-building"></i> 2mins to center
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="bg-grey-lighter p-3 flex items-center justify-between transition hover:bg-grey-light">
-                  Book Now
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-              </div>
-            </div>
-            <div id="app" class="sm:w-1/2 mb-7  bg-white w-full md:w-1/2 rounded shadow-md flex card text-grey-darkest">
-              <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" />
-              <div class="w-full flex flex-col">
-                <div class="p-4 pb-0 flex-1">
-
-                  <span class="text-2xl text-grey-darkest">£63.00<span class="text-lg">/PPPN</span></span>
-                  <div class="flex items-center mt-4">
-                    <div class="pr-2 text-xs">
-                      <i class="fas fa-wifi text-green"></i> Free WiFi
-                    </div>
-                    <div class="px-2 text-xs">
-                      <i class="text-grey-darker far fa-building"></i> 2mins to center
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="bg-grey-lighter p-3 flex items-center justify-between transition hover:bg-grey-light">
-                  Book Now
-                  <i class="fas fa-chevron-right"></i>
-                </div>
-              </div>
-            </div> */}
                     </div>
                 </div>
             </section>
