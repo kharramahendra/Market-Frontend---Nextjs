@@ -127,7 +127,7 @@ const News = ({ news }) => {
                         <i class="text-grey-darker far fa-building"></i> 2mins to center
                       </div>
                     </div> */}
-                                      <Link href={`/blog/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+                    <Link href={`/blog/${post.slug}`}><button class="px-3 ml-2 my-1 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
 
                   </div>
                   {/* <div
