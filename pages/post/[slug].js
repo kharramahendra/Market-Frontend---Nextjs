@@ -69,47 +69,17 @@ const Post = ({ post }) => {
             {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}`} />}
             {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
             {post.image == null && post.image_url == '' && <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" />}
-            {/* <meta property="og:image" content="https://livemandi.in/assets/images/dailymandi.jpg" /> */}
-            {/* <meta property="og:image:width" content="820" />
-            <meta property="og:image:height" content="580" />
-            <meta property="og:image:type" content="image/jpg" /> */}
-
-            {/* {post.image != null && <meta property="og:image" content={`${process.env.NEXT_PUBLIC_HOST + post.image}}`} />}
-            {post.image == null && post.image_url != '' && <meta property="og:image" content={post.image_url} />}
-            {post.image == null && post.image_url == '' && <meta property="og:image" content="../assets/images/market.jpg" />} */}
             <meta charSet="utf-8"></meta>
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                crossorigin="anonymous"></script>
+            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+                crossorigin="anonymous"></Script>
 
         </Head>
         <Navbar />
 
-        <Script async strategy='lazyOnload' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-            crossorigin="anonymous"></Script>
-        {/* <ins class="adsbygoogle block text-center"
-            // style="display:block; text-align:center;"
-            data-ad-layout="in-article"
-            data-ad-format="fluid"
-            data-ad-client="ca-pub-8245105696445903"
-            data-ad-slot="9498669156"></ins> */}
-        {/* <script>
-            (adsbygoogle = window.adsbygoogle || []).push({ });
-        </script> */}
-        <ins
-            class="adsbygoogle"
-            data-ad-layout="in-article"
-            style={{ display: "block" }}
-            data-ad-client="ca-pub-8245105696445903"
-            data-ad-slot="9498669156"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-        > </ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({ });
-        </script>
+        
 
 
         <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
