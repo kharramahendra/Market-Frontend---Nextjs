@@ -40,10 +40,10 @@ const Footer = () => {
                                     {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center " src='../assets/images/news.jpg' alt="tech" />}
                                     {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
                                     <div class="w-1/2 flex flex-col">
-                                        <div class="p-2 pb-0 flex-col">
+                                        <div class="relative p-2 pb-0 flex-col">
 
                                             <span class="text-md md:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 70)} ...</span>
-                                            <Link href={`/blog/${post.slug}`}><button class="px-2 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase  leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+                                            <Link href={`/blog/${post.slug}`}><button class="absolute bottom-1 right-1 px-2 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase  leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
 
                                         </div>
                                     </div>
