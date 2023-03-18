@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
   },[router.query])
 
   return <>
-<script strategy='lazyOnload' async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+<script strategy='beforeInteractive"' async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
           crossorigin="anonymous"></script>
 <Script 
 strategy='lazyOnload'
