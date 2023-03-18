@@ -81,10 +81,22 @@ const Post = ({ post }) => {
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
-          
+
 
         </Head>
         <Navbar />
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+            crossorigin="anonymous"></script>
+        <ins class="adsbygoogle"
+            style="display:block; text-align:center;"
+            data-ad-layout="in-article"
+            data-ad-format="fluid"
+            data-ad-client="ca-pub-8245105696445903"
+            data-ad-slot="9498669156"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({ });
+        </script>
 
 
         <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
