@@ -22,36 +22,37 @@ const Footer = () => {
         <>
 
 
-            <section class="text-gray-600 body-font">
-                <div class="containerx px-5 py-24 mx-auto">
-                    <div className="flex flex-col text-center w-full mb-8">
-                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">ये भी पढ़े</h1>
-                        {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव (mandi bhav) जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> (share bazaar) पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव (live mandi bhav) के बारे में जान सकते हैं।</p> */}
-                    </div>
-                    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-
-                        {news && news.map((post) => {
-                            return <div key={post._id} class="mb-7 mx-2 bg-gray-100  sm:mx-auto w-full md:w-2/5 rounded shadow-lg flex card text-grey-darkest">
-                                {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
-                                {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-lg" src={post.image_url} alt="tech" />}
-                                {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src='../assets/images/news.jpg' alt="tech" />}
-                                {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
-                                <div class="w-1/2 flex flex-col">
-                                    <div class="p-2 pb-0 flex-col">
-
-                                        <span class="text-md md:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 70)} ...</span>
-                                        <Link href={`/blog/${post.slug}`}><button class="px-2 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
-
-                                    </div>
-                                </div>
-                            </div>
-                        })}
-                    </div>
-                </div>
-            </section>
 
 
             <footer class="text-gray-600 body-font bg-gray-100">
+                <section class="text-gray-600 body-font">
+                    <div class="containerx px-5 py-24 mx-auto">
+                        <div className="flex flex-col text-center w-full mb-8">
+                            <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">ये भी पढ़े</h1>
+                            {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव (mandi bhav) जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> (share bazaar) पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव (live mandi bhav) के बारे में जान सकते हैं।</p> */}
+                        </div>
+                        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+
+                            {news && news.map((post) => {
+                                return <div key={post._id} class="mb-7 mx-2 bg-gray-100  sm:mx-auto w-full md:w-2/5 rounded shadow-lg flex card text-grey-darkest">
+                                    {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
+                                    {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-lg" src={post.image_url} alt="tech" />}
+                                    {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-lg" src='../assets/images/news.jpg' alt="tech" />}
+                                    {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
+                                    <div class="w-1/2 flex flex-col">
+                                        <div class="p-2 pb-0 flex-col">
+
+                                            <span class="text-md md:text-xl font-semibold md:font-bold text-black">{post.title.slice(0, 70)} ...</span>
+                                            <Link href={`/blog/${post.slug}`}><button class="px-2 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            })}
+                        </div>
+                    </div>
+                </section>
+
                 <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                     <a class="max-w-[160px] flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                         {/* <a href="/" class="mb-6 inline-block max-w-[160px]"> */}
