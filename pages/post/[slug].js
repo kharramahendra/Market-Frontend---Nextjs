@@ -107,7 +107,7 @@ const Post = ({ post }) => {
             <section className="text-gray-600 body-font">
                 <div className="container px-5 pt-5 pb-2 mx-auto">
                     <div className="flex flex-col text-center w-full">
-                        <h1 className="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-[#00887a]">{post.timestamp}</h1>
+                        <h1 className="my-2 rounded-lg justify-center py-1 px-3 text-xl font-bold mx-auto text-pink-700">{post.timestamp}</h1>
 
                     </div></div></section>}
 
@@ -115,7 +115,7 @@ const Post = ({ post }) => {
         {post.category == 'Price' && <div className="flex justify-center sticky top-2 left-2 ml-2">
             <div>
                 <div className="dropdown relative ml-2 my-0">
-                    <button onClick={() => { setHidedrop(!hidedropdown) }} className="dropdown-toggle px-6 py-2.5 bg-[#e87109] text-white font-medium text-sm leading-tight uppercase rounded shadow-md  hover:shadow-lg   transition duration-150 ease-in-out flex items-center " aria-expanded="false"> फसल
+                    <button onClick={() => { setHidedrop(!hidedropdown) }} className="dropdown-toggle px-6 py-2.5 bg-pink-700 text-white font-medium text-sm leading-tight uppercase rounded shadow-md  hover:shadow-lg   transition duration-150 ease-in-out flex items-center " aria-expanded="false"> फसल
                         <svg
                             aria-hidden="true"
                             focusable="false"

@@ -98,7 +98,7 @@ const Navbar = () => {
               </li>
 
               <li className="mb-1">
-                <a href="/sharemarket" className="block p-2 text-sm font-semibold text-gray-800  rounded" >शेयर बाजार</a>
+                <a href="/sharemarket" className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि शेयर बाजार</a>
               </li>
 
               <li className="mb-1">
