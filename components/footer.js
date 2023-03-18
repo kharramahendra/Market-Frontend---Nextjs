@@ -24,7 +24,7 @@ const Footer = () => {
 
 
 
-            <footer class="text-gray-600 body-font bg-purple-100">
+            <footer class="text-gray-600 body-font bg-gray-100">
                 <section class="text-gray-600 body-font">
                     <div class="containerx px-5 py-16 mx-auto">
                         <div className="flex flex-col text-center w-full mb-8">
