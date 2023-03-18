@@ -14,13 +14,13 @@ const Home = ({ news, prices }) => {
 
   useEffect(() => {
 
-    var js, fjs = document.getElementsByTagName('script')[0];
-    if (!document.getElementById('weatherwidget-io-js')) {
-      js = document.createElement('script');
-      js.id = 'weatherwidget-io-js';
-      js.src = 'https://weatherwidget.io/js/widget.min.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }
+    // var js, fjs = document.getElementsByTagName('script')[0];
+    // if (!document.getElementById('weatherwidget-io-js')) {
+    //   js = document.createElement('script');
+    //   js.id = 'weatherwidget-io-js';
+    //   js.src = 'https://weatherwidget.io/js/widget.min.js';
+    //   fjs.parentNode.insertBefore(js, fjs);
+    // }
 
 
   })
@@ -59,9 +59,9 @@ const Home = ({ news, prices }) => {
 
 
       {/* <Link href={'/p/market/sharemarket'}> */}
-      <div className="relative cursor-pointer">
+      {/* <div className="relative cursor-pointer">
         <a class="weatherwidget-io" href="https://forecast7.com/en/27d2073d75/nagaur/" data-label_1="NAGAUR" data-label_2="WEATHER" data-theme="pure" >NAGAUR WEATHER</a>
-      </div>
+      </div> */}
       {/* </Link> */}
 
 
