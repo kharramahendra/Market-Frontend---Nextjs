@@ -34,10 +34,10 @@ const Footer = () => {
                         <div class="flex flex-wrap -mx-4 -mb-10 text-center">
 
                             {news && news.map((post) => {
-                                return <div key={post._id} class="mb-7 mx-2 bg-white  sm:mx-auto w-full md:w-2/5  shadow-lg flex card text-grey-darkest">
-                                    {post.image != null && <img class="w-1/2 h-full object-cover object-center " src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
-                                    {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center " src={post.image_url} alt="tech" />}
-                                    {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center " src='../assets/images/news.jpg' alt="tech" />}
+                                return <div key={post._id} class="mb-7 mx-2 bg-white  sm:mx-auto w-full md:w-2/5 rounded-sm shadow-lg flex card text-grey-darkest">
+                                    {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
+                                    {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-sm" src={post.image_url} alt="tech" />}
+                                    {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src='../assets/images/news.jpg' alt="tech" />}
                                     {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
                                     <div class="w-1/2 flex flex-col">
                                         <div class=" p-2 pb-0 flex-col">
