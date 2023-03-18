@@ -36,12 +36,16 @@ import Router from 'next/router'
 
 
 const Post = ({ post }) => {
-    const [render, setRender] = useState(false);
-    const [hidedropdown, setHidedrop] = useState(true)
+   
 
 
     useEffect(() => {
         hljs.initHighlighting();
+        const script = document.createElement('script')
+        script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
+        script.async = true
+        script.crossOrigin = 'anonymous'
+        document.head.appendChild(script);
 
     }, [post]);
 
@@ -79,20 +83,7 @@ const Post = ({ post }) => {
 
             <Navbar />
 
-            <Script async strategy='lazyOnload' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                crossorigin="anonymous"></Script>
-            <ins class="adsbygoogle block text-center"
-                // style="display:block; text-align:center;"
-                data-ad-layout="in-article"
-                data-ad-format="fluid"
-                data-ad-client="ca-pub-8245105696445903"
-                data-ad-slot="9498669156"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({ });
-            </script>
-
-
-
+            
             <div className='flex flex-col justify-items-end items-end fixed top-80 right-0'>
                 <div className='rounded-sm'>
                     <WhatsappShareButton className="rounded-sm"
