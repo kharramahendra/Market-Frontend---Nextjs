@@ -41,11 +41,11 @@ const Post = ({ post }) => {
 
     useEffect(() => {
         hljs.initHighlighting();
-        // const script = document.createElement('script')
-        // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
-        // script.async = true
-        // script.crossOrigin = 'anonymous'
-        // document.head.appendChild(script);
+        const script = document.createElement('script')
+        script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
+        script.async = true
+        script.crossOrigin = 'anonymous'
+        document.head.appendChild(script);
 
     }, [post]);
 
@@ -82,19 +82,31 @@ const Post = ({ post }) => {
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-     crossorigin="anonymous"></script>
-            
+                crossorigin="anonymous"></script>
+
         </Head>
         <Navbar />
 
         <Script async strategy='lazyOnload' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-                crossorigin="anonymous"></Script>
-        <ins class="adsbygoogle block text-center"
+            crossorigin="anonymous"></Script>
+        {/* <ins class="adsbygoogle block text-center"
             // style="display:block; text-align:center;"
             data-ad-layout="in-article"
             data-ad-format="fluid"
             data-ad-client="ca-pub-8245105696445903"
-            data-ad-slot="9498669156"></ins>
+            data-ad-slot="9498669156"></ins> */}
+        {/* <script>
+            (adsbygoogle = window.adsbygoogle || []).push({ });
+        </script> */}
+        <ins
+            class="adsbygoogle"
+            data-ad-layout="in-article"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-8245105696445903"
+            data-ad-slot="9498669156"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+        > </ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({ });
         </script>
