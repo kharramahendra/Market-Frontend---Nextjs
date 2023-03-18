@@ -34,7 +34,7 @@ const Footer = () => {
                         <div class="flex flex-wrap -mx-4 -mb-10 text-center">
 
                             {news && news.map((post) => {
-                                return <div key={post._id} class="mb-7 mx-2 bg-white  sm:mx-auto w-full md:w-2/5 rounded-sm shadow-lg flex card text-grey-darkest">
+                                return <div key={post._id} class="mb-7 mx-2 bg-[#00887a]  sm:mx-auto w-full md:w-2/5 rounded-sm shadow-lg flex card text-grey-darkest">
                                     {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
                                     {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-sm" src={post.image_url} alt="tech" />}
                                     {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src='../assets/images/news.jpg' alt="tech" />}
@@ -43,7 +43,7 @@ const Footer = () => {
                                         <div class=" p-2 pb-0 flex-col">
 
                                             <span class="text-md md:text-xl  md:font-bold text-black">{post.title.slice(0, 70)} ...</span>
-                                            <Link href={`/blog/${post.slug}`}><button class="px-3 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-800 text-white text-xs font-bold uppercase  leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+                                            <Link href={`/blog/${post.slug}`}><button class="px-3 md:px-3 md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-[#e87109] text-white text-xs font-bold uppercase  leading-tight ">और अधिक जानें</button></Link>
 
                                         </div>
 
