@@ -26,7 +26,7 @@ const Footer = () => {
 
             <footer class="text-gray-600 body-font bg-purple-100">
                 <section class="text-gray-600 body-font">
-                    <div class="containerx px-5 py-24 mx-auto">
+                    <div class="containerx px-5 py-16 mx-auto">
                         <div className="flex flex-col text-center w-full mb-8">
                             <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">ये भी पढ़े</h1>
                             {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव (mandi bhav) जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> (share bazaar) पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव (live mandi bhav) के बारे में जान सकते हैं।</p> */}
