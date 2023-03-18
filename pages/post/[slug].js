@@ -88,8 +88,8 @@ const Post = ({ post }) => {
 
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
             crossorigin="anonymous"></script>
-        <ins class="adsbygoogle"
-            style="display:block; text-align:center;"
+        <ins class="adsbygoogle block text-center"
+            // style="display:block; text-align:center;"
             data-ad-layout="in-article"
             data-ad-format="fluid"
             data-ad-client="ca-pub-8245105696445903"
