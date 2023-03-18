@@ -82,7 +82,8 @@ const Post = ({ post }) => {
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
 
-
+            <Script strategy='lazyOnload' async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+                crossorigin="anonymous"></Script>
         </Head>
         <Navbar />
 
