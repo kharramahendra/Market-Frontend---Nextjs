@@ -161,7 +161,7 @@ const ShareMarket = () => {
 
 
             <Ticker />
-            
+
 
 
             <div className="relative h-[70vh] md:h-screen">
@@ -175,6 +175,163 @@ const ShareMarket = () => {
 
                 <img className="absolute bottom-[56px] left-2 h-10 bg-black w-10 rounded-full" src="/bglogoblack.jpg" alt="" />
             </div>
+
+
+
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-col text-center w-full mb-20">
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">आज के <span className='font-bold text-rose-500'>लाइव </span>लाइव मंडी भाव - {Date().toString().slice(3, 15)}</h1>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के आज के लाइव भाव (live mandi bhav) जानने के लिए नीचे दी गई फसल पर क्लिक करें</p>
+                    </div>
+                    <div class="flex flex-wrap -m-2">
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://4.imimg.com/data4/QN/HG/MY-15510094/guar-gum-seed-500x500.jpg"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">ग्वार (GUAR) KE BHAV</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://bl-i.thgim.com/public/incoming/lx7sba/article66329939.ece/alternates/FREE_1200/IMG_BL10-JEERA8_3_1_E68TMDDE.jpg"/>
+                                <div class="flex-grow">
+                                    <h2 class="text-gray-900 title-font font-medium">जीरा (JEERA) ke bhav</h2>
+                                    <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.healthybazar.com/images/product/large/healthybazar_16324129260.jpg"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">इसबगोल (ISABGUL) bhav today</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://tiimg.tistatic.com/fp/1/002/891/barley-seeds-889.jpg"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">जौ (BARLEY) mandi bhav</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://5.imimg.com/data5/ANDROID/Default/2022/5/SE/QN/HG/89593328/uc0feb89e1d70497fa5c42f9a5df6e2d9u-jpg-250x250.jpg"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">गेहूँ (WHEAT) ke bhav</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://5.imimg.com/data5/MX/BG/FQ/SELLER-66914748/black-mustard-seed-rayda-brassica-nigra-500x500.jpg"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">सरसो (Musturd) bhav</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://2.wlimg.com/product_images/bc-full/dir_137/4084520/taramira-seeds-1493784716-2825705.jpeg"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">तारामीरा (TARAMIRA) bhav</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://sofindia.co.in/wp-content/uploads/2022/07/kala-chana.png"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">चना (CHANA) ke bhav</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsVke65fbP-15GeKWRmmsX25ICLjQnGHYRkg&usqp=CAU"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">मूंग (MOONG) today bhav</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_w1JM_a9Zec5W7hU6xc3axb634kdhhSxGpiY5YWZE_dsNjgTQtCdJuLN0N4mVxGLUCqs&usqp=CAU"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">मोठ (MOATH) ke bhav</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKtsP-EKmMNccn0mDJWAciukKlSY1Okr2hBw&usqp=CAU"/>
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">मेथी (METHI) bhav</h2>
+                                        <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
+                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a></Link>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
 
 
@@ -205,10 +362,10 @@ const ShareMarket = () => {
                     </div>
                     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-                            भविष्य के मार्केट भाव कैसे समझे  
+                            भविष्य के मार्केट भाव कैसे समझे
                         </h1>
                         <p class="mb-8 leading-relaxed">एक उपयोगी सुझाव हम दे सकते हैं कि मंडियों में आमतौर पर bhav स्टॉक मार्केट से कुछ कम होते हैं, क्योंकि मंडियों में दाम बाजार से सीधे किसानों से तय किए जाते हैं और इसमें बिचौलियों की बड़ी संख्या शामिल नहीं होती है।</p>
-                        
+
                     </div>
                 </div>
             </section>
