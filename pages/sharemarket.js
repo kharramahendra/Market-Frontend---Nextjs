@@ -135,14 +135,14 @@ const ShareMarket = () => {
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-                <title>कृषि शेयर बाजार - शेयर मार्केट के अनुसार फसलों की मार्केट भाव</title>
+                <title>कृषि शेयर बाजार - शेयर मार्केट के अनुसार फसलों के मार्केट भाव</title>
                 <meta name="description" content="किसानों के लिए शेयर मार्केट के अनुसार फसलों की मार्केट भाव का ग्राफिकल प्रतिनिधित्व उपलब्ध है। हमारी वेबसाइट पर, किसानों को पूर्ण और स्पष्ट प्रतिनिधित्व मिलेगा, ताकि वे अपने फसलों के लिए शेयर मार्केट की तलाश कर सकें।" />
                 <link rel="icon" href="/mandi.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-                <meta name="keywords" content="शेयर बाजार,मंडी भाव राजस्थान Today,राजस्थान मंडी भाव, सरसों,किसान मंडी भाव,e-mandi bhav mp,राजस्थान मंडी भाव टुडे | ग्वार का,livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,शेयर मार्केट के अनुसार फसलों की मार्केट भाव,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)" />
+                <meta name="keywords" content="live mandi bhav,मंडी भाव शेयर बाजार, शेयर बाजार मंडी भाव, मंडी भाव राजस्थान Today, राजस्थान मंडी भाव, किसान मंडी भाव, राजस्थान मंडी भाव टुडे ,livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,शेयर मार्केट के अनुसार फसलों की मार्केट भाव," />
                 <meta name="robots" content="index, follow"></meta>
                 <link rel="canonical" href="https://livemadni.in/"></link>
-                <meta property="og:title" content="कृषि शेयर बाजार - शेयर मार्केट के अनुसार फसलों की मार्केट भाव" />
+                <meta property="og:title" content="कृषि शेयर बाजार - शेयर मार्केट के अनुसार फसलों के मार्केट भाव" />
                 <meta property="og:description" content="किसानों के लिए शेयर मार्केट के अनुसार फसलों की मार्केट भाव का ग्राफिकल प्रतिनिधित्व उपलब्ध है। हमारी वेबसाइट पर, किसानों को पूर्ण और स्पष्ट प्रतिनिधित्व मिलेगा, ताकि वे अपने फसलों के लिए शेयर मार्केट की तलाश कर सकें।" />
                 <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/sharemarket%20(2).jpg" />
                 <meta property="og:url" content="https://livemandi.in/sharemarket/" />
@@ -169,7 +169,7 @@ const ShareMarket = () => {
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
                     <div className="tradingview-widget-copyright">
-                        <a rel="noopener" target="_blank"><span className="blue-text">Share Market</span></a>
+                        <a rel="noopener" target="_blank"><span className="blue-text">शेयर मार्केट के अनुसार फसलों के मार्केट भाव</span></a>
                     </div>
                 </div>
 
@@ -186,8 +186,8 @@ const ShareMarket = () => {
                     <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="about" src="/logolight2.png" />
 
                     <div class="text-center lg:w-2/3 w-full">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">शेयर बाजार</h1>
-                        <h2 class="mb-8 leading-relaxed text-gray-800">आप हमारी वेबसाइट के शेयर बाजार पृष्ठ पर जाकर फसलों की लाइव कीमतों के बारे में जान सकते हैं। हमारी वेबसाइट आपके लिए शेयर बाजार में निवेश करने से पहले फसलों के मूल्यों के बारे में सटीक और ताजा जानकारी प्रदान करती है। हम निरंतर फसलों की कीमतों को अपडेट करते रहते हैं ताकि आप फसलों की बेहतर बिक्री के लिए सही समय चुन सकें। हम आपको शेयर बाजार के लिए फसलों के वर्तमान और भविष्य के मूल्यों के बारे में समय समय पर जानकारी उपलब्ध कराते रहते हैं। इससे आप अपने निवेश को सटीकता और उन्नति के साथ सम्पन्न कर सकते हैं।</h2>
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">शेयर मार्केट के अनुसार फसलों के मार्केट भाव</h1>
+                        <h2 class="mb-8 leading-relaxed text-gray-800">शेयर मार्केट के अनुसार फसलों के मार्केट भाव लाइव (live mandi bhav) देख सकते हैं। हमारी वेबसाइट आपके लिए बेचने से पहले फसलों के Mandi Bhav के बारे में सटीक और ताजा जानकारी प्रदान करती है। हम निरंतर फसलों की कीमतों को अपडेट करते रहते हैं ताकि आप फसलों की बेहतर बिक्री के लिए सही समय चुन सकें। हम आपको शेयर बाजार (share market) के लिए फसलों के वर्तमान और भविष्य के मूल्यों (mandi bhav) के बारे में समय समय पर जानकारी उपलब्ध कराते रहते हैं। इससे आप अपने निवेश को सटीकता और उन्नति के साथ सम्पन्न कर सकते हैं।</h2>
                         <div class="flex justify-center">
                             {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
         <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
@@ -205,9 +205,9 @@ const ShareMarket = () => {
                     </div>
                     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-                            भविष्य की कीमतें  कैसे समझे  
+                            भविष्य के मार्केट भाव कैसे समझे  
                         </h1>
-                        <p class="mb-8 leading-relaxed">एक उपयोगी सुझाव हम दे सकते हैं कि मंडियों में आमतौर पर दाम स्टॉक मार्केट से कुछ कम होते हैं, क्योंकि मंडियों में दाम बाजार से सीधे किसानों से तय किए जाते हैं और इसमें बिचौलियों की बड़ी संख्या शामिल नहीं होती है।</p>
+                        <p class="mb-8 leading-relaxed">एक उपयोगी सुझाव हम दे सकते हैं कि मंडियों में आमतौर पर bhav स्टॉक मार्केट से कुछ कम होते हैं, क्योंकि मंडियों में दाम बाजार से सीधे किसानों से तय किए जाते हैं और इसमें बिचौलियों की बड़ी संख्या शामिल नहीं होती है।</p>
                         
                     </div>
                 </div>
