@@ -181,7 +181,7 @@ const ShareMarket = () => {
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">आज के <span className='font-bold text-rose-500'>लाइव </span>लाइव मंडी भाव - {Date().toString().slice(3, 15)}</h1>
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">आज के <span className='font-bold text-rose-500'>लाइव </span> मंडी भाव - {Date().toString().slice(3, 15)}</h1>
                         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के आज के लाइव भाव (live mandi bhav) जानने के लिए नीचे दी गई फसल पर क्लिक करें</p>
                     </div>
                     <div class="flex flex-wrap -m-2">
