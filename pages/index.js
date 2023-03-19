@@ -144,10 +144,7 @@ const Home = ({ news, prices }) => {
           <div class="flex flex-wrap justify-center">
             <div class="w-full px-4">
               <div class="mx-auto max-w-[510px] text-center ">
-                <h3
-                  class="my-4 text-lg font-semibold text-gray-900 sm:text-xl"
-                >
-                </h3>
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">कृषि समाचार</h1>
 
 
               </div>
