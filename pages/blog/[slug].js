@@ -41,11 +41,11 @@ const Post = ({ post }) => {
 
     useEffect(() => {
         hljs.initHighlighting();
-        const script = document.createElement('script')
-        script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
-        script.async = true
-        script.crossOrigin = 'anonymous'
-        document.head.appendChild(script);
+        // const script = document.createElement('script')
+        // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
+        // script.async = true
+        // script.crossOrigin = 'anonymous'
+        // document.head.appendChild(script);
 
     }, [post]);
 
@@ -75,8 +75,8 @@ const Post = ({ post }) => {
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://livemandi.in/about"></link>
 
-            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-     crossorigin="anonymous"></Script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+     crossorigin="anonymous"></script>
         </Head>
 
         <body>
