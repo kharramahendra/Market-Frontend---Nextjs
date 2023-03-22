@@ -45,7 +45,8 @@ const Post = ({ post }) => {
 
 
     useEffect(() => {
-        router.replace(router.asPath);
+        // router.replace(router.asPath);
+        router.reload(router.asPath)
         hljs.initHighlighting();
         // const script = document.createElement('script')
         // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
