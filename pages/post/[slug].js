@@ -1,4 +1,11 @@
 import React from 'react'
+import { useRouter } from 'next/router'
+
+
+
+const router = useRouter()
+
+
 import {
     FacebookShareButton,
     FacebookIcon,
@@ -40,6 +47,7 @@ const Post = ({ post }) => {
 
 
     useEffect(() => {
+        router.reload(window.location.pathname)
         hljs.initHighlighting();
         // const script = document.createElement('script')
         // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
