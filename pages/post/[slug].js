@@ -41,9 +41,7 @@ const Post = ({ post }) => {
     const [render, setRender] = useState(false);
     const [hidedropdown, setHidedrop] = useState(true)
     const router = useRouter();
-    router.replace(router.asPath);
 
-    // router.reload()
 
     useEffect(() => {
         // 
