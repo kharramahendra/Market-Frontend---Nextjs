@@ -9,7 +9,7 @@ import Head from 'next/head'
 import { MdDateRange } from 'react-icons/md'
 import { BsFacebook, BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs'
 
-
+import Script from 'next/script'
 
 
 export default function TradingViewWidget() {
