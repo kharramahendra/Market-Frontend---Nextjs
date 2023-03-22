@@ -1,7 +1,4 @@
 import React from 'react'
-import Router from 'next/router';
-
-Router.reload();
 
 
 
@@ -29,7 +26,7 @@ hljs.registerLanguage('javascript', javascript);
 
 import Head from 'next/head'
 import Image from 'next/image'
-
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 import { useEffect } from 'react'
 import Navbar from '../../components/navbar'
@@ -43,8 +40,8 @@ import Link from 'next/link'
 const Post = ({ post }) => {
     const [render, setRender] = useState(false);
     const [hidedropdown, setHidedrop] = useState(true)
-    // const router = useRouter()
-    // router.reload()
+    const router = useRouter();
+    router.replace(router.asPath);
     
 
 
