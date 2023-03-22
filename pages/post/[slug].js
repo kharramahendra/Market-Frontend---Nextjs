@@ -41,12 +41,13 @@ const Post = ({ post }) => {
     const [render, setRender] = useState(false);
     const [hidedropdown, setHidedrop] = useState(true)
     const router = useRouter();
-    
+    router.replace(router.asPath);
 
+    // router.reload()
 
     useEffect(() => {
-        // router.replace(router.asPath);
-        router.reload()
+        // 
+        
         hljs.initHighlighting();
         // const script = document.createElement('script')
         // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
