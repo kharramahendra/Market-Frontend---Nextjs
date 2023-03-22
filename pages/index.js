@@ -179,7 +179,7 @@ const Home = ({ news, prices }) => {
                       {/* <p class="text-rose-600 text-base mb-4">
                         {post.content.slice(0, 100).toString().replace(/<[^>]*>/g, '')}
                       </p> */}
-                      <Link href={`/blog/${post.slug}`}><button class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</button></Link>
+                      <a href={`/blog/${post.slug}`} class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</a>
                     </div>
                   </div>
                 </div>
