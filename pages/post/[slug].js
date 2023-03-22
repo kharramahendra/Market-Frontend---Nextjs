@@ -2,8 +2,6 @@ import React from 'react'
 import { useRouter } from 'next/router'
 
 
-const router = useRouter()
-
 
 import {
     FacebookShareButton,
@@ -43,10 +41,13 @@ import Router from 'next/router'
 const Post = ({ post }) => {
     const [render, setRender] = useState(false);
     const [hidedropdown, setHidedrop] = useState(true)
+    
+    const router = useRouter()
+    router.reload(window.location.pathname)
 
 
     useEffect(() => {
-        router.reload(window.location.pathname)
+        
         hljs.initHighlighting();
         // const script = document.createElement('script')
         // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903'
