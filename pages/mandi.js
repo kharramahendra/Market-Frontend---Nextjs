@@ -92,15 +92,8 @@ const Mandi = ({ prices }) => {
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
         <link rel="author" href="https://livemandi.in/"></link>
         <meta charSet="utf-8"></meta>
-        {/* <script strategy='lazyOnload' async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-          crossorigin="anonymous"></script> */}
-
-        {/* ad1 */}
-        {/* <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script> */}
-
-
-        <Script strategy="lazyOnload" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-          crossorigin="anonymous"></Script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+          crossorigin="anonymous"></script>
       </Head>
       <body>
         <Navbar />
