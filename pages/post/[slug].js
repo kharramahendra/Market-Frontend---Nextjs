@@ -1,7 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-const router = useRouter()
-router.reload(window.location.pathname)
+
 
 
 import {
@@ -42,7 +41,8 @@ import Router from 'next/router'
 const Post = ({ post }) => {
     const [render, setRender] = useState(false);
     const [hidedropdown, setHidedrop] = useState(true)
-    
+    const router = useRouter()
+    router.reload()
     
 
 
