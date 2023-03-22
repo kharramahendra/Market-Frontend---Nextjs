@@ -1,5 +1,7 @@
 import React from 'react'
-import { useRouter } from 'next/router'
+import Router from 'next/router';
+
+Router.reload();
 
 
 
@@ -35,7 +37,7 @@ import Footer from '../../components/footer'
 
 import Script from 'next/script'
 import Link from 'next/link'
-import Router from 'next/router'
+
 
 
 const Post = ({ post }) => {
