@@ -41,8 +41,8 @@ import Router from 'next/router'
 const Post = ({ post }) => {
     const [render, setRender] = useState(false);
     const [hidedropdown, setHidedrop] = useState(true)
-    const router = useRouter()
-    router.reload()
+    // const router = useRouter()
+    // router.reload()
     
 
 
