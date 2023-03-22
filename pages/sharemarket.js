@@ -151,8 +151,8 @@ const ShareMarket = () => {
                 <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
                 <link rel="author" href="https://livemandi.in/"></link>
                 <meta charSet="utf-8"></meta>
-                <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
-          crossorigin="anonymous"></Script>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
+          crossorigin="anonymous"></script>
 
             </Head>
 
