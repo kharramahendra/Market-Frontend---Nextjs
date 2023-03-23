@@ -8,7 +8,8 @@ import Footer from '../components/footer'
 import { MdDateRange } from 'react-icons/md'
 import Head from 'next/head'
 
-const News = ({ news }) => {
+const News = () => {
+  const news = []
 
   return (
     <>
@@ -145,12 +146,11 @@ const News = ({ news }) => {
 
 
 export async function getServerSideProps(context) {
-  // const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/news/`)
-  // const json_res = await res.json()
-  // let posts = JSON.parse(JSON.stringify(json_res))
-  // let news = posts.posts
-  // console.log(news)
-  const news = []
+  const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/news/`)
+  const json_res = await res.json()
+  let posts = JSON.parse(JSON.stringify(json_res))
+  let news = posts.posts
+  console.log(news)
   console.log("here are all news")
   return {
     props: { news: JSON.parse(JSON.stringify(news)) }
