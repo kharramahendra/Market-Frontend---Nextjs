@@ -145,11 +145,12 @@ const News = ({ news }) => {
 
 
 export async function getServerSideProps(context) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/news/`)
-  const json_res = await res.json()
-  let posts = JSON.parse(JSON.stringify(json_res))
-  let news = posts.posts
-  console.log(news)
+  // const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/news/`)
+  // const json_res = await res.json()
+  // let posts = JSON.parse(JSON.stringify(json_res))
+  // let news = posts.posts
+  // console.log(news)
+  const news = []
   console.log("here are all news")
   return {
     props: { news: JSON.parse(JSON.stringify(news)) }

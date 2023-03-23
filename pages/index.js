@@ -390,12 +390,14 @@ const Home = ({ news, prices }) => {
 
 
 export async function getServerSideProps(context) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/home/`)
-  const json_res = await res.json()
-  let posts = JSON.parse(JSON.stringify(json_res))
-  let news = posts.news
-  let prices = posts.prices
+  // const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/home/`)
+  // const json_res = await res.json()
+  // let posts = JSON.parse(JSON.stringify(json_res))
+  // let news = posts.news
+  // let prices = posts.prices
   console.log(prices)
+  const news = []
+  const prices = []
   return {
     props: { news: JSON.parse(JSON.stringify(news)), prices: JSON.parse(JSON.stringify(prices)) }
   }
