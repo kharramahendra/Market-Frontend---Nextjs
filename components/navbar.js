@@ -54,7 +54,7 @@ const Navbar = () => {
         <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
           <li><a href='/' className="text-sm text-gray-800 hover:text-gray-900 font-bold">Home</a></li>
           <li><a href="/sharemarket" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Share Market</a></li>
-          {/* <li><a href="/mandi" className="text-sm text-gray-800 hover:text-gray-900 font-bold">Mandi Bhav</a></li> */}
+          <li><a href="/mandi" className="text-sm text-gray-800 hover:text-gray-900 font-bold">Mandi Bhav</a></li>
           {/* <li><Link href={'/codes'}><a class="text-sm text-gray-800 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
           <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >News</a></li>
           <li><a href="/about" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">About</a></li>
@@ -101,9 +101,9 @@ const Navbar = () => {
                 <a href="/sharemarket" className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि शेयर बाजार</a>
               </li>
 
-              {/* <li className="mb-1">
+              <li className="mb-1">
                 <a href='/mandi' className="block p-2 text-sm font-semibold text-gray-800  rounded" >मंडी भाव</a>
-              </li> */}
+              </li>
               <li className="mb-1">
                 <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि समाचार</a>
               </li>
