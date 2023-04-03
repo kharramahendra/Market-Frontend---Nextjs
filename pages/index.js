@@ -11,7 +11,7 @@ import Ticker from '@/components/ticker';
 import Script from 'next/script';
 let tvScriptLoadingPromise;
 // { news, prices }
-const Home = () => {
+const Home = ({news,prices}) => {
   const news = []
   const prices = []
   useEffect(() => {
@@ -391,17 +391,17 @@ const Home = () => {
 }
 
 
-// export async function getServerSideProps(context) {
-//   const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/home/`)
-//   const json_res = await res.json()
-//   let posts = JSON.parse(JSON.stringify(json_res))
-//   let news = posts.news
-//   let prices = posts.prices
-//   console.log(prices)
+export async function getServerSideProps(context) {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/home/`)
+  const json_res = await res.json()
+  let posts = JSON.parse(JSON.stringify(json_res))
+  let news = posts.news
+  let prices = posts.prices
+  console.log(prices)
   
-//   return {
-//     props: { news: JSON.parse(JSON.stringify(news)), prices: JSON.parse(JSON.stringify(prices)) }
-//   }
-// }
+  return {
+    props: { news: JSON.parse(JSON.stringify(news)), prices: JSON.parse(JSON.stringify(prices)) }
+  }
+}
 
 export default Home
