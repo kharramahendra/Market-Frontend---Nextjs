@@ -42,7 +42,7 @@ const Footer = () => {
                                     <div class="w-1/2 flex flex-col">
                                         <div class=" p-2 pb-0 flex-col">
 
-                                            <span class="text-md md:text-xl font-semibold md:font-bold text-gray-800">{post.title.slice(0, 70)} ...</span>
+                                            <h1 class="text-md md:text-xl font-semibold md:font-bold text-gray-800">{post.title.slice(0, 70)} ...</h1>
                                             <a href={`/blog/${post.slug}`} class="px-3 md:px-3 rounded-sm md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-pink-700 text-white text-xs font-bold uppercase  leading-tight ">और अधिक जानें</a>
 
                                         </div>
