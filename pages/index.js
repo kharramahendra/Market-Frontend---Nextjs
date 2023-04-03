@@ -12,8 +12,8 @@ import Script from 'next/script';
 let tvScriptLoadingPromise;
 // { news, prices }
 const Home = ({news,prices}) => {
-  const news = []
-  const prices = []
+  // const news = []
+  // const prices = []
   useEffect(() => {
 
     // var js, fjs = document.getElementsByTagName('script')[0];

@@ -9,7 +9,7 @@ import { MdDateRange } from 'react-icons/md'
 import Head from 'next/head'
 
 const News = ({news}) => {
-  const news = []
+  
 
   return (
     <>
