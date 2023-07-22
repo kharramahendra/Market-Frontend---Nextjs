@@ -4,9 +4,9 @@ import { MdDateRange } from 'react-icons/md'
 
 import Head from 'next/head';
 import Image from 'next/image';
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import Ticker from '@/components/ticker';
+// import Navbar from '../components/navbar'
+// import Footer from '../components/footer'
+// import Ticker from '@/components/ticker';
 import Script from 'next/script';
 
 const Home = ({username}) => {
