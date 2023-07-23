@@ -92,7 +92,7 @@ const ShareMarket = () => {
             function createWidget() {
                 if (document.getElementById('tradingview_549eb') && 'TradingView' in window) {
                     new window.TradingView.MediumWidget({
-                        symbols: [["GUAR", "NCDEX:GUARSEED10|3M"],["इसबगोल", "NCDEX:ISABGOL|3M"],["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"],["कपास/20kg", "NCDEX:KAPAS|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["जौ ", "NCDEX:BARLEYJPR|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], ["MOONG", "NCDEX:MOONG|3M"],["मुंगफली", "NCDEX:GROUNDNUT|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"]],
+                        symbols: [["इसबगोल", "NCDEX:ISABGOL|3M"],["JEERA JODHPUR", "NCDEX:JEERAJDR|3M"],["GUAR", "NCDEX:GUARSEED10|3M"],["कपास/20kg", "NCDEX:KAPAS|3M"], ["सरसों", "NCDEX:RMSEED|3M"], ["जौ ", "NCDEX:BARLEYJPR|3M"], ["JEERA UNJHA", "NCDEX:JEERAUNJHA|3M"], ["MOONG", "NCDEX:MOONG|3M"],["मुंगफली", "NCDEX:GROUNDNUT|3M"], [" गेहूं", "NCDEX:WHEATFAQ|3M"], ["BAJRA", "NCDEX:BAJRA|3M"], ["CHANA", "NCDEX:CHANA|3M"]],
                         chartOnly: false,
                         width: "100%",
                         height: "100%",
