@@ -9,13 +9,14 @@ function TradingViewWidget() {
       {
         "symbols": [
           {
+            "description": "GUAR",
+            "proName": "NCDEX:GUARSEED10"
+          },
+          {
             "description": "इसबगोल",
             "proName": "NCDEX:ISABGOL"
           },
-            {
-              "description": "GUAR",
-              "proName": "NCDEX:GUARSEED10"
-            },
+            
             {
               "description": "JEERA",
               "proName": "NCDEX:JEERAJDR"
