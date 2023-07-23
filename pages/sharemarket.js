@@ -178,7 +178,7 @@ const ShareMarket = () => {
 
 
 
-            <section class="text-gray-600 body-font">
+            {/* <section class="text-gray-600 body-font">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
                         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">आज के <span className='font-bold text-rose-500'>लाइव </span> मंडी भाव - {Date().toString().slice(3, 15)}</h1>
@@ -331,13 +331,13 @@ const ShareMarket = () => {
 
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
 
 
 
-
+{/* 
             <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5 pt-24 items-center justify-center flex-col">
                     <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="about" src="/logolight2.png" />
@@ -346,16 +346,14 @@ const ShareMarket = () => {
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">शेयर मार्केट के अनुसार फसलों के मार्केट भाव</h1>
                         <h2 class="mb-8 leading-relaxed text-gray-800">शेयर मार्केट के अनुसार फसलों के मार्केट भाव लाइव (live mandi bhav) देख सकते हैं। हमारी वेबसाइट आपके लिए बेचने से पहले फसलों के Mandi Bhav के बारे में सटीक और ताजा जानकारी प्रदान करती है। हम निरंतर फसलों की कीमतों को अपडेट करते रहते हैं ताकि आप फसलों की बेहतर बिक्री के लिए सही समय चुन सकें। हम आपको शेयर बाजार (share market) के लिए फसलों के वर्तमान और भविष्य के मूल्यों (mandi bhav) के बारे में समय समय पर जानकारी उपलब्ध कराते रहते हैं। इससे आप अपने निवेश को सटीकता और उन्नति के साथ सम्पन्न कर सकते हैं।</h2>
                         <div class="flex justify-center">
-                            {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
 
-            <section class="text-gray-600 body-font">
+            {/* <section class="text-gray-600 body-font">
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                         <img class="object-cover object-center rounded" alt="भविष्य की कीमतें" src="/assets/images/sharebeche.jpg" />
@@ -368,7 +366,7 @@ const ShareMarket = () => {
 
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <Footer />
 
