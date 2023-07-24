@@ -1,0 +1,15 @@
+{
+    "rewrites": [
+      {
+        "source": "/sharemarket/:path*",
+        "destination": "https://sharemarket.livemandi.in/:path*",
+        "has": [
+          {
+            "type": "host",
+            "value": "livemandi.in"
+          }
+        ]
+      }
+    ]
+  }
+  
