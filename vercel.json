@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/sharemarket/:path*",
-        "destination": "https://sharemarket.livemandi.in/:path*",
+        "destination": "https://sharemarket2.livemandi.in/:path*",
         "has": [
           {
             "type": "host",
