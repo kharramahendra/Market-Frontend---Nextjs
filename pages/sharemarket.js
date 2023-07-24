@@ -164,7 +164,7 @@ const ShareMarket = () => {
 
 
 
-            <div className="relative h-[70vh] md:h-screen">
+            <div className="relative h-[70vh] md:h-screen ">
 
                 <div className='tradingview-widget-container'>
                     <div id='tradingview_549eb' />
