@@ -64,7 +64,7 @@ const Footer = () => {
                         <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
                     </p>
                     <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                        <a href="https://www.facebook.com/KRKharra"
+                        <a href="https://www.facebook.com/kharra.mahendra"
                             class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] text-dark hover:border-primary hover:bg-tensor hover:text-tensor sm:mr-4 lg:mr-3 xl:mr-4">
                             <svg width="8" height="16" viewBox="0 0 8 16" class="fill-current">
                                 <path
@@ -84,7 +84,7 @@ const Footer = () => {
                                         </svg> */}
                             <AiFillGithub />
                         </a>
-                        <a href="https://www.linkedin.com/in/kaluram-kharra/"
+                        <a href="https://www.linkedin.com/in/mahendra-kharra/"
                             class="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] text-dark hover:border-primary hover:bg-tensor hover:text-tensor sm:mr-4 lg:mr-3 xl:mr-4">
                             <svg width="14" height="14" viewBox="0 0 14 14" class="fill-current">
                                 <path

@@ -82,20 +82,20 @@ export default function TradingViewWidget() {
                             <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                                 <img alt="team" class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/assets/images/kharra2.png" />
                                 <div class="flex-grow sm:pl-8">
-                                    <h2 class="title-font font-medium text-lg text-gray-900">Kalu Ram Kharra</h2>
+                                    <h2 class="title-font font-medium text-lg text-gray-900">Mahendra Kharra</h2>
                                     <h3 class="text-gray-500 mb-3">Web Developer</h3>
                                     <p class="mb-4">Empowering the digital world,one line of code at a time.</p>
                                     <span class="inline-flex">
-                                        <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/kaluram-kharra/' target="_blank">
+                                        <a class="ml-2 text-blue-600" href='https://www.linkedin.com/in/mahendra-kharra/' target="_blank">
                                             <BsLinkedin />
                                         </a>
                                         <a class="ml-2 text-black" href='https://github.com/kaluramkharra' target="_blank">
                                             <BsGithub />
                                         </a>
-                                        <a class="ml-2 text-blue-700" href='https://www.facebook.com/kaluram.kharra' target="_blank">
+                                        <a class="ml-2 text-blue-700" href='https://www.facebook.com/kharra.mahendra' target="_blank">
                                             <BsFacebook />
                                         </a>
-                                        <a class="ml-2 text-pink-600" href='https://www.instagram.com/kharra_kaluram/' target="_blank">
+                                        <a class="ml-2 text-pink-600" href='https://www.instagram.com/mahendra_kharra/' target="_blank">
                                             <BsInstagram />
                                         </a>
                                     </span>
