@@ -397,7 +397,7 @@ export async function getServerSideProps(context) {
   // let posts = JSON.parse(JSON.stringify(json_res))
   // let news = posts.news
   // let prices = posts.prices
-  // console.log(prices) 
+  // console.log(prices)  
   const news = []
   const prices = []
   return {
