@@ -50,6 +50,7 @@ const Home = ({ news, prices }) => {
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
         <link rel="author" href="https://tensorcodes.com/"></link>
         <meta charSet="utf-8"></meta>
+        <meta name="google-site-verification" content="hvPXszsgWswcDFvUpYC-MlNZRM1rT1420u4-sQYr_HE" />
         {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
           crossorigin="anonymous"></script> */}
       </Head>
