@@ -110,14 +110,14 @@ const Mandi = ({ prices }) => {
 
               {prices.map((price) => {
                 return <a  href={`/post/${price.slug}`} className="cursor-pointer p-2 lg:w-1/3 md:w-1/2 w-full"><div key={price._id} className="">
-                  <div className="h-full flex items-center bg-gray-800 border p-4 rounded-lg">
+                  <div className="h-full flex items-center bg-gray-100 border border-black p-4 rounded-md">
                     {price.image != null && <img alt="मंडी भाव राजस्थान Today" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST + price.image} />}
                     {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="मंडी भाव राजस्थान Today" />}
                     {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="मंडी भाव राजस्थान Today" />}
 
                     {/* <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="" /> */}
                     <div className="flex-grow">
-                      <h2 className="text-white title-font text-lg font-bold">{price.timestamp}</h2>
+                      <h2 className="text-black title-font text-lg font-bold">{price.timestamp}</h2>
                       <div class="flex">
                         <span class="text-sm inline-block py-1 px-2.5 mr-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-green-600 text-white rounded">{price.keywords[0]}</span>
                         {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">Secondary</span> */}
