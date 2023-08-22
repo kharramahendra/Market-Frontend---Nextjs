@@ -191,7 +191,7 @@ export default function Contact() {
                                             </div>
                                             <div class="grow ml-6">
                                                 <p class="font-bold mb-1">Technical support</p>
-                                                <p class="text-gray-500">kharrakalu@gmail.com</p>
+                                                {/* <p class="text-gray-500">kharrakalu@gmail.com</p> */}
                                                 <p class="text-gray-500">+91 7425967649</p>
                                             </div>
                                         </div>
