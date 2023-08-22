@@ -82,15 +82,15 @@ const Mandi = ({ prices }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <meta name="keywords" content="mandi de bhav punjab,mandi ke bhav punjab,Mandi Bhav Today,मंडी भाव राजस्थान Today,मंडी भाव,livemandi,live mandi,मंडी भाव राजस्थान Today,राजस्थान मंडी भाव, सरसों,किसान मंडी भाव,e-mandi bhav mp,राजस्थान मंडी भाव टुडे | ग्वार का,mandi bhav,live mandi bhav,aaj ke bhav,फसल भाव " />
         <meta name="robots" content="index, follow"></meta>
-        <link rel="canonical" href="https://livemandi.in/"></link>
+        <link rel="canonical" href="https://tensorcodes.com/"></link>
         <meta property="og:title" content="मण्डी भाव - किसानों के लिए ताजा फसल मार्केट भाव |  Aaj Ke Mandi Bhav " />
         <meta property="og:description" content="हमारी वेबसाइट पर, किसानों के लिए ताजा फसल मार्केट भाव और अन्य कृषि परिवर्तनों की जानकारी उपलब्ध है। हम हर दिन मण्डी भाव की ताजा जानकारी अपडेट करते हैं, ताकि किसान समय पर अपने फसलों के लिए सही फायदेमंद मार्केट की तलाश कर सकें।" />
         <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/dailymandi.jpg" />
-        <meta property="og:url" content="https://livemandi.in/mandi/" />
+        <meta property="og:url" content="https://tensorcodes.com/mandi/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Livemandi.in" />
+        <meta property="og:site_name" content="tensorcodes.com" />
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
-        <link rel="author" href="https://livemandi.in/"></link>
+        <link rel="author" href="https://tensorcodes.com/"></link>
         <meta charSet="utf-8"></meta>
         {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
           crossorigin="anonymous"></script> */}

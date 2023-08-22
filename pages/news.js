@@ -28,11 +28,11 @@ const News = ({news}) => {
         <meta property="og:title" content="कृषि समाचार - फसलों से संबंधित ताज़ा खबरें और अपडेट्स" />
         <meta property="og:description" content="कृषि खबरों का नवीनतम संग्रह, कृषि क्षेत्र में होने वाली हर घटना और बदलाव के बारे में। हमारी वेबसाइट पर आपको हमेशा अपडेट मिलेंगे।" />
         <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/mandinews.jpg" />
-        <meta property="og:url" content="https://livemandi.in/news/" />
+        <meta property="og:url" content="https://tensorcodes.com/news/" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Livemandi.in" />
+        <meta property="og:site_name" content="tensorcodes.com" />
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
-        <link rel="author" href="https://livemandi.in/"></link>
+        <link rel="author" href="https://tensorcodes.com/"></link>
         <meta charSet="utf-8"></meta>
         {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
           crossorigin="anonymous"></script> */}

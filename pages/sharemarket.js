@@ -145,11 +145,11 @@ const ShareMarket = () => {
                 <meta property="og:title" content="कृषि शेयर बाजार - शेयर मार्केट के अनुसार फसलों के मार्केट भाव" />
                 <meta property="og:description" content="किसानों के लिए शेयर मार्केट के अनुसार फसलों की मार्केट भाव का ग्राफिकल प्रतिनिधित्व उपलब्ध है। हमारी वेबसाइट पर, किसानों को पूर्ण और स्पष्ट प्रतिनिधित्व मिलेगा, ताकि वे अपने फसलों के लिए शेयर मार्केट की तलाश कर सकें।" />
                 <meta property="og:image" content="https://raw.githubusercontent.com/kaluramkharra/Data-Science-Learning-Codes/main/Plotly/Plotly%20charts/sharemarket%20(2).jpg" />
-                <meta property="og:url" content="https://livemandi.in/sharemarket/" />
+                <meta property="og:url" content="https://tensorcodes.com/sharemarket/" />
                 <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="Livemandi.in/ShareMarket" />
+                <meta property="og:site_name" content="tensorcodes.com/ShareMarket" />
                 <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
-                <link rel="author" href="https://livemandi.in/"></link>
+                <link rel="author" href="https://tensorcodes.com/"></link>
                 <meta charSet="utf-8"></meta>
                 
 

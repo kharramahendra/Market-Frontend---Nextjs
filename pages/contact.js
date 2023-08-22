@@ -101,21 +101,21 @@ export default function Contact() {
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-                <title>Contact Us - LiveMandi.in</title>
+                <title>Contact Us - tensorcodes.com</title>
                 <meta name="description" content="Discover all the latest news, commodity prices, and resources for farmers on our comprehensive agriculture platform. Stay up-to-date with weather forecasts, market trends, and industry developments with our integrated news widget, weather widget, and stock widget. Empowering farmers with the information they need to thrive, all in one place." />
                 <link rel="icon" href="/mandi.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
                 <meta name="keywords" content="livemandi,live mandi,mandi bhav,live mandi bhav,aaj ke bhav,bhav,aaj ke mandi bhav,live mandi bhav,कृषि समाचार (Agriculture news),फसल भाव (Crop prices),विविध उपज मार्केट,मौसम पूर्वानुमान (Weather forecast),वैज्ञानिक कृषि (Scientific agriculture),कृषि प्रोफेशनल्स (Agriculture professionals),कृषि सम्पर्क (Agriculture connections),कृषि तकनीक (Agriculture technology),कृषि उत्पादों (Agricultural products),कृषि उद्योग (Agriculture industry)" />
                 <meta name="robots" content="index, follow"></meta>
-                <link rel="canonical" href="https://livemandi.in/"></link>
-                <meta property="og:title" content="Contact Us - LiveMandi.in" />
+                <link rel="canonical" href="https://tensorcodes.com/"></link>
+                <meta property="og:title" content="Contact Us - tensorcodes.com" />
                 <meta property="og:description" content="Discover all the latest news, commodity prices, and resources for farmers on our comprehensive agriculture platform. Stay up-to-date with weather forecasts, market trends, and industry developments with our integrated news widget, weather widget, and stock widget. Empowering farmers with the information they need to thrive, all in one place." />
-                <meta property="og:image" content="https://livemandi.in/imagelight2.jpg" />
-                <meta property="og:url" content="https://livemandi.in/mandi" />
+                <meta property="og:image" content="https://tensorcodes.com/imagelight2.jpg" />
+                <meta property="og:url" content="https://tensorcodes.com/mandi" />
                 <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="Livemandi.in" />
+                <meta property="og:site_name" content="tensorcodes.com" />
                 <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
-                <link rel="author" href="https://livemandi.in/"></link>
+                <link rel="author" href="https://tensorcodes.com/"></link>
                 <meta charSet="utf-8"></meta>
                 {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8245105696445903"
           crossorigin="anonymous"></script> */}

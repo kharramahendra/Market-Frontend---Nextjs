@@ -2,11 +2,11 @@
     "rewrites": [
       {
         "source": "/sharemarket/:path*",
-        "destination": "https://sharemarket2.livemandi.in/:path*",
+        "destination": "https://sharemarket2.tensorcodes.com/:path*",
         "has": [
           {
             "type": "host",
-            "value": "livemandi.in"
+            "value": "tensorcodes.com"
           }
         ]
       }
