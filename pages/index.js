@@ -47,10 +47,9 @@ const Home = ({ news, prices }) => {
         <meta property="og:url" content="https://tensorcodes.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="tensorcodes.com" />
-        <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
+        <link rel="publisher" href="https://www.linkedin.com/in/mahendra-kharra/"></link>
         <link rel="author" href="https://tensorcodes.com/"></link>
         <meta charSet="utf-8"></meta>
-        <meta name="google-site-verification" content="hvPXszsgWswcDFvUpYC-MlNZRM1rT1420u4-sQYr_HE" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1407891328744169"
           crossorigin="anonymous"></script>
       </Head>
