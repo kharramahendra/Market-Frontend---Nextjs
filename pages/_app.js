@@ -23,9 +23,9 @@ function MyApp({ Component, pageProps }) {
   },[router.query])
 
   return <>
-  {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1407891328744169"
+  {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
      crossorigin="anonymous"></script> */}
-<Script  async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1407891328744169"
+<Script  async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
           crossorigin="anonymous"></Script>
 <Script 
 strategy='lazyOnload'

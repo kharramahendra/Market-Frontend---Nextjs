@@ -34,7 +34,7 @@ const News = ({news}) => {
         <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
         <link rel="author" href="https://tensorcodes.com/"></link>
         <meta charSet="utf-8"></meta>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1407891328744169"
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
           crossorigin="anonymous"></script>
       </Head>
 

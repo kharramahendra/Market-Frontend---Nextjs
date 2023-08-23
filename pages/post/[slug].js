@@ -48,7 +48,7 @@ const Post = ({ post }) => {
         
         hljs.initHighlighting();
         // const script = document.createElement('script')
-        // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1407891328744169'
+        // script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307'
         // script.async = true
         // script.crossOrigin = 'anonymous'
         // document.head.appendChild(script);
@@ -79,7 +79,7 @@ const Post = ({ post }) => {
             <meta property="og:site_name" content={post.slug} />
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://tensorcodes.com/about"></link>
-            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1407891328744169"
+            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
           crossorigin="anonymous"></Script>
 
         </Head>
