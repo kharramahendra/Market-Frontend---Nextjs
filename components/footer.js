@@ -29,7 +29,7 @@ const Footer = () => {
             <footer class="text-gray-600 body-font bg-gray-100">
 
                 {/* <!-- cards --> */}
-                <section class="container bg-white ">
+                {/* <section class="container bg-white ">
                     <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
                         <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl ">From the blog</h1>
 
@@ -37,10 +37,6 @@ const Footer = () => {
 
                             {news && news.map((post) => {
                                 return <div class="lg:flex">
-                                    {/* <img class="object-cover w-full h-36 rounded-lg lg:w-64"
-                                        src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                                        alt="" /> */}
-
                                     {post.image != null && <img class="object-cover w-full h-36 rounded-lg lg:w-64" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="mandi" />}
                                     {post.image == null && post.image_url != '' && <img class="object-cover w-full h-36 rounded-lg lg:w-64" src={post.image_url} alt="mandi" />}
                                     {post.image == null && post.image_url == '' && <img class="object-cover w-full h-36 rounded-lg lg:w-64" src='../assets/images/news.jpg' alt="mandi" />}
@@ -58,7 +54,7 @@ const Footer = () => {
 
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/* <!-- cards end  --> */}
 
 
@@ -73,7 +69,7 @@ const Footer = () => {
 
                             {news && news.map((post) => {
                                 return <div key={post._id} class="mb-7 mx-2 bg-white  sm:mx-auto w-full md:w-2/5 rounded-sm shadow-lg flex card text-grey-darkest">
-                                    {post.image != null && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
+                                    {post.image != null && <img class="w-1/2 h-full m-1 object-cover object-center rounded-sm" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
                                     {post.image == null && post.image_url != '' && <img class="lw-1/2 h-full object-cover object-center rounded-l-sm" src={post.image_url} alt="tech" />}
                                     {post.image == null && post.image_url == '' && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src='../assets/images/news.jpg' alt="tech" />}
                                     {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
@@ -81,7 +77,7 @@ const Footer = () => {
                                         <div class=" p-2 pb-0 flex-col">
 
                                             <h1 class="text-md md:text-xl font-semibold md:font-bold text-gray-800">{post.title.slice(0, 70)} ...</h1>
-                                            <a href={`/blog/${post.slug}`} class="px-3 md:px-3 rounded-sm md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-pink-700 text-white text-xs font-bold uppercase  leading-tight ">और अधिक जानें</a>
+                                            <a href={`/blog/${post.slug}`} class="px-3 md:px-3 rounded-lg md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase  leading-tight ">और अधिक जानें</a>
 
                                         </div>
 
