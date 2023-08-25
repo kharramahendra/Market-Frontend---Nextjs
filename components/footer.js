@@ -69,8 +69,8 @@ const Footer = () => {
 
                             {news && news.map((post) => {
                                 return <div key={post._id} class="mb-7 mx-2 bg-white  sm:mx-auto w-full md:w-2/5 rounded-sm shadow-lg flex card text-grey-darkest">
-                                    {post.image != null && <img class="w-1/2 h-4/5 m-auto object-cover object-center rounded-sm" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
-                                    {post.image == null && post.image_url != '' && <img class="w-1/2 h-4/5 object-cover m-auto object-center rounded-l-sm" src={post.image_url} alt="tech" />}
+                                    {post.image != null && <img class="w-1/2 h-full  object-cover object-center rounded-l-sm" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
+                                    {post.image == null && post.image_url != '' && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src={post.image_url} alt="tech" />}
                                     {post.image == null && post.image_url == '' && <img class="w-1/2 h-4/5 object-cover object-center rounded-l-sm" src='../assets/images/news.jpg' alt="tech" />}
                                     {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
                                     <div class="w-1/2 flex flex-col">
