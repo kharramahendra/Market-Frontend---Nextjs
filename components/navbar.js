@@ -62,7 +62,7 @@ const Navbar = () => {
           <li><a href="/about" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">About</a></li>
           <li><a href="/contact" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Contact Us</a></li>
           <li><a href="/privacy.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Privacy policy</a></li>
-          {/* <li><Link href={'/privacy.html'}><a class="text-sm text-gray-800 flex hover:text-gray-200 font-bold">Privacy policy</a></Link></li> */}
+          <li><a href="/copyright.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">© Copyright</a></li>
         </ul>
         <button onClick={() => setHidesearch(!hidesearch)} type="button" className="rounded-full lg:block hidden text-sm focus:outline-none " id="user-menu-button" aria-expanded="false" aria-haspopup="true">
           <span className="sr-only">View notifications</span>
@@ -121,6 +121,9 @@ const Navbar = () => {
               <li className="mb-1 flex">
                 <a href='/privacy.html' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >Privacy Policy</a>
               </li>
+              <li className="mb-1 flex">
+                <a href='/copyright.html' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >© Copyright</a>
+              </li>
 
 
             </ul>
@@ -128,7 +131,7 @@ const Navbar = () => {
           <div className="mt-auto">
 
             <p className="my-4 text-xs text-center text-gray-400">
-              <span>Copyright © 2023</span>
+              <a href='/copyright.html'><span>Copyright © 2023</span></a>
             </p>
           </div>
         </nav>
