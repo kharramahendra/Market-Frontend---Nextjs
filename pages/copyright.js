@@ -59,11 +59,11 @@ const Copyright = () => {
             <p>An updated version of this Policy will be effective immediately upon the posting of the revised Policy unless otherwise specified. Your continued use of the Website and Services after the effective date of the revised Policy (or such other act specified at that time) will constitute your consent to those changes.</p>
             <h2 id="reporting-copyright-infringement">Reporting copyright infringement</h2>
             <p>If you would like to notify us of the infringing material or activity, we encourage you to contact us using the details below:</p>
-            <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;mah&#101;n&#100;ra&#107;&#104;ar&#114;&#97;0&#50;&#64;gm&#97;i&#108;.c&#111;m">&#109;&#97;&#104;en&#100;r&#97;kh&#97;&#114;&#114;&#97;0&#50;&#64;g&#109;&#97;&#105;&#108;&#46;c&#111;m</a></p>
+            {/* <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;mah&#101;n&#100;ra&#107;&#104;ar&#114;&#97;0&#50;&#64;gm&#97;i&#108;.c&#111;m">&#109;&#97;&#104;en&#100;r&#97;kh&#97;&#114;&#114;&#97;0&#50;&#64;g&#109;&#97;&#105;&#108;&#46;c&#111;m</a></p> */}
             <p>This document was last updated on August 25, 2023</p>
 
-            
-            <a href="//www.dmca.com/Protection/Status.aspx?ID=cb7f3c03-d630-4302-9524-0da8a8eae14d" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w200-5x1-10.png?ID=cb7f3c03-d630-4302-9524-0da8a8eae14d"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+
+            <a href="//www.dmca.com/Protection/Status.aspx?ID=cb7f3c03-d630-4302-9524-0da8a8eae14d" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-10.png?ID=cb7f3c03-d630-4302-9524-0da8a8eae14d" alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
 
 
 
