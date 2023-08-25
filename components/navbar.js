@@ -51,7 +51,7 @@ const Navbar = () => {
           </button>
         </div>
         {/* end */}
-        <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-full lg:space-x-6">
+        <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
           <li><a href='https://newssocket.tensorcodes.com/' className="text-sm text-gray-800 hover:text-gray-900 font-bold">NewsSocket</a></li>
           <li><a href='/' className="text-sm text-gray-800 hover:text-gray-900 font-bold">Home</a></li>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
           <li><a href="/about" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">About</a></li>
           <li><a href="/contact" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Contact Us</a></li>
           <li><a href="/privacy.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Privacy policy</a></li>
-          <li><a href="/copyright.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">© Copyright</a></li>
+          {/* <li><a href="/copyright.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">© Copyright</a></li> */}
         </ul>
         <button onClick={() => setHidesearch(!hidesearch)} type="button" className="rounded-full lg:block hidden text-sm focus:outline-none " id="user-menu-button" aria-expanded="false" aria-haspopup="true">
           <span className="sr-only">View notifications</span>
