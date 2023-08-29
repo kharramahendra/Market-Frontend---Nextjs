@@ -29,14 +29,14 @@ function MyApp({ Component, pageProps }) {
           crossorigin="anonymous"></Script>
 <Script 
 strategy='lazyOnload'
-async src="https://www.googletagmanager.com/gtag/js?id=G-CKMDV7BLF8"/>
+async src="https://www.googletagmanager.com/gtag/js?id=G-604KBCP3RW"/>
 <Script strategy='lazyOnload'>
   {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)}
   gtag('js', new Date());
 
-  gtag('config', 'G-CKMDV7BLF8');
+  gtag('config', 'G-604KBCP3RW');
   `}
   </Script>
   
