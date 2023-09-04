@@ -75,8 +75,8 @@ const Post = ({ post }) => {
             <link rel="publisher" href="https://www.linkedin.com/in/kaluram-kharra/"></link>
             <link rel="author" href="https://tensorcodes.com/about"></link>
 
-            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
-          crossorigin="anonymous"></Script>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
+     crossorigin="anonymous"></script>
         </Head>
 
         <body>

@@ -118,7 +118,7 @@ export default function Contact() {
                 <link rel="author" href="https://tensorcodes.com/"></link>
                 <meta charSet="utf-8"></meta>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
-          crossorigin="anonymous"></script>
+     crossorigin="anonymous"></script>
             </Head>
 
 

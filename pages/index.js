@@ -53,7 +53,7 @@ const Home = ({ news, prices }) => {
         <meta name='dmca-site-verification' content='QzJiL1B0bUZjYTZaOHNSdFFHb3JJUT090' />
         <meta name="google-site-verification" content="5xuVtd8xHhLkZJexi6H1FhYHSHtOEGLGH9KNOcMSFTY" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
-          crossorigin="anonymous"></script>
+     crossorigin="anonymous"></script>
       </Head>
 
       <Navbar />
