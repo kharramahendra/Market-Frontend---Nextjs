@@ -179,7 +179,7 @@ const Home = ({ news, prices }) => {
                   </WhatsappShareButton>
 
                   <span class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
-                    <a href={`/post/${price.slug}`} type="button" class="inline-flex items-center rounded-sm border  bg-gray-900 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-700">Read More</a>
+                    <a href={`/post/${price.slug}`} class="inline-flex items-center rounded-sm border  bg-gray-900 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-800">Read More</a>
                   </span>
                 </div>
               </div>
