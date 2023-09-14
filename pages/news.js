@@ -228,7 +228,7 @@ const Home = ({ news }) => {
                   </WhatsappShareButton>
 
                   <span class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
-                    <a onClick={() => { modalActivate(item.title, item.urlToImage, item.url, item.author, item.source.name, item.description, item.publishedAt, item.content) }} type="button" class="inline-flex items-center rounded-sm border border-transparent bg-gray-900 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-800">Read More</a>
+                    <a onClick={() => { modalActivate(item.title, item.urlToImage, item.url, item.author, item.source.name, item.description, item.publishedAt, item.content) }}  class="inline-flex items-center rounded-sm border border-transparent bg-gray-900 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-800">Read More</a>
                   </span>
                 </div>
               </div>
