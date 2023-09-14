@@ -108,7 +108,7 @@ const Home = ({ news, prices }) => {
       {/* <!-- ====== Hero Section End --> */}
 
 
-      <section className="text-gray-600 body-font">
+      <section>
         <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
           <div className="flex flex-col text-center w-full mb-8">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">मंडी भाव</h1>
