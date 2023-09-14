@@ -8,6 +8,14 @@ import Image from 'next/image';
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Ticker from '@/components/ticker';
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+} from 'next-share';
+
+
 import Script from 'next/script';
 let tvScriptLoadingPromise;
 // { news, prices }
