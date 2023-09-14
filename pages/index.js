@@ -219,18 +219,18 @@ const Home = ({ news, prices }) => {
 
               {news.map((post) => {
                 return <div key={post._id} class="mx-2 flex justify-center">
-                  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                  <div class="rounded-sm shadow-lg bg-white max-w-sm">
                     <a data-mdb-ripple="true" data-mdb-ripple-color="light">
                       {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
                       {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
                       {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/news.jpg' alt="tech" />}
                     </a>
-                    <div class="flex text-white items-center px-6 py-3 bg-gray-900">
+                    <div class="flex text-black items-center px-6 py-3 bg-gray-100">
                       {/* <svg class="h-6 w-6 text-white fill-current" viewBox="0 0 512 512">
                           <path d="M256 48C150 48 64 136.2 64 245.1v153.3c0 36.3 28.6 65.7 64 65.7h64V288h-85.3v-42.9c0-84.7 66.8-153.3 149.3-153.3s149.3 68.5 149.3 153.3V288H320v176h64c35.4 0 64-29.3 64-65.7V245.1C448 136.2 362 48 256 48z" />
                         </svg> */}
                       <MdDateRange className='text-rose-600' />
-                      <h5 class="mx-3 text-white text-sm font-medium">
+                      <h5 class="mx-3 text-gray-900 text-sm font-medium">
                         {post.timestamp}
                         {/* {Date(post.timestamp).toLocaleString('en-us', { month: 'short', year: 'numeric' }).slice(0, 16)} */}
                       </h5>
@@ -240,7 +240,7 @@ const Home = ({ news, prices }) => {
                       {/* <p class="text-rose-600 text-base mb-4">
                         {post.content.slice(0, 100).toString().replace(/<[^>]*>/g, '')}
                       </p> */}
-                      <a href={`/blog/${post.slug}`} class="px-3 py-2 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase rounded leading-tight hover:bg-gray-900 ">और अधिक जानें</a>
+                      <a href={`/blog/${post.slug}`} class="px-3 py-2 hover:shadow-md mt-auto bg-gray-900 text-white text-xs font-bold uppercase rounded-sm leading-tight hover:bg-gray-800 ">और अधिक जानें</a>
                     </div>
                   </div>
                 </div>
