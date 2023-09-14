@@ -162,7 +162,7 @@ const Home = ({ news, prices }) => {
 
                   <WhatsappShareButton className='bg-[#128c7e]'
                     url={`https://tensorcodes.com/post/${price.slug}`}
-                    title={`${item.title} + " ... click 👉 `}
+                    title={`${price.title} + " ... click 👉 `}
                     separator=":: "
                   >
                     <div class="bg-[#128c7e] uppercase leading-normal text-white hover:bg-[#12aa98] rounded-sm px-6 py-[0.55rem]  transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
