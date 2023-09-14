@@ -52,13 +52,12 @@ const Navbar = () => {
         </div>
         {/* end */}
         <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-          <li><a href='https://newssocket.tensorcodes.com/' className="text-sm text-gray-800 hover:text-gray-900 font-bold">NewsSocket</a></li>
           <li><a href='/' className="text-sm text-gray-800 hover:text-gray-900 font-bold">Home</a></li>
-
           <li><a href="/sharemarket" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Share Market</a></li>
           <li><a href="/mandi" className="text-sm text-gray-800 hover:text-gray-900 font-bold">Mandi Bhav</a></li>
-          {/* <li><Link href={'/codes'}><a class="text-sm text-gray-800 hover:text-gray-200 font-bold" href="#">Codes</a></Link></li> */}
+          <li><a href="/blog" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Blog</a></li>
           <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >News</a></li>
+          {/* <li><a href='https://newssocket.tensorcodes.com/' className="text-sm text-gray-800 hover:text-gray-900 font-bold">NewsSocket</a></li> */}
           <li><a href="/about" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">About</a></li>
           <li><a href="/contact" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Contact Us</a></li>
           <li><a href="/privacy.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Privacy policy</a></li>    
@@ -95,9 +94,7 @@ const Navbar = () => {
           </div>
           <div>
             <ul>
-            <li className="mb-1">
-                <a href='https://newssocket.tensorcodes.com/' className="block p-2 text-sm font-semibold text-gray-800  rounded">NewsSocket</a>
-              </li>
+            
               <li className="mb-1">
                 <a href='/' className="block p-2 text-sm font-semibold text-gray-800  rounded">होम पेज</a>
               </li>
@@ -109,8 +106,16 @@ const Navbar = () => {
               <li className="mb-1">
                 <a href='/mandi' className="block p-2 text-sm font-semibold text-gray-800  rounded" >मंडी भाव</a>
               </li>
+
               <li className="mb-1">
-                <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि समाचार</a>
+                <a href='/blog' className="block p-2 text-sm font-semibold text-gray-800  rounded" >Blog</a>
+              </li>
+
+              <li className="mb-1">
+                <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >समाचार</a>
+              </li>
+              <li className="mb-1">
+                <a href='https://newssocket.tensorcodes.com/' className="block p-2 text-sm font-semibold text-gray-800  rounded">NewsSocket</a>
               </li>
               <li className="mb-1 flex">
                 <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >About Us</a>

@@ -132,7 +132,7 @@ const Mandi = ({ prices }) => {
 
                     <a >
                       <div
-                        class="text-xs font-semibold absolute top-0 right-0 bg-[#e87109] px-2 py-1 text-white mt-3 mr-3  transition duration-500 ease-in-out">
+                        class="text-xs font-semibold absolute top-0 right-0 bg-pink-700 px-2 py-1 text-white mt-3 mr-3  transition duration-500 ease-in-out">
                         Tensorcodes
                       </div>
                     </a>

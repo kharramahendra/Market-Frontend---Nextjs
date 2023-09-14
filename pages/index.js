@@ -131,7 +131,7 @@ const Home = ({ news, prices }) => {
 
                   <a >
                     <div
-                      class="text-xs font-semibold absolute top-0 right-0 bg-[#e87109] px-2 py-1 text-white mt-3 mr-3  transition duration-500 ease-in-out">
+                      class="text-xs font-semibold absolute top-0 right-0 bg-pink-700 px-2 py-1 text-white mt-3 mr-3  transition duration-500 ease-in-out">
                       Tensorcodes
                     </div>
                   </a>
@@ -221,9 +221,9 @@ const Home = ({ news, prices }) => {
                 return <div key={post._id} class="mx-2 flex justify-center">
                   <div class="rounded-sm shadow-lg bg-white max-w-sm">
                     <a data-mdb-ripple="true" data-mdb-ripple-color="light">
-                      {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
-                      {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src={post.image_url} alt="tech" />}
-                      {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center rounded-t-lg" src='../assets/images/news.jpg' alt="tech" />}
+                      {post.image != null && <img class="lg:h-48 md:h-36 w-full object-cover object-center " src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
+                      {post.image == null && post.image_url != '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center " src={post.image_url} alt="tech" />}
+                      {post.image == null && post.image_url == '' && <img class="lg:h-48 md:h-36 w-full object-cover object-center " src='../assets/images/news.jpg' alt="tech" />}
                     </a>
                     <div class="flex text-black items-center px-6 py-3 bg-gray-100">
                       {/* <svg class="h-6 w-6 text-white fill-current" viewBox="0 0 512 512">
