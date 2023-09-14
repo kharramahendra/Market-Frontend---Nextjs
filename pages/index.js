@@ -158,7 +158,7 @@ const Home = ({ news, prices }) => {
                         </g>
                       </g>
                     </svg>
-                    <span class="ml-1">{price.timestamp}</span>
+                    <span class="ml-1">{price.timestamp.slice(0,12)}</span>
                   </span>
 
                   <WhatsappShareButton className='bg-[#128c7e]'
