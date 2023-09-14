@@ -53,7 +53,7 @@ const Home = ({ news, prices }) => {
         <meta name='dmca-site-verification' content='QzJiL1B0bUZjYTZaOHNSdFFHb3JJUT090' />
         <meta name="google-site-verification" content="5xuVtd8xHhLkZJexi6H1FhYHSHtOEGLGH9KNOcMSFTY" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9133303325062307"
-     crossorigin="anonymous"></script>
+          crossorigin="anonymous"></script>
       </Head>
 
       <Navbar />
@@ -108,31 +108,75 @@ const Home = ({ news, prices }) => {
           </div>
           <div className="flex flex-wrap -m-2">
 
-            {prices.map((price) => {
-              return <a  href={`/post/${price.slug}`} className="cursor-pointer p-2 lg:w-1/3 md:w-1/2 w-full"><div key={price._id} className=" ">
-                <div className="h-full flex items-center bg-gray-100  border-2 border-black p-4 rounded-md">
-                  {price.image != null && <img alt="bhav" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST + price.image} />}
-                  {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="tech" />}
-                  {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="tech" />}
 
-                  {/* <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="" /> */}
-                  <div className="flex-grow">
-                    <h2 className="text-black title-font text-lg font-bold">{price.timestamp}</h2>
-                    <div class="flex">
-                        <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-pink-700 text-white rounded">{price.keywords[0]}</span>
-                        {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">Secondary</span> */}
-                        <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline mx-2 font-bold bg-gray-800 text-white rounded">{price.keywords[1]}</span>
-                        {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red-600 text-white rounded">Danger</span> */}
-                        <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-pink-700 text-white rounded">{price.keywords[2]}</span>
-                        {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-400 text-white rounded">Info</span> */}
-                        {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-200 text-gray-700 rounded">Light</span> */}
-                        {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded">Live मंडी भाव</span> */}
-                      </div>
-                  </div>
+            {prices.map((price) => {
+              return <div key={price._id} class="rounded overflow-hidden shadow-lg flex flex-col" >
+                {/* {postcontent ? postcontent.slice(0, -14) : "this post is deleted"} ... */}
+                {/* <a href={item.url}></a> */}
+                <div class="relative">
+
+                  {price.image != null && <img alt="bhav" className="w-full max-h-56 object-cover" src={process.env.NEXT_PUBLIC_HOST + price.image} />}
+                  {price.image == null && price.image_url != '' && <img className="w-full max-h-56 object-cover" src={price.image_url} alt="tech" />}
+                  {price.image == null && price.image_url == '' && <img className="w-full max-h-56 object-cover" src='../assets/images/market.jpg' alt="tech" />}
+
+
+                  <a >
+                    <div
+                      class="text-xs font-semibold absolute top-0 right-0 bg-[#e87109] px-2 py-1 text-white mt-3 mr-3  transition duration-500 ease-in-out">
+                      Tensorcodes
+                    </div>
+                  </a>
                 </div>
-              </div></a>
+                <div class="px-6 py-4 mb-auto">
+                  <a
+                    class="font-medium text-lg  hover:text-gray-800 transition duration-500 ease-in-out inline-block mb-2">{price.title}</a>
+                  <p class="text-gray-500 text-sm flex ">
+                  {price.timestamp} के सभी मंडी के सभी फसल के मंडी भाव ... {price.keywords[0]}, {price.keywords[1]}, {price.keywords[2]} ...
+                  </p>
+
+                </div>
+                <div class="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
+                  <span class="py-1 text-sm font-regular text-gray-900 mr-1 flex flex-row items-center">
+                    <svg height="13px" width="13px" version="1.1" id="Layer_1"
+                      xmlns="http://www.w3.org/2000/svg" x="0px"
+                      y="0px" viewBox="0 0 512 512"
+                      space="preserve">
+                      <g>
+                        <g>
+                          <path
+                            d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M277.333,256 c0,11.797-9.536,21.333-21.333,21.333h-85.333c-11.797,0-21.333-9.536-21.333-21.333s9.536-21.333,21.333-21.333h64v-128 c0-11.797,9.536-21.333,21.333-21.333s21.333,9.536,21.333,21.333V256z">
+                          </path>
+                        </g>
+                      </g>
+                    </svg>
+                    <span class="ml-1">{price.timestamp}</span>
+                  </span>
+
+                  <WhatsappShareButton className='bg-[#128c7e]'
+                    url={`https://tensorcodes.com/post/${price.slug}`}
+                    title={`${item.title} + " ... click 👉 `}
+                    separator=":: "
+                  >
+                    <div class="bg-[#128c7e] uppercase leading-normal text-white hover:bg-[#12aa98] rounded-sm px-6 py-[0.55rem]  transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 "
+                        fill="currentColor"
+                        viewBox="0 0 24 24">
+                        <path
+                          d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                      </svg>
+                    </div>
+                  </WhatsappShareButton>
+
+                  <span class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
+                    <a href={`/post/${price.slug}`}  type="button" class="inline-flex items-center rounded-sm border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Read More</a>
+                  </span>
+                </div>
+              </div>
             })}
 
+           
           </div>
 
           {/* <div className="flex flex-col text-center mb-8">
@@ -148,7 +192,7 @@ const Home = ({ news, prices }) => {
           <div class="flex flex-wrap justify-center">
             <div class="w-full px-4">
               <div class="mx-auto max-w-[510px] text-center ">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">कृषि समाचार</h1>
+                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">कृषि समाचार</h1>
 
 
               </div>
@@ -242,8 +286,8 @@ const Home = ({ news, prices }) => {
                   <Link href={'/mandi'}><a class="mt-3 text-indigo-500 inline-flex items-center font-semibold cursor-pointer">लाइव मंडी भाव
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg> 
-                  </a></Link> 
+                    </svg>
+                  </a></Link>
                 </div>
               </div>
             </div>
@@ -381,11 +425,9 @@ const Home = ({ news, prices }) => {
 
 
       <div>
-        <rssapp-imageboard id="tkKdUMdkPHQo3jJp"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script>        {/* <rssapp-imageboard id="tSYzqV3h4jtnTocK"></rssapp-imageboard><script src="https://widget.rss.app/v1/imageboard.js" type="text/javascript" async></script> */}
 
       </div>
 
-      <rssapp-list id="aFzgdWlnby7T6BHd"></rssapp-list><script src="https://widget.rss.app/v1/list.js" type="text/javascript" async></script>
       <Footer />
 
     </>
