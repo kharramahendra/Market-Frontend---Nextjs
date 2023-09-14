@@ -114,9 +114,10 @@ const Home = ({ news, prices }) => {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">मंडी भाव</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव (mandi bhav) जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> (share bazaar) पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव (live mandi bhav) के बारे में जान सकते हैं।</p>
           </div>
-          <div className="flex flex-wrap -m-2">
 
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
 
+            
             {prices.map((price) => {
               return <div key={price._id} class="rounded overflow-hidden shadow-lg flex flex-col" >
                 {/* {postcontent ? postcontent.slice(0, -14) : "this post is deleted"} ... */}
@@ -186,30 +187,7 @@ const Home = ({ news, prices }) => {
 
 
 
-            {prices.map((price) => {
-              return <a href={`/post/${price.slug}`} className="cursor-pointer p-2 lg:w-1/3 md:w-1/2 w-full"><div key={price._id} className=" ">
-                <div className="h-full flex items-center bg-gray-100  border-2 border-black p-4 rounded-md">
-                  {price.image != null && <img alt="bhav" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST + price.image} />}
-                  {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="tech" />}
-                  {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="tech" />}
 
-                  {/* <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="" /> */}
-                  <div className="flex-grow">
-                    <h2 className="text-black title-font text-lg font-bold">{price.timestamp}</h2>
-                    <div class="flex">
-                      <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-pink-700 text-white rounded">{price.keywords[0]}</span>
-                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">Secondary</span> */}
-                      <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline mx-2 font-bold bg-gray-800 text-white rounded">{price.keywords[1]}</span>
-                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red-600 text-white rounded">Danger</span> */}
-                      <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-pink-700 text-white rounded">{price.keywords[2]}</span>
-                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-400 text-white rounded">Info</span> */}
-                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-200 text-gray-700 rounded">Light</span> */}
-                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded">Live मंडी भाव</span> */}
-                    </div>
-                  </div>
-                </div>
-              </div></a>
-            })}
 
 
           </div>
