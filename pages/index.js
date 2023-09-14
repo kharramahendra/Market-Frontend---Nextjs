@@ -109,7 +109,7 @@ const Home = ({ news, prices }) => {
 
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-10 md:py-24 mx-auto">
+        <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
           <div className="flex flex-col text-center w-full mb-8">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">मंडी भाव</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव (mandi bhav) जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> (share bazaar) पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव (live mandi bhav) के बारे में जान सकते हैं।</p>
@@ -117,7 +117,7 @@ const Home = ({ news, prices }) => {
 
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
 
-            
+
             {prices.map((price) => {
               return <div key={price._id} class="rounded overflow-hidden shadow-lg flex flex-col" >
                 {/* {postcontent ? postcontent.slice(0, -14) : "this post is deleted"} ... */}
@@ -179,7 +179,7 @@ const Home = ({ news, prices }) => {
                   </WhatsappShareButton>
 
                   <span class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
-                    <a href={`/post/${price.slug}`} type="button" class="inline-flex items-center rounded-sm border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Read More</a>
+                    <a href={`/post/${price.slug}`} type="button" class="inline-flex items-center rounded-sm border  bg-gray-900 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-700">Read More</a>
                   </span>
                 </div>
               </div>
