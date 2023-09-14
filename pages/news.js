@@ -180,8 +180,8 @@ const Home = ({ news }) => {
 
                   <a >
                     <div
-                      class="text-xs font-semibold absolute top-0 right-0 bg-[#e87109] px-2 py-1 text-white mt-3 mr-3  transition duration-500 ease-in-out">
-                      {item.source.name}
+                      class="text-xs font-semibold absolute top-0 right-0 bg-pink-600 px-2 py-1 text-white mt-3 mr-3  transition duration-500 ease-in-out">
+                      Tensorcodes
                     </div>
                   </a>
                 </div>
