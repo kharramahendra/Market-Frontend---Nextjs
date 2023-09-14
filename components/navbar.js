@@ -53,10 +53,11 @@ const Navbar = () => {
         {/* end */}
         <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
           <li><a href='/' className="text-sm text-gray-800 hover:text-gray-900 font-bold">Home</a></li>
-          <li><a href="/sharemarket" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Share Market</a></li>
           <li><a href="/mandi" className="text-sm text-gray-800 hover:text-gray-900 font-bold">Mandi Bhav</a></li>
-          <li><a href="/blog" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Blog</a></li>
-          <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >News</a></li>
+          <li><a href="/blog" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Blog/News</a></li>
+          <li><a href="/sharemarket" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >Share Market</a></li>
+
+          {/* <li><a href="/news" className="text-sm text-gray-800 hover:text-gray-900 font-bold" >News</a></li> */}
           {/* <li><a href='https://newssocket.tensorcodes.com/' className="text-sm text-gray-800 hover:text-gray-900 font-bold">NewsSocket</a></li> */}
           <li><a href="/about" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">About</a></li>
           <li><a href="/contact" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Contact Us</a></li>
@@ -99,21 +100,23 @@ const Navbar = () => {
                 <a href='/' className="block p-2 text-sm font-semibold text-gray-800  rounded">होम पेज</a>
               </li>
 
-              <li className="mb-1">
-                <a href="/sharemarket" className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि शेयर बाजार</a>
-              </li>
+              
 
               <li className="mb-1">
                 <a href='/mandi' className="block p-2 text-sm font-semibold text-gray-800  rounded" >मंडी भाव</a>
               </li>
 
               <li className="mb-1">
-                <a href='/blog' className="block p-2 text-sm font-semibold text-gray-800  rounded" >Blog</a>
+                <a href='/blog' className="block p-2 text-sm font-semibold text-gray-800  rounded" >Blog / समाचार</a>
               </li>
 
               <li className="mb-1">
-                <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >समाचार</a>
+                <a href="/sharemarket" className="block p-2 text-sm font-semibold text-gray-800  rounded" >कृषि शेयर बाजार</a>
               </li>
+
+              {/* <li className="mb-1">
+                <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >समाचार</a>
+              </li> */}
               <li className="mb-1">
                 <a href='https://newssocket.tensorcodes.com/' className="block p-2 text-sm font-semibold text-gray-800  rounded">NewsSocket</a>
               </li>
