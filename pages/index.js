@@ -131,7 +131,7 @@ const Home = ({ news, prices }) => {
                   <a
                     class="font-medium text-lg  hover:text-gray-800 transition duration-500 ease-in-out inline-block mb-2">{price.title}</a>
                   <p class="text-gray-500 text-sm flex ">
-                  {price.timestamp} के सभी मंडी के सभी फसल के मंडी भाव ... {price.keywords[0]}, {price.keywords[1]}, {price.keywords[2]} ...
+                    {price.timestamp} के सभी मंडी के सभी फसल के मंडी भाव ... {price.keywords[0]}, {price.keywords[1]}, {price.keywords[2]} ...
                   </p>
 
                 </div>
@@ -170,13 +170,40 @@ const Home = ({ news, prices }) => {
                   </WhatsappShareButton>
 
                   <span class="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
-                    <a href={`/post/${price.slug}`}  type="button" class="inline-flex items-center rounded-sm border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Read More</a>
+                    <a href={`/post/${price.slug}`} type="button" class="inline-flex items-center rounded-sm border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900">Read More</a>
                   </span>
                 </div>
               </div>
             })}
 
-           
+
+
+            {prices.map((price) => {
+              return <a href={`/post/${price.slug}`} className="cursor-pointer p-2 lg:w-1/3 md:w-1/2 w-full"><div key={price._id} className=" ">
+                <div className="h-full flex items-center bg-gray-100  border-2 border-black p-4 rounded-md">
+                  {price.image != null && <img alt="bhav" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={process.env.NEXT_PUBLIC_HOST + price.image} />}
+                  {price.image == null && price.image_url != '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src={price.image_url} alt="tech" />}
+                  {price.image == null && price.image_url == '' && <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md mr-4" src='../assets/images/market.jpg' alt="tech" />}
+
+                  {/* <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="" /> */}
+                  <div className="flex-grow">
+                    <h2 className="text-black title-font text-lg font-bold">{price.timestamp}</h2>
+                    <div class="flex">
+                      <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-pink-700 text-white rounded">{price.keywords[0]}</span>
+                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-purple-600 text-white rounded">Secondary</span> */}
+                      <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline mx-2 font-bold bg-gray-800 text-white rounded">{price.keywords[1]}</span>
+                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-red-600 text-white rounded">Danger</span> */}
+                      <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-pink-700 text-white rounded">{price.keywords[2]}</span>
+                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-400 text-white rounded">Info</span> */}
+                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-200 text-gray-700 rounded">Light</span> */}
+                      {/* <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded">Live मंडी भाव</span> */}
+                    </div>
+                  </div>
+                </div>
+              </div></a>
+            })}
+
+
           </div>
 
           {/* <div className="flex flex-col text-center mb-8">

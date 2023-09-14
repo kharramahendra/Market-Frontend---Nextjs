@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import { Markup } from 'interweave';
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 import Script from 'next/script'
-import Ticker from '@/components/ticker';
+// import Ticker from '@/components/ticker';
 
 import {
   FacebookShareButton,
@@ -141,7 +141,7 @@ const Home = ({ news }) => {
       <body>
 
         <Navbar />
-        <Ticker/>
+        {/* <Ticker/> */}
 
         <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
 
