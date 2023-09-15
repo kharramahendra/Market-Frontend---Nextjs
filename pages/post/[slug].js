@@ -205,7 +205,7 @@ const Post = ({ post }) => {
                         {/* {post.category == 'News' && <h2 class="font-sans my-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
                             {post.title}
                         </h2>} */}
-                        {post.category != 'News' && <h2 class="font-sans mb-2 lg:my-4 text-lg font-semibold  text-gray-900 sm:text-xl ">
+                        {post.category != 'News' && <h2 class="font-sans mb-2 lg:my-4 text-2xl font-bold  text-gray-900 sm:text-4xl ">
                             {post.title}
                             {/* हमारी वेबसाइट पर आपको मूंग, मोठ, चना, जीरा, गवार, ईसबगोल, बाजरा, सरसों, मूंगफली, गेहूं, जौ, ज्वार, तारामीरा आदि फसलो के <span className='font-bold'>आज के मंडी भाव (mandi bhav)</span> मिल जाएंगे */}
                         </h2>}
