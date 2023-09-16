@@ -110,7 +110,7 @@ const ShareMarket = () => {
                         noTimeScale: false,
                         valuesTracking: "2",
                         changeMode: "price-and-percent",
-                        chartType: "area",
+                        chartType: "candlesticks",
                         timeHoursFormat: "12-hours",
                         upColor: "#089981",
                         downColor: "#f23646",
