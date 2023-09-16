@@ -145,7 +145,7 @@ const Navbar = () => {
         </nav>
       </div>
       {/* navbar end */}
-      <a href="//www.dmca.com/Protection/Status.aspx?ID=cb7f3c03-d630-4302-9524-0da8a8eae14d" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w200-5x1-10.png?ID=cb7f3c03-d630-4302-9524-0da8a8eae14d"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+      {/* <a href="//www.dmca.com/Protection/Status.aspx?ID=cb7f3c03-d630-4302-9524-0da8a8eae14d" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w200-5x1-10.png?ID=cb7f3c03-d630-4302-9524-0da8a8eae14d"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script> */}
     </>
   )
 }
