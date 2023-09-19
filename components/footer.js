@@ -46,7 +46,7 @@ const Footer = () => {
                                 return <div ey={post._id} class="md:w-1/2 w-full mx-auto px-4">
                                     <div class="w-full py-6">
                                         <div class="flex w-full bg-white shadow-lg rounded-lg overflow-hidden">
-                                            {post.image != null && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + process.env.NEXT_PUBLIC_HOST / post.image + ")", }}></div>}
+                                            {post.image != null && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + process.env.NEXT_PUBLIC_HOST + post.image + ")", }}></div>}
                                             {post.image == null && post.image_url != '' && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + post.image_url + ")", }}></div>}
                                             {post.image == null && post.image_url == '' && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + '../assets/images/codes/temp4.jpg' + ")", }}></div>}
 
@@ -75,7 +75,32 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-               
+                {/* <section class="text-gray-600 body-font">
+                    <div class="containerx px-5 py-16 mx-auto">
+                        <div className="flex flex-col text-center w-full mb-8">
+                            <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">ये भी पढ़े</h1>
+                        </div>
+                        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+
+                            {news && news.map((post) => {
+                                return <div key={post._id} class="mb-7 mx-2 bg-white  sm:mx-auto w-full md:w-2/5 rounded-sm shadow-lg flex card text-grey-darkest">
+                                    {post.image != null && <img class="w-1/2 h-full  object-cover object-center rounded-l-sm" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
+                                    {post.image == null && post.image_url != '' && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src={post.image_url} alt="tech" />}
+                                    {post.image == null && post.image_url == '' && <img class="w-1/2 h-4/5 object-cover object-center rounded-l-sm" src='../assets/images/news.jpg' alt="tech" />}
+                                    <div class="w-1/2 flex flex-col">
+                                        <div class=" p-2 pb-0 flex-col">
+
+                                            <h1 class="text-md md:text-xl font-semibold md:font-bold text-gray-800">{post.title.slice(0, 70)} ...</h1>
+                                            <a href={`/blog/${post.slug}`} class="px-3 md:px-3 rounded-lg md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase  leading-tight ">और अधिक जानें</a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            })}
+                        </div>
+                    </div>
+                </section> */}
 
 
 

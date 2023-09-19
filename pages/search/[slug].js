@@ -52,7 +52,7 @@ const Home = ({ posts }) => {
             return <div ey={post._id} class="md:w-1/2 w-full mx-auto px-4">
               <div class="w-full py-6">
                 <div class="flex w-full bg-white shadow-lg rounded-lg overflow-hidden">
-                  {post.image != null && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + process.env.NEXT_PUBLIC_HOST / post.image + ")", }}></div>}
+                  {post.image != null && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + process.env.NEXT_PUBLIC_HOST + post.image + ")", }}></div>}
                   {post.image == null && post.image_url != '' && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + post.image_url + ")", }}></div>}
                   {post.image == null && post.image_url == '' && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + '../assets/images/codes/temp4.jpg' + ")", }}></div>}
 
