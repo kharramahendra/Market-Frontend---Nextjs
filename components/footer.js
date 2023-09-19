@@ -27,7 +27,7 @@ const Footer = () => {
 
 
             <footer class="text-gray-600 body-font bg-gray-100">
-                <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+                {/* <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
                     <div class="containerx">
                         <div class="-mx-4 flex flex-wrap justify-center">
                             <div class="w-full px-4">
@@ -52,7 +52,6 @@ const Footer = () => {
 
 
                                             <div class="w-2/3 p-4">
-                                                {/* <h1 class="text-rose-600 font-bold text-sm">{post.category}</h1> */}
                                                 <p class=" text-gray-900 text-md font-semibold">{post.title}</p>
                                                 <div class="flex item-center mt-2">
                                                     <p class="text-base leading-relaxed text-gray-800">
@@ -74,8 +73,8 @@ const Footer = () => {
 
                         </div>
                     </div>
-                </section>
-                {/* <section class="text-gray-600 body-font">
+                </section> */}
+                <section class="text-gray-600 body-font">
                     <div class="containerx px-5 py-16 mx-auto">
                         <div className="flex flex-col text-center w-full mb-8">
                             <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">ये भी पढ़े</h1>
@@ -100,7 +99,7 @@ const Footer = () => {
                             })}
                         </div>
                     </div>
-                </section> */}
+                </section>
 
 
 
