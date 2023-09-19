@@ -27,66 +27,55 @@ const Footer = () => {
 
 
             <footer class="text-gray-600 body-font bg-gray-100">
+                <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+                    <div class="containerx">
+                        <div class="-mx-4 flex flex-wrap justify-center">
+                            <div class="w-full px-4">
+                                <div class="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
+                                    <span class="mb-2 block text-lg font-semibold text-tensor">
+                                    ये भी पढ़े
+                                    </span>
 
-                {/* <!-- cards --> */}
-                {/* <section class="container bg-white ">
-                    <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
-                        <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl ">From the blog</h1>
-
-                        <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
-
-                            {news && news.map((post) => {
-                                return <div class="lg:flex">
-                                    {post.image != null && <img class="object-cover w-full h-36 rounded-lg lg:w-64" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="mandi" />}
-                                    {post.image == null && post.image_url != '' && <img class="object-cover w-full h-36 rounded-lg lg:w-64" src={post.image_url} alt="mandi" />}
-                                    {post.image == null && post.image_url == '' && <img class="object-cover w-full h-36 rounded-lg lg:w-64" src='../assets/images/news.jpg' alt="mandi" />}
-
-                                    <div class="flex flex-col justify-between py-6 lg:mx-6">
-                                        <a href="#" class="text-xl font-semibold text-gray-800 hover:underline  ">
-                                        {post.title.slice(0, 70)} ...
-                                        </a>
-
-                                        <span class="text-sm text-gray-500 dark:text-gray-700">{post.timestamp}</span>
-                                    </div>
                                 </div>
-                            })}
-
-
+                            </div>
                         </div>
-                    </div>
-                </section> */}
-                {/* <!-- cards end  --> */}
+
+                        <div class="-mx-4 flex flex-wrap">
+
+                            {news.map((post) => {
+                                return <div ey={post._id} class="md:w-1/2 w-full mx-auto px-4">
+                                    <div class="w-full py-6">
+                                        <div class="flex w-full bg-white shadow-lg rounded-lg overflow-hidden">
+                                            {post.image != null && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + process.env.NEXT_PUBLIC_HOST / post.image + ")", }}></div>}
+                                            {post.image == null && post.image_url != '' && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + post.image_url + ")", }}></div>}
+                                            {post.image == null && post.image_url == '' && <div class="w-1/3 bg-cover" style={{ backgroundImage: "url(" + '../assets/images/codes/temp4.jpg' + ")", }}></div>}
 
 
+                                            <div class="w-2/3 p-4">
+                                                {/* <h1 class="text-rose-600 font-bold text-sm">{post.category}</h1> */}
+                                                <p class=" text-gray-900 text-md font-semibold">{post.title}</p>
+                                                <div class="flex item-center mt-2">
+                                                    <p class="text-base leading-relaxed text-gray-800">
+                                                        {post.timestamp}
+                                                    </p>
 
-                <section class="text-gray-600 body-font">
-                    <div class="containerx px-5 py-16 mx-auto">
-                        <div className="flex flex-col text-center w-full mb-8">
-                            <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">ये भी पढ़े</h1>
-                            {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">सभी मंडी के भाव (mandi bhav) जानने के लिए नीचे दी गई तारीख पर क्लिक करें और <Link href={'/sharemarket'}><span className='font-bold text-black'> शेयर बाजार </span></Link> (share bazaar) पृष्ठ पर जाकर फसलों की लाइव आज के मंडी भाव (live mandi bhav) के बारे में जान सकते हैं।</p> */}
-                        </div>
-                        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-
-                            {news && news.map((post) => {
-                                return <div key={post._id} class="mb-7 mx-2 bg-white  sm:mx-auto w-full md:w-2/5 rounded-sm shadow-lg flex card text-grey-darkest">
-                                    {post.image != null && <img class="w-1/2 h-full  object-cover object-center rounded-l-sm" src={process.env.NEXT_PUBLIC_HOST + post.image} alt="tech" />}
-                                    {post.image == null && post.image_url != '' && <img class="w-1/2 h-full object-cover object-center rounded-l-sm" src={post.image_url} alt="tech" />}
-                                    {post.image == null && post.image_url == '' && <img class="w-1/2 h-4/5 object-cover object-center rounded-l-sm" src='../assets/images/news.jpg' alt="tech" />}
-                                    {/* <img class="w-1/2 h-full rounded-l-sm" src="https://bit.ly/2EApSiC" alt="Room Image" /> */}
-                                    <div class="w-1/2 flex flex-col">
-                                        <div class=" p-2 pb-0 flex-col">
-
-                                            <h1 class="text-md md:text-xl font-semibold md:font-bold text-gray-800">{post.title.slice(0, 70)} ...</h1>
-                                            <a href={`/blog/${post.slug}`} class="px-3 md:px-3 rounded-lg md:py-2 ml-2 my-1 py-1 hover:shadow-md bg-gray-900 text-white text-xs font-bold uppercase  leading-tight ">और अधिक जानें</a>
-
+                                                </div>
+                                                <div class="flex item-center justify-between mt-3">
+                                                    <h1 class="text-rose-700 font-bold text-md">कृषि समाचार</h1>
+                                                    <Link href={`/post/${post.slug}`}><button class="px-3 py-2 bg-gray-800 text-white text-xs font-bold uppercase rounded">अधिक जानें</button></Link>
+                                                </div>
+                                            </div>
                                         </div>
-
                                     </div>
                                 </div>
                             })}
+
+
+
                         </div>
                     </div>
                 </section>
+               
 
 
 
