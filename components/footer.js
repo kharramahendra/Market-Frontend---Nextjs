@@ -42,7 +42,7 @@ const Footer = () => {
 
                         <div class="-mx-4 flex flex-wrap">
 
-                            {news.map((post) => {
+                            {news && news.map((post) => {
                                 return <div ey={post._id} class="md:w-1/2 w-full mx-auto px-4">
                                     <div class="w-full py-6">
                                         <div class="flex w-full bg-white shadow-lg rounded-lg overflow-hidden">
