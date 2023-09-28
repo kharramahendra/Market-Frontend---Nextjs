@@ -117,9 +117,9 @@ const Navbar = () => {
               {/* <li className="mb-1">
                 <a href='/news' className="block p-2 text-sm font-semibold text-gray-800  rounded" >समाचार</a>
               </li> */}
-              <li className="mb-1">
+              {/* <li className="mb-1">
                 <a href='https://newssocket.tensorcodes.com/' className="block p-2 text-sm font-semibold text-gray-800  rounded">NewsSocket</a>
-              </li>
+              </li> */}
               <li className="mb-1 flex">
                 <a href='/about' className="flex p-2 text-sm font-semibold text-gray-800 rounded" >About Us</a>
               </li>
