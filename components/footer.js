@@ -102,7 +102,7 @@ const Footer = () => {
                 </section>
 
 <div>
-<ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+<ul className="hidden  transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
          <li><a href="/t%c" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Terms & Conditions</a></li>
           <li><a href="/return" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Return Policy</a></li>
           <li><a href="/ship" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Shipping policy</a></li>    
