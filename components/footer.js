@@ -101,13 +101,12 @@ const Footer = () => {
                     </div>
                 </section>
 
-<div>
-<ul className="transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-         <li><a href="/t%c" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Terms & Conditions</a></li>
-          <li><a href="/return" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Return Policy</a></li>
-          <li><a href="/ship" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Shipping policy</a></li>    
-          <li><a href="/privacy.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Privacy Policy</a></li>
-        </ul>
+<div className='md:flex'>
+<a href="/t%c" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Terms & Conditions</a>
+<a href="/return" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Return Policy</a>
+<a href="/ship" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Shipping policy</a>
+<a href="/privacy.html" className="text-sm text-gray-800 flex hover:text-gray-900 font-bold">Privacy Policy</a>
+
 </div>
 
 
