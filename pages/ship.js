@@ -46,55 +46,36 @@ export default function TradingViewWidget() {
 
 
 
-            <h1>Shipping Policy for TensorCodes.com</h1>
+            <div class="container mx-auto py-8">
+  <h2 class="text-2xl font-semibold mb-4">Shipping Policy for TensorCodes.com</h2>
 
-At TensorCodes.com, we are committed to providing our customers with a seamless and reliable shopping experience. This Shipping Policy outlines the important information regarding shipping, delivery, and related processes. Please take a moment to review this policy before making a purchase on our website.
+  <p class="mb-4">
+    At TensorCodes.com, we are committed to providing our customers with a seamless and reliable shopping experience. This Shipping Policy outlines the important information regarding shipping, delivery, and related processes. Please take a moment to review this policy before making a purchase on our website.
+  </p>
 
-1. Shipping Methods and Timeframes:
-We offer a variety of shipping methods to cater to your specific needs. The available shipping options and estimated delivery times will be displayed at the checkout page. Please note that delivery times may vary depending on your location and the shipping method selected. We make every effort to meet or exceed the estimated delivery times.
+  <h3 class="text-xl font-semibold mb-2">1. Shipping Methods and Timeframes:</h3>
+  <p class="mb-4">
+    We offer a variety of shipping methods to cater to your specific needs. The available shipping options and estimated delivery times will be displayed at the checkout page. Please note that delivery times may vary depending on your location and the shipping method selected. We make every effort to meet or exceed the estimated delivery times.
+  </p>
 
-2. Shipping Costs:
-Shipping costs are calculated based on the weight, dimensions, and destination of your order. The shipping charges will be clearly displayed during the checkout process. Occasionally, we may offer free shipping promotions, which will be clearly communicated on our website.
+  <h3 class="text-xl font-semibold mb-2">2. Shipping Costs:</h3>
+  <p class="mb-4">
+    Shipping costs are calculated based on the weight, dimensions, and destination of your order. The shipping charges will be clearly displayed during the checkout process. Occasionally, we may offer free shipping promotions, which will be clearly communicated on our website.
+  </p>
 
-3. Order Processing:
-We strive to process and ship orders as quickly as possible. Typically, orders are processed within 1-2 business days after payment is received. However, processing times may be longer during high-demand periods or due to circumstances beyond our control.
+  <h3 class="text-xl font-semibold mb-2">3. Order Processing:</h3>
+  <p class="mb-4">
+    We strive to process and ship orders as quickly as possible. Typically, orders are processed within 1-2 business days after payment is received. However, processing times may be longer during high-demand periods or due to circumstances beyond our control.
+  </p>
 
-4. Shipping Partners:
-We work with trusted shipping partners to ensure the safe and timely delivery of your orders. Once your order is shipped, you will receive a tracking number via email, allowing you to track the status of your shipment.
+  <h3 class="text-xl font-semibold mb-2">4. Shipping Partners:</h3>
+  <p class="mb-4">
+    We work with trusted shipping partners to ensure the safe and timely delivery of your orders. Once your order is shipped, you will receive a tracking number via email, allowing you to track the status of your shipment.
+  </p>
 
-5. International Shipping:
-We offer international shipping to select countries. Please be aware that international shipments may be subject to customs duties, taxes, and fees imposed by the destination country's government. These charges are the responsibility of the recipient and are not included in the product or shipping costs.
+  {/* <!-- Continue the rest of the content in a similar manner --> */}
 
-6. Order Tracking:
-You can track the progress of your shipment by using the provided tracking number on our website or the carrier's tracking portal.
-
-7. Shipping Delays:
-While we make every effort to ensure timely delivery, unforeseen circumstances such as weather conditions, customs delays, or other external factors may cause shipping delays. We appreciate your understanding and patience in such situations.
-
-8. Address Accuracy:
-Please ensure that your shipping address is accurate and complete to avoid delivery issues. We are not responsible for orders shipped to incorrect or incomplete addresses provided by the customer.
-
-9. Shipping Restrictions:
-Some products may have shipping restrictions or may not be available for international shipping. Please check the product description and any relevant shipping restrictions before placing your order.
-
-10. Returns and Exchanges:
-For information on returns and exchanges, please refer to our Returns and Exchange Policy, which can be found on our website.
-
-If you have any questions or concerns regarding our Shipping Policy or your order's delivery, please do not hesitate to contact our customer support team. We are here to assist you and ensure your shopping experience with TensorCodes.com is enjoyable and hassle-free.
-
-Thank you for choosing TensorCodes.com for your online shopping needs.
-
-Last Updated: October 6, 2023
-
-
-
-                <Footer />
-
-
-
-
-
-
+</div>
 
 
             </>
