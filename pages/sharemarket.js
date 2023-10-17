@@ -371,7 +371,7 @@ const ShareMarket = () => {
                 </div>
             </section> */}
 
-            {/* <Footer /> */}
+            <Footer />
 
         </>
     );
